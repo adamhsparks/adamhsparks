@@ -16,5 +16,5 @@ script:
 
 deploy:
   provider: script
-  script: netlify deploy -t $NETLIFYKEY
+  script: netlify deploy -a $NETLIFYKEY
   skip_cleanup: true
