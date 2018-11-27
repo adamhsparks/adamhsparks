@@ -16,5 +16,5 @@ script:
 
 deploy:
   provider: script
-  script: netlify deploy -t $TRAVIS_PERSONAL_SITE
+  script: netlify deploy -t $NETLIFYKEY
   skip_cleanup: true
