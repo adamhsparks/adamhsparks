@@ -5,5 +5,4 @@ Functions = ""
 
 
 [context.production.environment]
-HUGO_VERSION = "0.42
-"
+HUGO_VERSION = "0.42"
