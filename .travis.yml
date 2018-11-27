@@ -4,17 +4,19 @@ language: R
 sudo: false
 cache:
   packages: true
-directories:
+  directories:
   - $HOME/.npm
-
-before_install:
-  - npm install netlify-cli -g
+branches:
+  only: 
+    - master
+    
+before_script:
+- npm install netlify-cli -g
 - Rscript -e 'blogdown::install_hugo()'
 
 script:
-  - Rscript -e 'blogdown::build_site()'
+- Rscript -e 'blogdown::build_site(local = Sys.getenv("TRAVIS_PULL_REQUEST_BRANCH") != "")'
 
-deploy:
-  provider: script
-script: netlify deploy -t $NETLIFYKEY
-skip_cleanup: true
+after_success:
+- ./deploy.sh
+
