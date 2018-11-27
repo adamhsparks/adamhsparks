@@ -1,5 +1,5 @@
 [Build]
-Command = "hugo"
+Command = "Hugo"
 Publish = "public"
 Functions = ""
 
