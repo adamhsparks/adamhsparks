@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Science on Adam H. Sparks, PhD</title>
+    <link>/tags/open-science/</link>
+    <description>Recent content in Open Science on Adam H. Sparks, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 13 Jul 2018 14:40:00 +1000</lastBuildDate>
+    
+	<atom:link href="/tags/open-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Establishing a community for supporting and fostering adoption of reproducible research using R</title>
+      <link>/talk/user2018/</link>
+      <pubDate>Fri, 13 Jul 2018 14:40:00 +1000</pubDate>
+      
+      <guid>/talk/user2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

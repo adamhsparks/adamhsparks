@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IDM on Adam H. Sparks, PhD</title>
+    <link>/tags/idm/</link>
+    <description>Recent content in IDM on Adam H. Sparks, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +1000</lastBuildDate>
+    
+	<atom:link href="/tags/idm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DAQ00186 - Improving Grower Surveillance, Management Epidemiology Knowledge And Tools To Manage Crop Disease - DAFFQ</title>
+      <link>/project/daq00186/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/project/daq00186/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RIRDC on Adam H. Sparks, PhD</title>
+    <link>/tags/rirdc/</link>
+    <description>Recent content in RIRDC on Adam H. Sparks, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +1000</lastBuildDate>
+    
+	<atom:link href="/tags/rirdc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Developing Rice Growing Packages for Tropical North Australia</title>
+      <link>/project/northern_rice/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/project/northern_rice/</guid>
+      <description>This project is evaluating the potential environmental impact of rice production in North Queensland along with fertiliser practices that optimise yield while minimising environmental losses through advancements in: - Addressing key barriers to successful large scale rice production in Northern Australia in terms of pests, diseases and farming system management; - Identifying improved farming systems and rice varieties to lift northern rice yields; - Improving the skills of rice growers and research, development &amp;amp; extension staff in northern Australia through the development of agronomy packages and decision support tools.</description>
+    </item>
+    
+  </channel>
+</rss>

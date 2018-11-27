@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>weather data on Adam H. Sparks, PhD</title>
+    <link>/tags/weather-data/</link>
+    <description>Recent content in weather data on Adam H. Sparks, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +1000</lastBuildDate>
+    
+	<atom:link href="/tags/weather-data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GSODR</title>
+      <link>/r_packages/gsodr/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/r_packages/gsodr/</guid>
+      <description>The GSOD or Global Surface Summary of the Day (GSOD) data provided by the US National Centers for Environmental Information (NCEI) are a valuable source of weather data with global coverage. However, the data files are cumbersome and difficult to work with. GSODR aims to make it easy to find, transfer and format the data you need for use in analysis.
+See http://ropensci.github.io/GSODR/ for full documentation.</description>
+    </item>
+    
+    <item>
+      <title>bomrang</title>
+      <link>/r_packages/bomrang/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/r_packages/bomrang/</guid>
+      <description>Provides functions to interface with Australian Government Bureau of Meteorology (BOM) data, fetching data and returning a tidy data frame of précis forecasts, current weather data from stations, ag information bulletins, historical weather data and downloading and importing radar or satellite imagery.
+See https://ropensci.github.io/bomrang/ for full documentation.</description>
+    </item>
+    
+    <item>
+      <title>nasapower</title>
+      <link>/r_packages/nasapower/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/r_packages/nasapower/</guid>
+      <description>nasapower aims to make it quick and easy to automate downloading NASA-POWER global meteorology, surface solar energy and climatology data in your R session as a tidy data frame tibble object for analysis and use in modelling or other purposes. POWER (Prediction Of Worldwide Energy Resource) data are freely available for download at a resolution of 1&amp;frasl;2 arc degree longitude by 1&amp;frasl;2 arc degree latitude.
+See https://ropensci.github.io/nasapower/ for full documentation.</description>
+    </item>
+    
+  </channel>
+</rss>

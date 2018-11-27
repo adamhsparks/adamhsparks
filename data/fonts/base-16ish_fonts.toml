@@ -1,0 +1,15 @@
+# Font style metadata
+name = "base-16ish_fonts"
+
+# Optional Google font URL
+google_fonts = "Raleway:400,700|Droid Serif|Roboto+Mono"
+
+# Font families
+heading_font = "Raleway"
+body_font = "Droid Serif"
+nav_font = "Droid Serif"
+mono_font = "Roboto Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "14"

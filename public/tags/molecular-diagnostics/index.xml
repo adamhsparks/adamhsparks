@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>molecular diagnostics on Adam H. Sparks, PhD</title>
+    <link>/tags/molecular-diagnostics/</link>
+    <description>Recent content in molecular diagnostics on Adam H. Sparks, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +1000</lastBuildDate>
+    
+	<atom:link href="/tags/molecular-diagnostics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DAS00137 - National Improved Molecular Diagnostics For Disease Management</title>
+      <link>/project/das00137/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/project/das00137/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

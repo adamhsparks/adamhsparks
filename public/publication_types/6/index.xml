@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 on Adam H. Sparks, PhD</title>
+    <link>/publication_types/6/</link>
+    <description>Recent content in 6 on Adam H. Sparks, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spatial and temporal patterns of rice production and productivity</title>
+      <link>/publication/2017-01-01_spatial_and_temporal_patterns_of_rice_production_a/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-01-01_spatial_and_temporal_patterns_of_rice_production_a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plant Pathogens as Indicators of Climate Change</title>
+      <link>/publication/2016-01-01_plant_pathogens_as_indicators_of_climate_change/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-01-01_plant_pathogens_as_indicators_of_climate_change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An introduction to key distributions and models in epidemiology using R</title>
+      <link>/publication/2014-01-01_an_introduction_to_key_distributions_and_models_in/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-01-01_an_introduction_to_key_distributions_and_models_in/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cambio climatico, enfermedades de las plantas e insectos plaga</title>
+      <link>/publication/2013-01-01_cambio_climatico_enfermedades_de_las_plantas_e_in/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2013-01-01_cambio_climatico_enfermedades_de_las_plantas_e_in/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
