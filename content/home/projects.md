@@ -36,25 +36,5 @@ filter_default = 0
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-[[filter]]
-  name = "All"
-  tag = "*"
-
-[[filter]]
-  name = "Macrophomina"
-  tag = "Macrophomina"
-
-[[filter]]
-  name = "Modelling"
-  tag = "Modelling"
-  
-[[filter]]
-  name = "Rice"
-  tag = "Rice"
-  
-[[filter]]
-  name = "Summer Grains"
-  tag = "Summer Grains"
-
 +++
 
