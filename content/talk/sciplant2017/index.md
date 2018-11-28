@@ -1,6 +1,5 @@
 +++
-title = "Do Alternate Wetting and Drying Irrigation Technologies and Nitrogen Rates
-  Affect Rice Sheath Blight?"
+title = "Do Alternate Wetting and Drying Irrigation Technologies and Nitrogen Rates Affect Rice Sheath Blight?"
 date = 2017-09-17T09:10:00  # Schedule page publish date.
 draft = false
 
