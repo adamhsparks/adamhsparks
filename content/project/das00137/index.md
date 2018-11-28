@@ -13,7 +13,7 @@ summary = "Soil-borne diseases cause significant and often unexpected yield loss
 tags = ["DAS00137", "molecular diagnostics", "GRDC", "Macrophomina"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://grdc.com.au/research/projects/project?id=667"
+external_link = ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
@@ -25,3 +25,9 @@ external_link = "https://grdc.com.au/research/projects/project?id=667"
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
 +++
+
+## Dates active: July 1, 2013 - June 30, 2019
+
+### GRDC Project: [DAS00137](https://grdc.com.au/research/projects/project?id=667)
+
+USQ contributed data this project for the development of new Predicta®B tests. New tests for _Diaporthe spp._, _Macrophonmina phaseolina_, _Fusarium andyazi_ and F. _thapsinum_ were developed and tested in conjunction with SARDI. This work was conducted in cooperation with [DAQ00186](../daq00186).
