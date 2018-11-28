@@ -2,7 +2,7 @@
 name = "base-16ish_fonts"
 
 # Optional Google font URL
-google_fonts = "Raleway:400,700|Droid+Serif|Roboto+Mono"
+google_fonts = "Raleway:300|Droid Serif:400,700|Roboto Mono"
 
 # Font families
 heading_font = "Raleway"
