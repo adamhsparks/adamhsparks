@@ -62,7 +62,7 @@ enableGitInfo = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "adamhsparks@gmail.com"
+  email = "adam.sparks@usq.edu.au"
   address = "Centre for Crop Health, University of Southern Queensland, West St., Toowoomba, Qld 4350"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "+61 7 4631 1948"
