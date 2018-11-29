@@ -13,13 +13,13 @@ projects = []
 tags = []
 url_pdf = ""
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/adamhsparks/Modelling_Nematode_Populations/tree/v1.0.4"
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://www.openplantpathology.org/notes/sparks/1/"
 math = true
 highlight = true
 [header]
