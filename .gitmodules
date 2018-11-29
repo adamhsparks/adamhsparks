@@ -1,0 +1,3 @@
+[submodule "static/files/CV"]
+	path = static/files/CV
+	url = https://github.com/adamhsparks/AHSparks_CV
