@@ -270,17 +270,20 @@ enableGitInfo = false
     icon_pack = "fab"
     link = "https://github.com/adamhsparks/"
 
-  # Link to a PDF of your resume/CV from the About widget.
-  # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+  [[params.social]]
+    icon = "researchgate"
+    iconpack = "ai"
+    link = "https://www.researchgate.net/profile/Adam_Sparks2"
+
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "https://orcid.org/0000-0002-0061-8359/"
+
   [[params.social]]
      icon = "cv"
      icon_pack = "ai"
      link = "files/CV/AHSparks_CV.pdf"
-
-  [[params.social]]
-     icon = "orcid"
-     icon_pack = "ai"
-     link = "https://orcid.org/0000-0002-0061-8359/"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
