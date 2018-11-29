@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "Developing Rice Growing Packages for Tropical North Australia"
+title = "PRJ-010814 Northern Rice Australia - Developing Rice Growing Packages for Tropical Climates"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00
@@ -10,7 +10,7 @@ summary = "This project is evaluating the potential environmental impact of rice
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["rice", "AgriFutures", "RIRDC", "North Australia"]
+tags = ["rice", "AgriFutures", "RIRDC", "North Australia", "PRJ-010814"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -46,7 +46,9 @@ url_code = ""
 
 ## Dates active: April, 2018 - March 30, 2020
 
-### Total USQ Funding: $2,074,773
+### RIRDC Project: PRJ-010814
+
+#### Total USQ Funding: $2,074,773
 
 I lead this project for USQ. This project brings together [SunRice](https://www.sunrice.com.au), [Rice Research Australia Limited (RRAPL)](https://www.facebook.com/RiceResearchAustralia/), the [University of Queensland](http://researchers.uq.edu.au/researcher/2606) and [New South Wales DPI](https://www.dpi.nsw.gov.au) along with USQ. USQ's responsibility for this project is evaluating the potential environmental impact of rice production in North Queensland along with fertiliser practices that optimise yield while minimising environmental losses through advancements in:
 
