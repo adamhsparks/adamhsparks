@@ -272,7 +272,7 @@ enableGitInfo = false
 
   [[params.social]]
     icon = "researchgate"
-    iconpack = "ai"
+    icon_pack = "ai"
     link = "https://www.researchgate.net/profile/Adam_Sparks2"
 
   [[params.social]]
