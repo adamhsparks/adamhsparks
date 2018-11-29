@@ -35,7 +35,7 @@ projects = ["daw00228"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Modelling", "DAW00228"]
+tags = ["modelling", "DAW00228"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.
