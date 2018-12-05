@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/adamhsparks
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://adamhsparks.netlify.com
+  * I am adamhsparks (https://keybase.io/adamhsparks) on keybase.
+  * I have a public key ASBdc4oNiYKP7DmApS1Fi8vAz7Cw38su62s8OOuT7vWilwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205d738a0d89828fec3980a52d458bcbc0cfb0b0dfcb2eeb6b3c38eb93eef5a2970a",
+      "host": "keybase.io",
+      "kid": "01205d738a0d89828fec3980a52d458bcbc0cfb0b0dfcb2eeb6b3c38eb93eef5a2970a",
+      "uid": "26b510a89bb7edd72b0c05c5b5bb5219",
+      "username": "adamhsparks"
+    },
+    "merkle_root": {
+      "ctime": 1544009657,
+      "hash": "532915689ccfa97202ab55956fba84659efb7edec5a8615f86d402c420792580e30a23b5ee9e5396c8ce97cea9606b0022e0672c4064983fb7541d276c465099",
+      "hash_meta": "2145232f5f0fb5f7ff621f5633bd58cf30d0ff971db009306c85e6668e009a15",
+      "seqno": 4055388
+    },
+    "service": {
+      "entropy": "0tGxTrJIsWvifwMorgfBNvYY",
+      "hostname": "adamhsparks.netlify.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.11.0"
+  },
+  "ctime": 1544009694,
+  "expire_in": 504576000,
+  "prev": "bd40ea4d0a44219762b0c14bc3c441ff099fc81835525689a60717c2eadd2bae",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXXOKDYmCj+w5gKUtRYvLwM+wsN/LLutrPDjrk+71opcKp3BheWxvYWTESpcCDcQgvUDqTQpEIZdisMFLw8RB/wmfyBg1UlaJpgcXwurdK67EIHxdKt3iNpNef7NgSiilqI+UrJe4FGIK5o1Bsl36Y1ReAgHCo3NpZ8RAxuZlurKXSfdjNydPW7TrX8EKpFtt1PwkxvueJ4bqYHamGkmgVPsmx5r2/iHIaBhOV2onDt8lyuXLAhQ3ruk8BqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF17oqq3RLOnFU8zJfn17nDAv1KGw8YKB4HSVFQo3ehUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adamhsparks
+
+==================================================================
