@@ -62,7 +62,7 @@ In particular, USQ through this project will address program priorities in the a
 
 #### Pests and diseases
 
-Dr. Nirodha Weeraratne conducts the pathology research at USQ for this project:
+[Dr. Nirodha Weeraratne](https://www.researchgate.net/profile/Nirodha_Weeraratne) conducts the pathology research at USQ for this project:
   
   - Understanding the nature of rice pests and diseases in northern Australia, with a focus on identifying disease races of bacterial blight and rice blast.
   
