@@ -1,13 +1,6 @@
-Package: adamhsparks.netlify.io
-Title: The source code for the personal webpage of Adam H. Sparks
+Package: placeholder
+Type: Website
+Title: who cares
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "Adam H.",
-           family = "Sparks",
-           role = c("aut", "cre"),
-           email = "adamhsparks@gmail.com")
-Description:  The source code for the personal webpage of Adam H. Sparks
-License: MIT + file LICENSE
-Encoding: UTF-8
-LazyData: true
-Depends: blogdown
+Imports: blogdown
+Remotes: rstudio/blogdown
