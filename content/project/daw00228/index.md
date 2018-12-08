@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "DAW00228 - National Pathogen Management Modelling And Delivery Of Decision Support"
+title = "DAW00228 - National pathogen anagement modelling and delivery of decision support"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00

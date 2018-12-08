@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "DAQ00186 - Improving Grower Surveillance, Management Epidemiology Knowledge And Tools To Manage Crop Disease"
+title = "DAQ00186 - Improving grower surveillance, management epidemiology knowledge and tools to manage crop disease"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00

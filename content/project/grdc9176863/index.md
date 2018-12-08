@@ -44,7 +44,7 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-## Dates active: July 1, 2013 - June 30, 2019
+## Dates active: October 1, 2018 - September 30, 2021
 
 ### GRDC Project: 9176863
 

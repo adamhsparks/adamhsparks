@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "PRJ-010814 Northern Rice Australia - Developing Rice Growing Packages for Tropical Climates"
+title = "PRJ-010814 Northern rice Australia - Developing rice growing packages for tropical climates"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00

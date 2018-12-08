@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "DAS00137 - National Improved Molecular Diagnostics For Disease Management"
+title = "DAS00137 - National improved molecular diagnostics for disease management"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00
