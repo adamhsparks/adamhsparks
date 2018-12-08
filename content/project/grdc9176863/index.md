@@ -6,7 +6,7 @@ title = "GRDC Project No. 9176863 - Disease epidemiology and management tools fo
 date = 2016-04-27T00:00:00
 
 # Project summary to display on homepage.
-summary = "This project will result in improved decision making for management of disease in cropping resulting in improved profitablity and reduced financial risk for Australian grain growers."
+summary = "This project will result in improved decision making for management of disease in cropping resulting in improved profitability and reduced financial risk for Australian grain growers."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
