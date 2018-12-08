@@ -37,7 +37,7 @@ url_code = ""
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Mungbean powdery mildew photo by Adam H. Sparks near Missen Flats, Qld"
+  caption = "Wheat paddock at University of Sydney - Plant Breeding Institute, Narrabri, NSW"
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
