@@ -45,7 +45,7 @@ date_format = "2006-01"
 [[experience]]
   title = "Postdoctoral Research Assistant"
   company = "Kansas State University"
-  company_url = "https://www.k-state.edu/"
+  company_url = "https://www.plantpath.k-state.edu/"
   location = "Manhattan, KS, USA"
   date_start = "2010-01-01"
   date_end = "2010-12-31"
