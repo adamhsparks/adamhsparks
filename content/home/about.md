@@ -10,12 +10,15 @@ weight = 5
 # List your academic interests.
   [interests]
   interests = [
-    "Broadacre crop pathogens",
-    "Tropical rice disease management",
+    "Broadacre crop diseases",
+    "Sorghum pathology",
+    "Mungbean pathology",
+    "Tropical rice pathology",
     "Spatial modelling and mapping of plant diseases",
     "Integrated disease management",
-    "R Programming",
-    "Open Science"
+    "R programming",
+    "Open science",
+    "Open data"
     ]
 
 # List your qualifications (such as academic degrees).
