@@ -18,7 +18,8 @@ weight = 5
     "Integrated disease management",
     "R programming",
     "Open science",
-    "Open data"
+    "Open data",
+    "Reproducible research"
     ]
 
 # List your qualifications (such as academic degrees).
@@ -50,7 +51,7 @@ weight = 5
   
   Along with [Emerson Del Ponte](https://delpontelab.netlify.com), I co-founded
   [Open Plant Pathology](https://www.openplantpathology.org/), a community
-  of modelers and computational researchers involved in plant pathology, plant
+  of modellers and computational researchers involved in plant pathology, plant
   disease epidemiology, pathogen population biology, microbial ecology and
   genomics, that supports the several forms of Open Science practices in Plant
   Pathology.
