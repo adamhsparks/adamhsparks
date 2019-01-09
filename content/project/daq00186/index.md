@@ -48,7 +48,7 @@ url_code = ""
 
 ### GRDC Project: [DAQ00186](https://grdc.com.au/research/projects/project?id=603)
 
-### Total Funding: $XXX,XXX
+### Total Funding: $5.5 million
 
 Integrated Disease Management (IDM) using various combinations of cultural, fungicide and resistance strategies offer the most viable long-term option for controlling the significant field crop diseases in the Northern Region. This project aims to build on the advances in IDM of major summer and winter crops made in the GRDC-funded project DAQ00154.
 
