@@ -46,6 +46,6 @@ url_code = ""
 
 ## Dates active: October 1, 2018 - September 30, 2021
 
-### GRDC Project: DAQ1810
+### GRDC Project: DAW1810
 
 USQ is a node for the project contributing to this project by refining models for blackspot in field pea, led by [Dr Paul Melloy](https://www.researchgate.net/profile/Paul_Melloy); testing a mungbean powdery mildew decision support system (DSS) tool; providing spore release data for yellow spot of wheat; and training in R as well as other extension publications and academic papers.
