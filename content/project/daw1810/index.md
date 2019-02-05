@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "GRDC Project No. DAW1810 - Disease epidemiology and management tools for Australian grain growers"
+title = "DAW1810 - Disease epidemiology and management tools for Australian grain growers"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00

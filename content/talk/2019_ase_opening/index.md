@@ -1,5 +1,5 @@
 +++
-title = "Integrating Plant Disease Into Ag Systems Modelling"
+title = "Completing the Picture: Integrating Plant Disease Into Ag Systems Modelling"
 date = 2019-02-15T15:10:00  # Schedule page publish date.
 draft = false
 
