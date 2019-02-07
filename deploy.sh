@@ -1,2 +1,2 @@
 #!/bin/bash
-netlify deploy -a $NETLIFY_KEY --prod --dir=public
+netlify deploy -a $NETLIFYKEY --prod --dir=public
