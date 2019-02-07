@@ -37,7 +37,7 @@ url_code = ""
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Wheat paddock at [University of Sydney - Plant Breeding Institute](https://www.facebook.com/PBINarrabri/), Narrabri, NSW"
+  caption = "Sorghum paddock at Brookstead, Qld."
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
