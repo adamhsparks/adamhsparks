@@ -1,6 +1,6 @@
 +++
-title = "Completing the Picture: Integrating Plant Disease Into Ag Systems Modelling"
-date = 2019-02-15T15:10:00  # Schedule page publish date.
+title = "Completing the Picture: Integrating Plant Disease Into Ag Systems Modelling"
+date = 2019-01-01T00:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
@@ -12,10 +12,10 @@ time_end = 2019-02-15T15:20:00
 authors = ["A. H. Sparks"]
 
 # Abstract and optional shortened version.
-abstract = ""
+abstract = "I present four scenarios that cover various spatial and temporal scales where plant disease models can be used to help inform growers or researchers. This was presented for the official opening of the USQ Agriculture Systems and Engineering Precinct in Toowoomba as a part of a symposium on the future of agriculture."
 
 # Name of event and optional event URL.
-event = "The Future of Agriculture"
+event = "USQ's Symposium on the Future of Agriculture"
 event_url = ""
 
 # Location of event.
@@ -30,11 +30,11 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["daw00228", "daw1810"]
+projects = ["daw00228", "daw1810-007rtx"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Plant Disease Modelling"]
+tags = ["Modelling"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.
