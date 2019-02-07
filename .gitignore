@@ -2,6 +2,6 @@
 .DS_Store
 .Rproj.user
 .Rhistory
-public/
-blogdown/
-resources/
+public/*
+blogdown/*
+resources/_gen/images/*
