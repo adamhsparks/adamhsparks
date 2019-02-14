@@ -18,7 +18,7 @@ before_install:
   - Rscript -e 'blogdown::install_hugo()'
 
 script:
-  - Rscript -e static/files/create_pub_md/bibtex_2academic.R
+  - Rscript static/files/create_pub_md/bibtex_2academic.R
   - Rscript -e 'blogdown::build_site(method = "html")'
 
 after_success:
