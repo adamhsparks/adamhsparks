@@ -16,6 +16,7 @@ before_install:
   - npm install netlify-cli -g
   - Rscript -e 'install.packages(c("blogdown", "RefManageR", "dplyr", "stringr", "anytime"))'
   - Rscript -e 'blogdown::install_hugo()'
+  - mkdir public
 
 script:
   - Rscript static/files/create_pub_md/bibtex_2academic.R
