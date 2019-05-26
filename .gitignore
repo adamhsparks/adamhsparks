@@ -5,3 +5,5 @@
 public/*
 blogdown/*
 resources/_gen/images/*
+public/*
+!public/.gitkeep
