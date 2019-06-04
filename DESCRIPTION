@@ -1,6 +1,10 @@
-Package: placeholder
-Type: Website
-Title: who cares
+Package: adamhsparks.netlify.com
+Type: website
+Title: Adam H. Sparks Personal Website
 Version: 0.0.0.9000
 Imports: blogdown
-Remotes: rstudio/blogdown
+Depends: 
+  RefManageR,
+  dplyr,
+  stringr,
+  anytime
