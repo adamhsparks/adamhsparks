@@ -10,16 +10,16 @@ weight = 5
 # List your academic interests.
   [interests]
   interests = [
+    "R programming",
+    "Open science",
+    "Open data",
+    "Reproducible research",
+    "Spatial modelling and mapping of plant diseases",
     "Broadacre crop diseases",
     "Sorghum pathology",
     "Mungbean pathology",
     "Tropical rice pathology",
-    "Spatial modelling and mapping of plant diseases",
-    "Integrated disease management",
-    "R programming",
-    "Open science",
-    "Open data",
-    "Reproducible research"
+    "Integrated disease management"
     ]
 
 # List your qualifications (such as academic degrees).
@@ -53,5 +53,5 @@ weight = 5
   [Open Plant Pathology](https://www.openplantpathology.org/), a community
   of modellers and computational researchers involved in plant pathology, plant
   disease epidemiology, pathogen population biology, microbial ecology and
-  genomics, that supports the several forms of Open Science practices in Plant
-  Pathology.
+  genomics, that supports the several forms of open science practices in plant
+  pathology.
