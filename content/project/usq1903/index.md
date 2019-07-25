@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "DAW1810- Disease epidemiology and management tools for Australian grain growers"
+title = "USQ1903 - Post-doctoral fellowship: A model for predicting chickpea ascochyta blight risk"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00
@@ -9,8 +9,7 @@ date = 2016-04-27T00:00:00
 summary = "This project will result in improved decision making for management of disease in cropping resulting in improved profitability and reduced financial risk for Australian grain growers."
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["DAW1810", "modelling", "GRDC", "R"]
+tags = ["DAW1810", "USQ1903", "GRDC"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -44,8 +43,8 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-## Dates active: October 1, 2018 - September 30, 2021
+## Dates active: July 1, 2019 - September 30, 2021
 
-### GRDC Project: DAW1810
+### GRDC Project: USQ1903
 
-USQ is a node for the project contributing to this project by refining models for blackspot in field pea, led by [Dr Paul Melloy](https://www.researchgate.net/profile/Paul_Melloy); testing a mungbean powdery mildew decision support system (DSS) tool; providing spore release data for yellow spot of wheat; and training in R as well as other extension publications and academic papers.
+USQ is leading research into the risk of ascochyta blight in chickpea paddocks based on spore dispersal. [Dr Ihsan Khaliq](https://www.researchgate.net/profile/Ihsan_Khaliq3) is studying how far spores wind disperse and how much rainfall is necessary for dispersal to develop models to predict paddock risk to better inform agronomists and growers where it is safe to plant chickpeas.
