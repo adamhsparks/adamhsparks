@@ -13,9 +13,9 @@ Along with [Emerson Del Ponte](https://delpontelab.netlify.com), I co-founded [O
 
 ## CV PDF Files
 
-* [Adam H. Sparks Full CV](static/files/CV/AHSparks_CV.pdf)
+* [Adam H. Sparks Full CV](../static/files/CV/AHSparks_CV.pdf)
 
-* [Adam H. Sparks 2 page CV](static/files/CV/AHSparks_2_Page_CV.pdf)
+* [Adam H. Sparks 2 page CV](../static/files/CV/AHSparks_2_Page_CV.pdf)
 
 ## Short CV
 
