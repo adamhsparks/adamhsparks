@@ -1,4 +1,11 @@
-# adamhsparks.netlify.com
-[![Build Status](https://travis-ci.org/adamhsparks/adamhsparks.svg?branch=master)](https://travis-ci.org/adamhsparks/adamhsparks) [![Netlify Status](https://api.netlify.com/api/v1/badges/0aa6ef23-9faf-4b84-9525-e2a4769aeb73/deploy-status)](https://app.netlify.com/sites/openplantpathology/deploys)
+# jennybryan.org
 
-This is the code for my personal website hosted on Netlify, <https://adamhsparks.netlify.com/>.
+Personal website
+
+### Notes
+
+Other sites using this theme:
+<https://github.com/search?p=2&q=hugo-theme-sam&type=Code>
+
+blogdown book:
+<https://bookdown.org/yihui/blogdown/>
