@@ -4,3 +4,6 @@
 [submodule "public/files/CV"]
 	path = public/files/CV
 	url = https://github.com/adamhsparks/AHSparks_CV
+[submodule "themes/sam"]
+	path = themes/sam
+	url = https://github.com/victoriadrake/hugo-theme-sam.git
