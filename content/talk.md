@@ -5,7 +5,7 @@ date: 2019-08-08T21:42:49+10:00
 
 ## Upcoming talks
 
-  * 04/09 **Pre and In-Season Tools to Inform Broadacre Grains Growers** Southern Cross University, Lismore, New South Wales Australia
+  * 04/09 **Pre and In-Season Tools to Inform Broadacre Grains Growers**, Southern Cross University, Lismore, New South Wales Australia
 
 ## Past talks
 
