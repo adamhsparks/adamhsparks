@@ -4,12 +4,14 @@ date: 2019-08-08T21:42:49+10:00
 ---
 
 ## Upcoming talks
-  
+
+* 06/11/19 **The Impact of Plant Pathology on the Global Economy**, IX Symposium on Updates in Phytopathology, Viçosa, Minas Gerais, Brazil
+
+* 21/10/19 **TBD**, APPS Queensland Chapter Meeting, Toowoomba, Queensland, Australia
 
 ## Past talks
 
 ### 2019
-
   
  * 04/09/19 **Pre and In-Season Tools to Inform Broadacre Grains Growers**, Southern Cross University, Lismore, New South Wales Australia
 
