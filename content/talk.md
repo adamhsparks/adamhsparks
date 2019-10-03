@@ -7,7 +7,7 @@ date: 2019-08-08T21:42:49+10:00
 
 * 06/11/19 **The Impact of Plant Pathology on the Global Economy**, IX Symposium on Updates in Phytopathology, Viçosa, Minas Gerais, Brazil
 
-* 21/10/19 **TBD**, APPS Queensland Chapter Meeting, Toowoomba, Queensland, Australia
+* 21/10/19 **Delivering and Supporting Open Science Practices Through Open Plant Pathology**, APPS Queensland Chapter Meeting, Toowoomba, Queensland, Australia
 
 ## Past talks
 
