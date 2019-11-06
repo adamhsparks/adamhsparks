@@ -3,7 +3,7 @@ title: "About"
 date: 2019-08-08T20:42:49+10:00
 ---
 
-I'm Adam Sparks, a botanical epidemiologist and ecologist specialising in multivariate statistics, network analysis, geographic information systems (GIS) and simulation modeling. Currently I'm an Associated Professor in the in the [Centre for Crop Health](https://www.facebook.com/CCHUSQ/) at the [University of Southern Queensland](https://www.usq.edu.au) where I lead the summer crops pathology theme researching integrated disease management, pathogen population biology and pathogen modelling for broadacre crops.
+I'm Adam Sparks, a botanical epidemiologist and ecologist specialising in multivariate statistics, network analysis, geographic information systems (GIS) and simulation modeling. Currently I'm an Associate Professor in the in the [Centre for Crop Health](https://www.facebook.com/CCHUSQ/) at the [University of Southern Queensland](https://www.usq.edu.au) where I lead the summer crops pathology theme researching integrated disease management, pathogen population biology and pathogen modelling for broadacre crops.
   
 Along with [Emerson Del Ponte](https://delponte.netlify.com), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
 
