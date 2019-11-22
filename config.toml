@@ -34,9 +34,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     text = "research"
 
 [[params.mainMenu]]
-    link = "/talk"
-    text = "talk"
-
-[[params.mainMenu]]
     link = "/contact"
     text = "contact"
