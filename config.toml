@@ -30,9 +30,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     text = "code"
 
 [[params.mainMenu]]
-    link = "/research"
-    text = "research"
-
-[[params.mainMenu]]
     link = "/contact"
     text = "contact"
+
+[[params.mainMenu]]
+    link = "/research"
+    text = "research"
