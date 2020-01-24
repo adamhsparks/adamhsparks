@@ -11,11 +11,9 @@ Along with [Emerson Del Ponte](https://delponte.netlify.com), I co-founded [Open
 
 <i class="ai ai-orcid"></i> [0000-0002-0061-8359](https://orcid.org/0000-0002-0061-8359)  
 
-## CV PDF Files
+## PDV CV File
 
-* [Adam H. Sparks Full CV](https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/master/AHSparks_CV.pdf)
-
-* [Adam H. Sparks 2 page CV](https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/master/AHSparks_2_Page_CV.pdf)
+* [Adam H. Sparks Full CV](https://docs.google.com/viewer?url=git@github.com:adamhsparks/adamhsparks.git)
 
 ## Short CV
 
