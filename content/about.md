@@ -13,7 +13,7 @@ Along with [Emerson Del Ponte](https://delponte.netlify.com), I co-founded [Open
 
 ## PDV CV File
 
-* [Adam H. Sparks Full CV](https://docs.google.com/viewer?url=git@github.com:adamhsparks/adamhsparks.git)
+* [Adam H. Sparks Full CV](https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/master/docs/Adam_H_Sparks_CV.pdf)
 
 ## Short CV
 
