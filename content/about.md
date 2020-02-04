@@ -11,10 +11,6 @@ Along with [Emerson Del Ponte](https://delponte.netlify.com), I co-founded [Open
 
 <i class="ai ai-orcid" title = "ORCID"></i> [0000-0002-0061-8359](https://orcid.org/0000-0002-0061-8359)  
 
-## CV as PDF File
-
-* [Adam H. Sparks CV](https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/master/docs/Adam_H_Sparks_CV.pdf)
-
 ### Education
 
 Kansas State University, Manhattan, KS, USA  
