@@ -12,6 +12,7 @@ before_install:
   - npm install netlify-cli -g
   - npm install postcss-cli
   - npm install autoprefixer
+  - npm install --save @fortawesome/fontawesome-free
   - fc-cache -fv
   - mkdir public
 
