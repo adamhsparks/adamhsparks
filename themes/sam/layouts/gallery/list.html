@@ -1,0 +1,30 @@
+{{ define "section_content" }}
+<div class="section" id="content">
+    {{ .Content }}
+</div>
+
+{{ if .Params.clickablePhotos }}
+    <div class="grid">
+    {{ $images := .Resources.ByType "image" }}
+    {{ range shuffle $images }}
+    {{ $resized := .Resize $.Params.maxWidth }}
+        <div>
+            <a href="{{ .RelPermalink }}">
+                <img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" />     
+            </a>
+        </div>
+        {{ end }}
+    </div>
+{{ else }}
+    <div class="grid">
+    {{ $images := .Resources.ByType "image" }}
+    {{ range shuffle $images }}
+    {{ $resized := .Resize $.Params.maxWidth }}
+        <div>
+            <img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" />
+        </div>
+    {{ end }}
+
+    </div>
+{{ end }}
+{{ end }}
