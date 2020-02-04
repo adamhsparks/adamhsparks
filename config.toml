@@ -8,6 +8,9 @@ pygmentsCodefences      = true
 #googleAnalytics         = ""              # Tracking code, eg. "UA-111111111-1"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
     dateform            = "Mon Jan 02, 2006"
     dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
