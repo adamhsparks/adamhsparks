@@ -1,5 +1,6 @@
-baseurl                 = "https://adamhsparks..com/"     # Your domain name. Must end with "/"
+baseurl                 = "https://adamhsparks.com/"     # Your domain name. Must end with "/"
 languageCode            = "en-au"
+isMultilingual          = false
 title                   = "Adam H. Sparks"
 theme                   = "sam"
 pygmentsStyle           = "bw"                     # https://help.farbox.com/pygments.html
