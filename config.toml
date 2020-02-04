@@ -31,7 +31,7 @@ unsafe = true
 
 [[params.mainMenu]]
     link = "https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/master/docs/Adam_H_Sparks_CV.pdf"
-    text = "CV"
+    text = "cv"
 
 [[params.mainMenu]]
     link = "/code"
