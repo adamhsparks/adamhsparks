@@ -3,7 +3,7 @@ title: "About"
 date: 2019-08-08T20:42:49+10:00
 ---
 
-I am botanical epidemiologist and ecologist specialising in simulation modeling and geographic information systems (GIS). Currently I'm an Associate Professor in the in the [Centre for Crop Health](https://www.facebook.com/CCHUSQ/) at the [University of Southern Queensland](https://www.usq.edu.au) where I lead the summer crops pathology theme researching integrated disease management, pathogen population biology and pathogen modelling for broadacre crops.
+I am botanical epidemiologist and ecologist specialising in simulation modelling and geographic information systems (GIS). Currently I'm an Associate Professor in the in the [Centre for Crop Health](https://www.facebook.com/CCHUSQ/) at the [University of Southern Queensland](https://www.usq.edu.au) where I lead the summer crops pathology theme researching integrated disease management, pathogen population biology and pathogen modelling for broadacre crops.
 
 I am a plant pathologist with expertise in botanical epidemiology and geographic information systems (GIS) and R programming. I utilize these tools to put stories together about where and why crop diseases occur and then use this information to determine effective control measures. These methods connect me with social sciences, agronomy, and breeding in addition to the other fields of crop protection. The combination of these components allows me to research these crop health syndromes and make recommendations for farmers to manage their crops for better crop health and ultimately better yields and less environmental impact. 
   
