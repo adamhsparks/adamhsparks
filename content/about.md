@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2019-08-08T20:42:49+10:00
+date: 2020-03-14T20:42:49+10:00
 ---
 
 I am botanical epidemiologist and ecologist specialising in simulation modelling and geographic information systems (GIS). Currently I'm an Associate Professor in the in the [Centre for Crop Health](https://www.facebook.com/CCHUSQ/) at the [University of Southern Queensland](https://www.usq.edu.au) where I lead the summer crops pathology theme researching integrated disease management, pathogen population biology and pathogen modelling for broadacre crops.
@@ -47,5 +47,5 @@ Purdue University, West Lafayette, IN, USA
   * Co-founder and leadership board, 2018 to present  
 
 [Tropical Plant Pathology](https://www.springer.com/life+sciences/plant+sciences/journal/40858)  
-  
-  * Section editor for Epidemiology, 2017 to present  
+
+  * [Reproducibility Editor](http://sbfitopatologia.org.br/tpp/post/reproducibility-editor/), 03/2020 to present  
