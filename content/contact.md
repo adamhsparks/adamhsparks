@@ -17,4 +17,4 @@ Toowoomba, Qld 4350
 <i class="fab fa-github" title = "GitHub"></i> [adamhsparks](https://www.github.com/adamhsparks)  
 <i class="fab fa-skype" title = "Skype"></i> [adamhsparks](skype:adamhsparks?call)  
 <i class="fab fa-telegram" title = "Telegram"></i> [adamhsparks](https://telegram.me/adamhsparks/)  
-<i class="fab fa-keybase" title = "Keybase"></i> [adamhsparks](https://keybase.io/adamhsparks)  
+<i class="fab fa-keybase" title = "Keybase"></i> [adamhsparks](https://keybase.io/adamhsparks) or a [public chat using Keybase](https://keybase.io/adamhsparks/chat)  
