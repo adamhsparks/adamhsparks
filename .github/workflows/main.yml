@@ -35,9 +35,13 @@ jobs:
         run: |
           R -e 'blogdown::install_hugo()'
 
+      - name: Workingdir
+        run: |
+          R -e 'getwd()'
+
       - name: Build site
         run: |
-          R -e 'blogdown::build_site(method = "html", run_hugo = TRUE)'
+          R -e 'blogdown::build_site(method = "html")'
 
       - name: Install npm
         uses: actions/setup-node@v1
