@@ -4,8 +4,6 @@
 .Rhistory
 blogdown/*
 resources/_gen/images/*
-public/*
-!public/.gitkeep
 node_modules/*
 resources/*
 package-lock.json
