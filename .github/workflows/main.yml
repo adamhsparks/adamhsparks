@@ -37,7 +37,7 @@ jobs:
 
       - name: Build site
         run: |
-          R -e 'blogdown::build_site(FALSE)'
+          R -e 'blogdown::build_site(local = FALSE)'
 
       - name: Install npm
         uses: actions/setup-node@v1
