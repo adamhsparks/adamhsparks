@@ -7,3 +7,4 @@ resources/_gen/images/*
 node_modules/*
 resources/*
 package-lock.json
+public/*
