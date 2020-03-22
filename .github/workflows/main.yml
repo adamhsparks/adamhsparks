@@ -37,9 +37,7 @@ jobs:
 
       - name: Build site
         run: |
-          npm install postcss-cli
-          npm install autoprefixer
-          R -e 'blogdown::build_site(method = "html", local = FALSE)'
+          R -e 'blogdown::build_site(FALSE)'
 
       - name: Install npm
         uses: actions/setup-node@v1
