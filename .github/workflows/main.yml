@@ -35,10 +35,6 @@ jobs:
         run: |
           R -e 'blogdown::install_hugo()'
 
-      - name: Workingdir
-        run: |
-          R -e 'getwd()'
-
       - name: Build site
         run: |
           R -e 'blogdown::build_site(method = "html")'
