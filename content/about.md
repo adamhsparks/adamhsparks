@@ -48,7 +48,7 @@ Purdue University, West Lafayette, IN, USA
 
 [Open Plant Pathology](https://openplantpathology.org/)
 
-  * Co-founder and leadership board, 2018 to present  
+  * Co-founder
 
 [Tropical Plant Pathology](https://www.springer.com/life+sciences/plant+sciences/journal/40858)  
 
