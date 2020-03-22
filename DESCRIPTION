@@ -1,0 +1,8 @@
+Package: adamhsparks
+Type: Website
+Title: Adam H. Sparks' Personal Website on Netlify
+Version: 0.0.1
+Imports: blogdown
+Remotes: rstudio/blogdown
+URL: https://github.com/adamhsparks/adamhsparks
+BugReports: https://github.com/adamhsparks/adamhsparks/issues
