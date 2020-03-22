@@ -7,6 +7,7 @@ pygmentsStyle           = "bw"                     # https://help.farbox.com/pyg
 pygmentsCodefences      = true
 #googleAnalytics         = ""              # Tracking code, eg. "UA-111111111-1"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+disableKinds: ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [markup.goldmark.renderer]
 unsafe = true
