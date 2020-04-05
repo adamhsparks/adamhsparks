@@ -191,10 +191,10 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.20",
+      "Version": "0.21",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d2cef450cbbf081b4a2ef1067fae9f32"
+      "Hash": "02e11a2e5d05f1d5ab19394f19ab2999"
     },
     "xfun": {
       "Package": "xfun",
