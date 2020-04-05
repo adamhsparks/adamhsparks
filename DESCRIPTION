@@ -1,6 +1,6 @@
 Package: adamhsparks
 Type: Website
-Title: Adam H. Sparks' Personal Website on Netlify
+Title: Adam H. Sparks's Personal Website on Netlify
 Version: 0.0.1
 Authors@R: person(given = "Adam",
            family = "Sparks",
