@@ -7,6 +7,4 @@ date: 2019-08-08T21:42:49+10:00
 
   * GRDC, USQ1903-003RTX - Post-doctoral fellowship: A model for predicting chickpea ascochyta blight risk
   
-  * AgriFutures, PRJ-010814 Northern rice Australia - Developing rice growing packages for tropical climates
-  
   * GRDC, [DAW00228-007RTX](https://grdc.com.au/research/projects/project?id=784) - National pathogen management modelling and delivery of decision support
