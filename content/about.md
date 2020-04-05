@@ -15,7 +15,7 @@ Along with [Emerson Del Ponte](https://delponte.netlify.com), I co-founded [Open
 
 <i class="ai ai-google-scholar" title = "Google Scholar"></i> [Google Scholar](https://scholar.google.com/citations?user=TQQzkCwAAAAJ&hl=en)  
 
-<i class="ai ai-orcid" title = "ORCID"></i> [0000-0002-0061-8359](https://orcid.org/0000-0002-0061-8359)  
+<i class="fab fa-orcid" title = "ORCID"></i> [0000-0002-0061-8359](https://orcid.org/0000-0002-0061-8359)  
 
 ### Education
 

@@ -1,7 +1,6 @@
 .DS_Store
 .Rproj.user
 .Rhistory
-blogdown/*
 resources/_gen/images/*
 node_modules/*
 resources/*
