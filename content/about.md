@@ -53,3 +53,5 @@ Purdue University, West Lafayette, IN, USA
 [Tropical Plant Pathology](https://www.springer.com/life+sciences/plant+sciences/journal/40858)  
 
   * [Reproducibility Editor](http://sbfitopatologia.org.br/tpp/post/reproducibility-editor/), 03/2020 to present  
+
+  * Associate Editor for Epidemiology, 2017 to present  
