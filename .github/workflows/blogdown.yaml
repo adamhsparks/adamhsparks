@@ -33,11 +33,11 @@ jobs:
 
       - name: Install hugo
         run: |
-          R -e 'blogdown::install_hugo()'
+          R -e 'blogdown::install_hugo(extended = TRUE)'
 
       - name: Build site
         run: |
-          R -e 'blogdown::build_site(local = TRUE, method = "html")'
+          R -e 'blogdown::build_site(local = FALSE, method = "html")'
 
       - name: Install npm
         uses: actions/setup-node@v1
