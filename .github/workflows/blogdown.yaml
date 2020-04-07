@@ -9,7 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+
+      - name: Checkout submodules
+        uses: textbook/git-checkout-submodule-action@2.1.1
 
       - name: Setup R
         uses: r-lib/actions/setup-r@master
