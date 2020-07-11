@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/adamhsparks/adamhsparks#readme",
   "dependencies": {
+    "autoprefixer": "^9.8.4",
     "postcss-cli": "^7.1.0"
   },
   "devDependencies": {},
