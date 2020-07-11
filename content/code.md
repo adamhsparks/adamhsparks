@@ -9,22 +9,22 @@ I've written and maintain several R packages available both on CRAN and GitHub.
 
 ### Weather or Climate Data Clients for R
 
-* Australian Bureau of Meteorology (BOM) weather data API Client for R, [bomrang](https://docs.ropensci.org/bomrang/)
+* [bomrang](https://docs.ropensci.org/bomrang/) - Australian Bureau of Meteorology (BOM) weather data API Client for R
 
-* Climate Hazards Group InfraRed Precipitation with Station Data (CHIRPS) API data client for R, [chirps](https://docs.ropensci.org/chirps/)
+* [chirps](https://docs.ropensci.org/chirps/) - Climate Hazards Group InfraRed Precipitation with Station Data (CHIRPS) API data client for R
 
-* University of East Anglia Climate Research Unit (CRU) climate data API client for R, [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata/)
+* [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata/) - University of East Anglia Climate Research Unit (CRU) climate data API client for R
 
-* Global Surface Summary of the Day (GSOD) Weather Data API Client for R, [GSODR](https://docs.ropensci.org/nasapower/)
+* [GSODR](https://docs.ropensci.org/nasapower/) - Global Surface Summary of the Day (GSOD) Weather Data API Client for R
 
-* NASA POWER Global Meteorology, Surface Solar Energy and Climatology Data API Client for R, [nasapower](https://docs.ropensci.org/nasapower/)
+* [nasapower](https://docs.ropensci.org/nasapower/) - NASA POWER Global Meteorology, Surface Solar Energy and Climatology Data API Client for R
 
 ### Plant Pathology Packages for R
 
-* Analysis of plant pathogen pathotype complexities, distributions and diversity in R, [hagis](https://openplantpathology.github.io/hagis/)
+* [hagis](https://openplantpathology.github.io/hagis/) - Analysis of plant pathogen pathotype complexities, distributions and diversity in R
 
-### University of Southern Queensland (USQ) Styled Graphs for R
+### University of Southern Queensland (USQ) Style Support for R
 
-* USQ style typography, colours and graph themes for R, [theme.usq](https://adamhsparks.github.io/theme.usq/)
+* [theme.usq](https://adamhsparks.github.io/theme.usq/) - USQ style typography, colours and graph themes for R
 
-* USQ corporate presentation theme that incorporates {theme.usq} to make USQ style slides in R, [usq_xaringan](https://github.com/adamhsparks/usq_xaringan)
+* [usq_xaringan](https://github.com/adamhsparks/usq_xaringan) - USQ corporate presentation theme that incorporates {theme.usq} to make USQ style slides in R
