@@ -27,4 +27,4 @@ I've written and maintain several R packages available both on CRAN and GitHub.
 
 * [theme.usq](https://adamhsparks.github.io/theme.usq/) - USQ style typography, colours and graph themes for R
 
-* [usq_xaringan](https://github.com/adamhsparks/usq_xaringan) - USQ corporate presentation theme that incorporates {theme.usq} to make USQ style slides in R
+* [usq_xaringan](https://github.com/adamhsparks/usq_xaringan) - USQ corporate presentation theme that incorporates {theme.usq} to make USQ style slide decks in R
