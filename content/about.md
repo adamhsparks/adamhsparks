@@ -3,9 +3,9 @@ title: "About"
 date: 2020-03-14T20:42:49+10:00
 ---
 
-I am botanical epidemiologist and ecologist specialising in simulation modelling and geographic information systems (GIS). Currently I'm an Associate Professor in the in the [Centre for Crop Health](https://www.facebook.com/CCHUSQ/) at the [University of Southern Queensland](https://www.usq.edu.au). At USQ I lead a research group that studies plant disease modelling, integrated disease management and pathogen population biology for broadacre crops. I have expertise in R programming and have developed several tools to help gather weather and climate data and study pathogen populations using R.
+I am botanical epidemiologist and ecologist specialising in simulation modelling and geographic information systems (GIS). Currently I'm an Associate Professor in the in the Centre for Crop Health at the [University of Southern Queensland](https://www.usq.edu.au). At USQ I lead a research group that studies plant disease modelling, integrated disease management and pathogen population biology for broadacre crops. I have expertise in R programming and have developed several tools to help gather weather and climate data and study pathogen populations using R.
 
-Along with [Emerson Del Ponte](https://delponte.netlify.com), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
+Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
 
 ### Education
 
@@ -31,7 +31,7 @@ Purdue University, West Lafayette, IN, USA
   
   * Post-doctoral Research Fellow, Botanical Modelling and GIS from January 2011 to November 2012  
   
-[Kansas State University](https://www.plantpath.k-state.edu)  
+[Kansas State University](https://www.plantpath.k-state.edu/)  
 
   * Post-Doctoral Research Associate, Modelling Wheat Fusarium Head Blight from January 2010 to January 2011  
 
