@@ -9,7 +9,7 @@ date: 2019-08-08T21:42:49+10:00
   
   * GRDC, [DAW00228-007RTX](https://grdc.com.au/research/projects/project?id=784) - National pathogen management modelling and delivery of decision support
 
-  * GRDC, Program 1: Towards effective genetic and sustainable management of
+  * GRDC, GRI2007-001RTX - Program 1: Towards effective genetic and sustainable management of
 Ascochyta blight of chickpea - Ascochyta blight pathogen biology, population
 dynamics and epidemiology.
 

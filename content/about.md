@@ -7,6 +7,10 @@ I am botanical epidemiologist and ecologist specialising in simulation modelling
 
 Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
 
+### Pronouns
+
+He/Him
+
 ### Education
 
 Kansas State University, Manhattan, KS, USA  
