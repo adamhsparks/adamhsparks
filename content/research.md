@@ -7,14 +7,11 @@ date: 2019-08-08T21:42:49+10:00
 
   * GRDC, USQ1903-003RTX - Post-doctoral fellowship: A model for predicting chickpea ascochyta blight risk
   
-  * GRDC, [DAW00228-007RTX](https://grdc.com.au/research/projects/project?id=784) - National pathogen management modelling and delivery of decision support
+  * GRDC, DAW1810-007RTX - Disease epidemiology and management tools for Australian grain growers
+  
+  * GRDC, GRI2007-001RTX - Program 1: Towards effective genetic and sustainable management of Ascochyta blight of chickpea - Ascochyta blight pathogen biology, population dynamics and epidemiology
 
-  * GRDC, GRI2007-001RTX - Program 1: Towards effective genetic and sustainable management of
-Ascochyta blight of chickpea - Ascochyta blight pathogen biology, population
-dynamics and epidemiology.
-
-  * CRDC, DAQ2002 - Characteristics of disease supressive cotton farming
-systems and soils
+  * CRDC, DAQ2002 - Characteristics of disease suppressive cotton farming systems and soils
 
 ## Highlighted research papers and project outputs
 
