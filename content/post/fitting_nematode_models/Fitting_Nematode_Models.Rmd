@@ -5,10 +5,16 @@ author:
   affiliation: University of Southern Queensland, Centre for Crop Health, Toowoomba, Qld, AU
 - name: John P. Thompson
   affiliation: University of Southern Queensland, Centre for Crop Health, Toowoomba, Qld, AU
-output: md_document
-always_allow_html: true
+output:
+  blogdown::html_page:
+    df_print: paged
+knit: (function(inputFile, encoding) {
+    rmarkdown::render(inputFile, encoding = encoding, output_dir = "../")
+  })
 bibliography: bibliography.bib
 csl: phytopathology.csl
+params:
+  output_dir: "../"
 ---
 
 ```{r setup, include=FALSE}
@@ -23,7 +29,6 @@ knitr::opts_chunk$set(
 ```
 
 Adam H. Sparks and John P. Thompson
-
 University of Southern Queensland, Centre for Crop Health, Toowoomba, Qld, AU
 
 [![DOI](https://zenodo.org/badge/119438897.svg)](https://zenodo.org/badge/latestdoi/119438897)

@@ -50,7 +50,7 @@ jobs:
 
       - name: Build Rmd blog posts
         run: |
-          R -e 'rmarkdown::render("content/post/fitting_nematode_models/Fitting_Nematode_Models.Rmd", output_dir = "content/post", params = list(output_dir = "content/post"))'
+          R -e 'rmarkdown::render("content/post/fitting_nematode_models/Fitting_Nematode_Models.Rmd")'
 
       - name: Build site
         run: |
