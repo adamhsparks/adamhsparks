@@ -5,9 +5,7 @@ author:
   affiliation: University of Southern Queensland, Centre for Crop Health, Toowoomba, Qld, AU
 - name: John P. Thompson
   affiliation: University of Southern Queensland, Centre for Crop Health, Toowoomba, Qld, AU
-output:
-  blogdown::html_page:
-    df_print: paged
+output: md_document
 bibliography: bibliography.bib
 csl: phytopathology.csl
 ---
