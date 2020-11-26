@@ -6,7 +6,7 @@ theme                   = "hugo-theme-sam"
 pygmentsStyle           = "bw"          # https://help.farbox.com/pygments.html
 pygmentsCodefences      = true
 #googleAnalytics         = ""           # Tracking code, eg. "UA-111111111-1"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "blogdown$", "external_data$"]
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -26,7 +26,7 @@ unsafe = true
     primaryImage        = "/twitter-card.png"           # Image that shows on Twitter cards and OpenGraph links
 
 [[params.mainMenu]]
-    link = "/about"
+    link = "/about/"
     text = "adam h sparks"
 
 [[params.mainMenu]]
@@ -34,13 +34,17 @@ unsafe = true
     text = "cv"
 
 [[params.mainMenu]]
-    link = "/code"
+    link = "/code/"
     text = "code"
 
 [[params.mainMenu]]
-    link = "/contact"
+    link = "/post/"
+    text = "blog"
+
+[[params.mainMenu]]
+    link = "/contact/"
     text = "contact"
 
 [[params.mainMenu]]
-    link = "/research"
+    link = "/research/"
     text = "research"

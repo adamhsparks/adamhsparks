@@ -4,3 +4,9 @@
 [submodule "themes/hugo-theme-sam"]
 	path = themes/hugo-theme-sam
 	url = https://github.com/victoriadrake/hugo-theme-sam/
+[submodule "static/posts/Modelling_Nematode_Populations"]
+	path = static/posts/Modelling_Nematode_Populations
+	url = git@github.com:adamhsparks/Modelling_Nematode_Populations.git
+[submodule "content/blog/Modelling_Nematode_Populations"]
+	path = content/blog/Modelling_Nematode_Populations
+	url = git@github.com:adamhsparks/Modelling_Nematode_Populations.git
