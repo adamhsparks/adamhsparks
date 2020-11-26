@@ -10,8 +10,6 @@ output:
     df_print: paged
 bibliography: bibliography.bib
 csl: phytopathology.csl
-params:
-  output_dir: "../"
 ---
 
 ```{r setup, include=FALSE}
