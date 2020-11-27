@@ -11,6 +11,7 @@ output:
     df_print: paged
 bibliography: bibliography.bib
 csl: phytopathology.csl
+always_allow_html: yes
 params:
   output_dir: "../"
 ---
