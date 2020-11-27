@@ -7,4 +7,4 @@ resources/*
 package-lock.json
 public/*
 !public/.gitkeep
-
+static/post/*
