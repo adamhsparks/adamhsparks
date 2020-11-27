@@ -9,9 +9,6 @@ output:
   html_document:
     keep_md: yes
     df_print: paged
-knit: (function(inputFile, encoding) {
-    rmarkdown::render(inputFile, encoding = encoding, output_dir = "../")
-  })
 bibliography: bibliography.bib
 csl: phytopathology.csl
 params:
