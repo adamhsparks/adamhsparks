@@ -6,7 +6,8 @@ author:
 - name: John P. Thompson
   affiliation: University of Southern Queensland, Centre for Crop Health, Toowoomba, Qld, AU
 output:
-  blogdown::html_page:
+  html_document:
+    keep_md: yes
     df_print: paged
 knit: (function(inputFile, encoding) {
     rmarkdown::render(inputFile, encoding = encoding, output_dir = "../")
