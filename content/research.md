@@ -11,8 +11,6 @@ date: 2019-08-08T21:42:49+10:00
   
   * GRDC, GRI2007-001RTX - Program 1: Towards effective genetic and sustainable management of Ascochyta blight of chickpea - Ascochyta blight pathogen biology, population dynamics and epidemiology
 
-  * CRDC, DAQ2002 - Characteristics of disease suppressive cotton farming systems and soils
-
 ## Highlighted research papers and project outputs
 
   * [Research compendium for "The role of conidia in the dispersal of Ascochyta rabiei"](https://adamhsparks.github.io/ChickpeaAscoDispersal/), from USQ1903-003RTX
