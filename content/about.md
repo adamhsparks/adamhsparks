@@ -21,7 +21,7 @@ Kansas State University, Manhattan, KS, USA
 
 Purdue University, West Lafayette, IN, USA  
 
-  * B.S. of Agronomy in Soil and Crop Management
+  * 2000 - B.S. of Agronomy in Soil and Crop Management
 
 ### Employment
 
