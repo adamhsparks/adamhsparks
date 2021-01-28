@@ -25,6 +25,10 @@ Purdue University, West Lafayette, IN, USA
 
 ### Employment
 
+[State of Western Australia Deparment of Primary Industries and Regional Development](https://www.dpird.wa.gov.au)  
+
+  * Senior Research Scientist, Bioeconomic Modelling from Jan 2021 to Current  
+
 [University of Southern Queensland](https://usq.edu.au/)  
 
   * Associate Professor, Field Crops Pathology from Jan 2016 to Jan 2021
