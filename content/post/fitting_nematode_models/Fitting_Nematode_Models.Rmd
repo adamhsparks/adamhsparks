@@ -692,7 +692,7 @@ commonly used for cartography but also useful for graphs.
 # Reproducibility
 
 ```{r reproducibility, echo=FALSE}
-devtools::session_info()
+sessioninfo::session_info()
 ```
 
 # References
