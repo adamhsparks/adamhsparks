@@ -36,20 +36,12 @@ University of Southern Queensland, Centre for Crop Health, Toowoomba, Qld, AU
 
 # Introduction
 
-_Pratylenchus thornei_, the root-lesion nematode, is widely distributed in wheat
-(_Triticum aestivum_) growing areas of many countries and is of particular
-concern in sub-tropical environments [@THOMPSON2015]. These nematodes penetrate
-roots to  feed and reproduce in the root cortex leading to loss of root
-function, which affects nutrient and water uptake of nutrients and water causing
-nutrient deficiency and water stress [@THOMPSON2015].
+_Pratylenchus thornei_, the root-lesion nematode, is widely distributed in wheat (_Triticum aestivum_) growing areas of many countries and is of particular concern in sub-tropical environments [@THOMPSON2015].
+These nematodes penetrate roots to feed and reproduce in the root cortex leading to loss of root function, which affects nutrient and water uptake of nutrients and water causing nutrient deficiency and water stress [@THOMPSON2015].
 
-In the original paper the population response of _P. thornei_ in Queensland,
-Australia wheat to temperature is modelled using a linear and quadratic
-equations. The study aimed to investigate the effects of soil profile
-temperatures after different sowing dates on reproduction of the nematodes in
-susceptible and moderately resistant wheat cultivars in the subtropical grain
-region of eastern Australia. This document recreates the models for population
-densities of _P. thornei_ as described in the original paper.
+In the original paper the population response of _P. thornei_ in Queensland, Australia wheat to temperature is modelled using a linear and quadratic equations.
+The study aimed to investigate the effects of soil profile temperatures after different sowing dates on reproduction of the nematodes in susceptible and moderately resistant wheat cultivars in the subtropical grain region of eastern Australia.
+This document recreates the models for population densities of _P. thornei_ as described in the original paper.
 
 ## Objectives
 
