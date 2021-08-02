@@ -48,10 +48,6 @@ jobs:
         run: |
           R -e 'blogdown::install_hugo(extended = TRUE)'
 
-      - name: Build Rmd blog posts
-        run: |
-          R -e 'rmarkdown::render("content/post/fitting_nematode_models/Fitting_Nematode_Models.Rmd")'
-
       - name: Build site
         run: |
           R -e 'blogdown::build_site(local = TRUE, method = "html")'
