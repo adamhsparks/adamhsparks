@@ -15,4 +15,4 @@ date: 2020-02-04T20:42:49+10:00
 <i class="fab fa-twitter" title = "Twitter"></i> [@adamhsparks](https://www.twitter.com/adamhsparks)  
 <i class="fab fa-github" title = "GitHub"></i> [adamhsparks](https://www.github.com/adamhsparks)  
 <i class="fab fa-flickr" title = "Flickr"></i> [ahsparks](https://www.flickr.com/photos/ahsparks/)  
-<i class="fab fa-instagram" title = "Flickr"></i> [ahsparks](https://www.instagram.com/adamhsparks/)  
+<i class="fab fa-instagram" title = "Flickr"></i> [adamhsparks](https://www.instagram.com/adamhsparks/)  
