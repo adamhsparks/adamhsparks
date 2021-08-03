@@ -39,10 +39,6 @@ unsafe = true
     text = "code"
 
 [[params.mainMenu]]
-    link = "/post/"
-    text = "blog"
-
-[[params.mainMenu]]
     link = "/contact/"
     text = "contact"
 
