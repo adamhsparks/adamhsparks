@@ -3,9 +3,9 @@ title: "Code"
 date: 2019-08-08T21:15:49+10:00
 ---
 
-As a part of practicing open science and reproducible research, my software is available from GitHub, [@adamhsparks](https://www.github.com/adamhsparks/).
+As a part of practising open science and reproducible research, my software is available from GitHub, [@adamhsparks](https://www.github.com/adamhsparks/).
 
-I've written and maintain several R packages available both on CRAN and GitHub.
+I have written and maintain several R packages available both on CRAN and GitHub.
 
 ### Weather or Climate Data Clients for R
 
@@ -22,9 +22,3 @@ I've written and maintain several R packages available both on CRAN and GitHub.
 ### Plant Pathology Packages for R
 
 * [hagis](https://openplantpathology.github.io/hagis/) - Analysis of plant pathogen pathotype complexities, distributions and diversity in R
-
-### University of Southern Queensland (USQ) Style Support for R
-
-* [theme.usq](https://adamhsparks.github.io/theme.usq/) - USQ style typography, colours and graph themes for R
-
-* [usq_xaringan](https://github.com/adamhsparks/usq_xaringan/) - USQ corporate presentation theme that incorporates {theme.usq} to make USQ style slide decks in R
