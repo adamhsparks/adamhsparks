@@ -50,7 +50,7 @@ jobs:
 
       - name: Build site
         run: |
-          R -e 'blogdown::build_site(local = TRUE, method = "html")'
+          R -e 'blogdown::build_site(local = TRUE)'
 
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
