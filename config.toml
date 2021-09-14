@@ -31,7 +31,7 @@ unsafe = true
     text = "adam h sparks"
 
 [[params.mainMenu]]
-    link = "https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/main/docs/Adam_H_Sparks_CV.pdf"
+    link = "https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/blob/main/Adam_H_Sparks_CV.pdf"
     text = "cv"
 
 [[params.mainMenu]]
