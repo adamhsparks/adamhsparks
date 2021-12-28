@@ -1,6 +1,6 @@
 ---
 site: blogdown:::blogdown_site
 title: Adam H. Sparks
-description: "Habitual coffee drinker and professional cat herder"
+description: "Professional cat herder and swell human being"
 logo: "img/noun-welding-3214348.svg"
 ---
