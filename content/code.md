@@ -15,10 +15,14 @@ I have written and maintain several R packages available both on CRAN and GitHub
 
 * [getCRUCLdata](https://docs.ropensci.org/getCRUCLdata/) - University of East Anglia Climate Research Unit (CRU) climate data API client for R
 
-* [GSODR](https://docs.ropensci.org/nasapower/) - Global Surface Summary of the Day (GSOD) Weather Data API Client for R
+* [GSODR](https://docs.ropensci.org/GSODR/) - Global Surface Summary of the Day (GSOD) Weather Data API Client for R
 
 * [nasapower](https://docs.ropensci.org/nasapower/) - NASA POWER Global Meteorology, Surface Solar Energy and Climatology Data API Client for R
 
 ### Plant Pathology Packages for R
+
+* [ascotraceR](https://ihsankhaliq.github.io/ascotraceR/) - A mechanistic model to simulate the spread of Ascochyta blight in a chickpea field
+
+* [epicrop](http://adamhsparks.github.io/epicrop/) - Simulation modelling of crop diseases using a Susceptible-Exposed-Infectious-Removed (SEIR) model in R
 
 * [hagis](https://openplantpathology.github.io/hagis/) - Analysis of plant pathogen pathotype complexities, distributions and diversity in R
