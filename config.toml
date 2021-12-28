@@ -1,8 +1,8 @@
-baseurl                 = "https://adamhsparks.com/"     # Your domain name. Must end with "/"
+baseurl                 = "https://adamhsparks.netlify.com/"     # Your domain name. Must end with "/"
 languageCode            = "en-au"
 isMultilingual          = false
 title                   = "Adam H. Sparks"
-theme                   = "hugo-theme-sam"
+theme                   = "dimension"
 pygmentsStyle           = "tango"          # https://help.farbox.com/pygments.html
 pygmentsCodefences      = true
 #googleAnalytics         = ""           # Tracking code, eg. "UA-111111111-1"
