@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: Research
 date: 2019-08-08T21:42:49+10:00
 ---
 
