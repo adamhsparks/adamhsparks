@@ -3,7 +3,7 @@ title: "About"
 date: 2020-03-14T20:42:49+10:00
 ---
 
-I am botanical epidemiologist and ecologist specialising in simulation modelling and geographic information systems (GIS).
+I am a bioeconomic modeller with botanical epidemiology and ecology training who specialises in simulation modelling and geographic information systems (GIS).
 I have expertise in R programming and have developed several tools to help gather weather and climate data and study pathogen populations using R.
 
 Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
@@ -28,7 +28,7 @@ Purdue University, West Lafayette, IN, USA
 
 [State of Western Australia Deparment of Primary Industries and Regional Development](https://www.dpird.wa.gov.au)  
 
-  * Senior Research Scientist, Bioeconomic Modelling from Jan 2021 to Current  
+  * Senior Research Scientist, Bioeconomic Modeller from Jan 2021 to Current  
 
 [University of Southern Queensland](https://usq.edu.au/)  
 
@@ -46,12 +46,16 @@ Purdue University, West Lafayette, IN, USA
 
 ### Service
 
-[Open Plant Pathology](https://openplantpathology.org/)
+[rOpenSci](https://ropensci.org/)  
+
+  * [Software Peer Review Editor](https://ropensci.org/blog/2021/10/12/editors2021/)
+
+[Open Plant Pathology](https://openplantpathology.org/)  
 
   * Co-founder
 
-[Tropical Plant Pathology](https://www.springer.com/life+sciences/plant+sciences/journal/40858)  
+[Tropical Plant Pathology](https://www.springer.com/life+sciences/plant+sciences/journal/40858)
 
   * [Reproducibility Editor](http://sbfitopatologia.org.br/tpp/post/reproducibility-editor/), 03/2020 to present  
 
-  * Associate Editor for Epidemiology, 2017 to present  
+  * Associate Editor for Epidemiology, 2017 to 2020  
