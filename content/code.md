@@ -1,9 +1,9 @@
 ---
-title: "Code"
+title: Code
 date: 2019-08-08T21:15:49+10:00
 ---
 
-As a part of practising open science and reproducible research, my software is available from GitHub, [@adamhsparks](https://www.github.com/adamhsparks/).
+As a part of practising open science and reproducible research, some of my software's code is available at my GitHub, [@adamhsparks](https://www.github.com/adamhsparks/).
 
 I have written and maintain several R packages available both on CRAN and GitHub.
 
