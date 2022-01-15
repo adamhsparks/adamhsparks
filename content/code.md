@@ -26,3 +26,7 @@ I have written and maintain several R packages available both on CRAN and GitHub
 * [epicrop](http://adamhsparks.github.io/epicrop/) - Simulation modelling of crop diseases using a Susceptible-Exposed-Infectious-Removed (SEIR) model in R
 
 * [hagis](https://openplantpathology.github.io/hagis/) - Analysis of plant pathogen pathotype complexities, distributions and diversity in R
+
+### Plant Pathology Package for Julia
+
+* [Epicrop.jl](http://adamhsparks.github.io/Epicrop.jl/) - Simulation modelling of crop diseases using a Healthy-Latent-Infectious-Postinfectious (HLIP) model in Julia
