@@ -4,7 +4,7 @@ date: 2020-03-14T20:42:49+10:00
 ---
 
 I am a bioeconomic modeller with botanical epidemiology and ecology training who specialises in agricultural simulation modelling and geographic information systems (GIS).
-I have expertise in R programming and have developed several tools to help gather weather and climate data and study pathogen populations using R.
+I have expertise in R programming and have developed several tools to help gather weather and climate data and study pathogen populations using R and have also recently started [using Julia](http://adamhsparks.github.io/Epicrop.jl/) too.
 
 Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
 
