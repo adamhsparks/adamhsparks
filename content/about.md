@@ -12,6 +12,10 @@ Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Ope
 
 He/Him
 
+### CV
+
+[Adam H. Sparks's CV HTMLUseful for copying and pasting into your HTML (Webfont with CSS or SVG with JS).<i class="fas fa-file-pdf"></i>]("https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/main/Adam_H_Sparks_CV.pdf")
+
 ### Education
 
 Kansas State University, Manhattan, KS, USA  
