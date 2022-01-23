@@ -14,7 +14,7 @@ He/Him
 
 ### CV
 
-<a href = "https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/main/Adam_H_Sparks_CV.pdf" rel = "prefetch" type = "pdf">Adam H. Sparks's CV <i class="fas fa-file-pdf"></i></a>
+<a href = "https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/main/Adam_H_Sparks_CV.pdf" rel = "prefetch" type = "pdf" alt = "Adam H. Sparks's CV as PDF in Google Viewer">Adam H. Sparks's CV <i class="fas fa-file-pdf"></i></a>
 
 ### Education
 
