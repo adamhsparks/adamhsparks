@@ -14,7 +14,7 @@ He/Him
 
 ### CV
 
-[Adam H. Sparks's CV <i class="fas fa-file-pdf"></i>]("https://github.com/adamhsparks/AHSparks_CV/raw/main/Adam_H_Sparks_CV.pdf")
+[Adam H. Sparks's CV <i class="fas fa-file-pdf"></i>](https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/main/Adam_H_Sparks_CV.pdf)
 
 ### Education
 
@@ -30,7 +30,7 @@ Purdue University, West Lafayette, IN, USA
 
 ### Employment
 
-[State of Western Australia Department of Primary Industries and Regional Development](https://www.dpird.wa.gov.au)  
+[State of Western Australia Deparment of Primary Industries and Regional Development](https://www.dpird.wa.gov.au)  
 
   * Senior Research Scientist, Bioeconomic Modeller from Jan 2021 to Current  
 
