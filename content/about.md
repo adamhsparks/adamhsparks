@@ -30,7 +30,7 @@ Purdue University, West Lafayette, IN, USA
 
 ### Employment
 
-[State of Western Australia Deparment of Primary Industries and Regional Development](https://www.dpird.wa.gov.au)  
+[State of Western Australia Department of Primary Industries and Regional Development](https://www.dpird.wa.gov.au)  
 
   * Senior Research Scientist, Bioeconomic Modeller from Jan 2021 to Current  
 
