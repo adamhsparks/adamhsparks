@@ -17,7 +17,7 @@ He/Him
 Kansas State University, Manhattan, KS, USA  
 
   * 2009 - Ph.D. of Plant Pathology in Epidemiology and Ecology of Plant Pathogens studying with [Dr Karen Garrett](https://www.garrettlab.com/garrett/)
-  
+
   * 2007 - Graduate Certificate in Geographic Information Systems and Remote Sensing
 
 Purdue University, West Lafayette, IN, USA  
