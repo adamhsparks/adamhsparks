@@ -14,7 +14,7 @@ He/Him
 
 ### CV
 
-[Adam H. Sparks's CV <i class="fas fa-file-pdf"></i>]("https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/main/Adam_H_Sparks_CV.pdf")
+[Adam H. Sparks's CV <i class="fas fa-file-pdf"></i>]("https://github.com/adamhsparks/AHSparks_CV/raw/main/Adam_H_Sparks_CV.pdf")
 
 ### Education
 
