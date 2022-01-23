@@ -17,6 +17,6 @@ unsafe = true
     dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
 
 # Metadata
-    description         = "Adam H. Sparks' personal website" # Max 160 characters show in search results
+    description         = "Adam H. Sparks" # Max 160 characters show in search results
     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
     primaryImage        = "/twitter-card.png"           # Image that shows on Twitter cards and OpenGraph links
