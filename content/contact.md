@@ -7,7 +7,7 @@ date: 2020-02-04T20:42:49+10:00
 
 <i class="fas fa-envelope" title = "E-mail"></i> [e-mail Adam](billows.steamed0u@icloud.com)
 <br />
-<i class="fab fa-telegram" title = "Telegram"></i> [adamhsparks](https://t.me/adamhsparks)
+<i class="fab fa-telegram" title = "Telegram"></i> [adamhsparks](https://t.me/adamhsparks)  
 <i class="fab fa-keybase" title = "Keybase"></i> [adamhsparks](https://keybase.io/adamhsparks) or a [public chat using Keybase](https://keybase.io/adamhsparks/chat)  
 
 ## Or Find More About Him on the Web
