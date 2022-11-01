@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
       - name: Checkout submodules
         uses: srt32/git-actions@v0.0.3
         with:
