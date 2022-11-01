@@ -1,63 +1,44 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
-    branches: main
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
 
 name: blogdown
 
 jobs:
-  build:
+  blogdown:
     runs-on: ubuntu-latest
+    # Only restrict concurrency for non-PR jobs
+    concurrency:
+      group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-      - name: Checkout submodules
-        uses: srt32/git-actions@v0.0.3
+      - uses: actions/checkout@v3
+
+      - uses: r-lib/actions/setup-pandoc@v2
+
+      - uses: r-lib/actions/setup-r@v2
         with:
-          args: git submodule update --init --recursive
+          use-public-rspm: true
 
-      - name: Install npm
-        uses: actions/setup-node@v1
-
-      - name: Install postcss-cli and autoprefixer
-        run: |
-          npm install postcss-cli
-          npm install autoprefixer
-
-      - name: Setup R
-        uses: r-lib/actions/setup-r@v2
-
-      - name: Install pandoc, pandoc citeproc and libcurl
-        run: |
-          sudo apt-get update
-          sudo apt-get install pandoc
-          sudo apt-get install pandoc-citeproc
-          sudo apt-get install libcurl4-openssl-dev
-
-      - name: Cache Renv packages
-        uses: actions/cache@v1
-        with:
-          path: $HOME/.local/share/renv
-          key: r-${{ hashFiles('renv.lock') }}
-          restore-keys: r-
-
-      - name: Install packages
-        run: |
-          R -e 'install.packages("renv")'
-          R -e 'renv::restore()'
+      - uses: r-lib/actions/setup-renv@v2
 
       - name: Install hugo
-        run: |
-          R -e 'blogdown::install_hugo("0.86.1", extended = TRUE)'
+        run: blogdown::install_hugo()
+        shell: Rscript {0}
 
       - name: Build site
-        run: |
-          R -e 'blogdown::build_site(local = TRUE)'
+        run: blogdown::build_site(TRUE)
+        shell: Rscript {0}
 
-      - name: Deploy to netlify
-        uses: netlify/actions/cli@master
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      - name: Deploy to GitHub pages 🚀
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
-          args: deploy --dir=public --prod
-          secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
+          branch: gh-pages
+          folder: public
