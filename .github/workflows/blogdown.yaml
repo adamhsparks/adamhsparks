@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Checkout submodules
         uses: srt32/git-actions@v0.0.3
         with:
@@ -24,7 +24,7 @@ jobs:
           npm install autoprefixer
 
       - name: Setup R
-        uses: r-lib/actions/setup-r@master
+      - uses: r-lib/actions/setup-r@v2
 
       - name: Install pandoc, pandoc citeproc and libcurl
         run: |
