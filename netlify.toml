@@ -3,7 +3,7 @@
   command = "hugo"
 
 [build.environment]
-  HUGO_VERSION = "NA"
+  HUGO_VERSION = "0.86.1"
   HUGO_BUILDFUTURE = "true"
 
 [context.deploy-preview.environment]
