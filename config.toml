@@ -1,4 +1,4 @@
-baseurl                 = "https://adamhsparks.github.io/"     # Your domain name. Must end with "/"
+baseurl                 = "https://adamhsparks.netlify.app/"     # Your domain name. Must end with "/"
 languageCode            = "en-au"
 isMultilingual          = false
 title                   = "Adam H. Sparks"
