@@ -7,8 +7,8 @@ Authors@R: person(given = "Adam",
            role = c("aut", "cre"),
            email = "adamhsparks@gmail.com",
            comment = c(ORCID = "0000-0002-0061-8359"))
-Imports: blogdown
-Remotes: rstudio/blogdown
+Imports: hugodown
+Remotes: r-lib/hugodown
 URL: https://github.com/adamhsparks/adamhsparks
 BugReports: https://github.com/adamhsparks/adamhsparks/issues
 License: MIT + file LICENSE

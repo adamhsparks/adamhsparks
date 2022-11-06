@@ -3,14 +3,16 @@ languageCode            = "en-au"
 isMultilingual          = false
 title                   = "Adam H. Sparks"
 theme                   = "dimension"
+pygmentsUseClasses      = true
 pygmentsStyle           = "tango"          # https://help.farbox.com/pygments.html
 pygmentsCodefences      = true
-#googleAnalytics         = ""           # Tracking code, eg. "UA-111111111-1"
-ignoreFiles             = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "blogdown$", "external_data$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+ignoreFiles             = ["\.Rmd$", "_files$", "_cache$", "\.knit\.md$", "\.utf8\.md$"]
 uglyURLs                = true
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [params]
     dateform            = "Mon Jan 02, 2006"
