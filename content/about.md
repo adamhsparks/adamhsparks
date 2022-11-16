@@ -8,15 +8,23 @@ I have expertise in R programming and have developed several tools to help gathe
 
 Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
 
-### Pronouns
+## Web
+
+<i class="fab fa-orcid" title = "ORCID"></i>&nbsp;&nbsp;[0000-0002-0061-8359](https://orcid.org/0000-0002-0061-8359)  
+<i class="fab fa-mastodon" title = "Mastodon"></i>&nbsp;&nbsp;[@adamshsparks@fosstodon.org](https://fosstodon.org/@adamhsparks)  
+<i class="fab fa-github" title = "GitHub"></i>&nbsp;&nbsp;[adamhsparks](https://www.github.com/adamhsparks)  
+<i class="fab fa-twitter" title = "Twitter"></i>&nbsp;&nbsp;[@adamhsparks](https://www.twitter.com/adamhsparks)  
+<i class="fab fa-instagram" title = "Instagram"></i>&nbsp;&nbsp;[adamhsparks](https://www.instagram.com/adamhsparks/) 
+
+## Pronouns
 
 He/Him
 
-### CV
+## CV
 
 <a href = "https://docs.google.com/viewer?url=https://github.com/adamhsparks/AHSparks_CV/raw/main/Adam_H_Sparks_CV.pdf" rel = "prefetch" type = "pdf" alt = "Adam H. Sparks's CV as PDF in Google Viewer">Adam H. Sparks's CV <i class="fas fa-file-pdf"></i></a>
 
-### Education
+## Education
 
 Kansas State University, Manhattan, KS, USA  
 
@@ -28,7 +36,7 @@ Purdue University, West Lafayette, IN, USA
 
   * 2000 - B.S. of Agronomy in Soil and Crop Management
 
-### Employment
+## Employment
 
 [State of Western Australia Department of Primary Industries and Regional Development](https://www.dpird.wa.gov.au)  
 
@@ -48,7 +56,7 @@ Purdue University, West Lafayette, IN, USA
 
   * Post-Doctoral Research Associate, Modelling Wheat Fusarium Head Blight from January 2010 to January 2011  
 
-### Service
+## Service
 
 [rOpenSci](https://ropensci.org/)  
 
