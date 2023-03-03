@@ -59,7 +59,9 @@ Purdue University, West Lafayette, IN, USA
 
 [rOpenSci](https://ropensci.org/)  
 
-  * [Software Peer Review Editor](https://ropensci.org/blog/2021/10/12/editors2021/)
+  * [Software Peer Review Associate Editor](https://ropensci.org/blog/2021/10/12/editors2021/)
+  
+  * Statistical Software Peer Review Associate Editor  
 
 [Open Plant Pathology](https://openplantpathology.org/)  
 
