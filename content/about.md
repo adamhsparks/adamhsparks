@@ -12,9 +12,9 @@ Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Ope
 
 <i class="fab fa-orcid" title = "ORCID"></i>&nbsp;&nbsp;[0000-0002-0061-8359](https://orcid.org/0000-0002-0061-8359)  
 
-<i class="fab fa-mastodon" title = "Mastodon"></i>&nbsp;&nbsp;<a rel="me" href="https://fosstodon.org/@adamhsparks">@adamshsparks@fosstodon.org</a>  
+<i class="fab fa-mastodon" title = "Mastodon -- Fosstodon"></i>&nbsp;&nbsp;<a rel="me" href="https://fosstodon.org/@adamhsparks">@adamshsparks@fosstodon.org</a>  
 
-<i class="fab fa-mastodon" title = "Mastodon"></i>&nbsp;&nbsp;<a rel="me" href="https://aus.social/@adamhsparks">Mastodon</a>@adamshsparks@aus.social</a>  
+<i class="fab fa-mastodon" title = "Mastodon -- Aus.Social"></i>&nbsp;&nbsp;<a rel="me" href="https://aus.social/@adamhsparks">@adamshsparks@aus.social</a>  
 
 <i class="fab fa-github" title = "GitHub"></i>&nbsp;&nbsp;[adamhsparks](https://www.github.com/adamhsparks)  
 
