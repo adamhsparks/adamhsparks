@@ -19,6 +19,8 @@ I have written and maintain several R packages available both on CRAN and GitHub
 
 * [nasapower](https://docs.ropensci.org/nasapower/) - NASA POWER Global Meteorology, Surface Solar Energy and Climatology Data API Client for R
 
+* [weatherOz](https://dpird-fsi.github.io/weatherOz/) - An API Client for Australian Weather and Climate Data Resources
+
 ### Plant Pathology Packages for R
 
 * [ascotraceR](https://ihsankhaliq.github.io/ascotraceR/) - A mechanistic model to simulate the spread of Ascochyta blight in a chickpea field
