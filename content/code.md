@@ -9,8 +9,6 @@ I have written and maintain several R packages available both on CRAN and GitHub
 
 ### Weather or Climate Data Clients for R
 
-* [{bomrang}](https://docs.ropensci.org/bomrang/) - Australian Bureau of Meteorology (BOM) weather data API Client for R
-
 * [{chirps}](https://docs.ropensci.org/chirps/) - Climate Hazards Group InfraRed Precipitation with Station Data (CHIRPS) API data client for R
 
 * [{getCRUCLdata}](https://docs.ropensci.org/getCRUCLdata/) - University of East Anglia Climate Research Unit (CRU) climate data API client for R
