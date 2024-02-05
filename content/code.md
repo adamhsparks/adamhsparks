@@ -3,7 +3,7 @@ title: Code
 date: 2019-08-08T21:15:49+10:00
 ---
 
-As a part of practising open science and reproducible research, some of my software's code is available at my GitHub, [@adamhsparks](https://www.github.com/adamhsparks/).
+As a part of practising open science and reproducible research, some of my software's code is available at my GitHub, [adamhsparks](https://www.github.com/adamhsparks/), and Codeberg, [adamsparks](https://www.codeberg.org/adamhsparks/), profiles.
 
 I have written and maintain several R packages available both on CRAN and GitHub.
 
@@ -25,10 +25,16 @@ I have written and maintain several R packages available both on CRAN and GitHub
 
 * [{ascotraceR}](https://ihsankhaliq.github.io/ascotraceR/) - A mechanistic model to simulate the spread of Ascochyta blight in a chickpea field
 
-* [{epicrop}](http://adamhsparks.github.io/epicrop/) - Simulation modelling of crop diseases using a Susceptible-Exposed-Infectious-Removed (SEIR) model in R
+* [{epicrop}](https://codeberg.org/adamhsparks/epicrop/) - Simulation modelling of crop diseases using a Susceptible-Exposed-Infectious-Removed (SEIR) model in R
 
 * [{hagis}](https://openplantpathology.github.io/hagis/) - Analysis of plant pathogen pathotype complexities, distributions and diversity in R
 
 ### Plant Pathology Package for Julia
 
-* [Epicrop.jl](http://adamhsparks.github.io/Epicrop.jl/) - Simulation modelling of crop diseases using a Healthy-Latent-Infectious-Postinfectious (HLIP) model in Julia
+* [Epicrop.jl](https://codeberg.org/adamhsparks/Epicrop.jl/) - Simulation modelling of crop diseases using a Healthy-Latent-Infectious-Postinfectious (HLIP) model in Julia
+
+### Miscellaneous
+
+* [{extractOz}](https://dpird-fsi.github.io/extractOz/) - Get local attribute information from GPS points for Australian agricultural research in R
+
+* [{PowerSDI}](https://github.com/gabrielblain/PowerSDI/) - Calculate standardized drought indices using NASA POWER data in R
