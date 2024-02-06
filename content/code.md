@@ -3,9 +3,7 @@ title: Code
 date: 2019-08-08T21:15:49+10:00
 ---
 
-As a part of practising open science and reproducible research, some of my software's code is available at my GitHub, [adamhsparks](https://www.github.com/adamhsparks/), and Codeberg, [adamsparks](https://www.codeberg.org/adamhsparks/), profiles.
-
-I have written and maintain several R packages available from CRAN, Codeberg and GitHub.
+As a part of practising open science and reproducible research, some of my software's code is available at my GitHub, [adamhsparks](https://www.github.com/adamhsparks/), and Codeberg, [adamsparks](https://www.codeberg.org/adamhsparks/), profiles or from CRAN or the Julia package registry.
 
 ### Weather or Climate Data Clients for R
 
