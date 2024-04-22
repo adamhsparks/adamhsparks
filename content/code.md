@@ -34,3 +34,5 @@ As a part of practising open science and reproducible research, some of my softw
 * [{extractOz}](https://dpird-fsi.github.io/extractOz/) - Get local attribute information from GPS points for Australian agricultural research in R
 
 * [{PowerSDI}](https://github.com/gabrielblain/PowerSDI/) - Calculate standardized drought indices using NASA POWER data in R
+
+* [{CropWaterBalance}](https://github.com/gabrielblain/CropWaterBalance) - Climate water balance for irrigation purposes in R
