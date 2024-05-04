@@ -1,14 +1,14 @@
-Package: adamhsparks
 Type: Website
+Package: adamhsparks
 Title: Adam H. Sparks's Personal Website
 Version: 0.0.1
-Authors@R: person(given = "Adam",
-           family = "Sparks",
-           role = c("aut", "cre"),
-           email = "adamhsparks@gmail.com",
+Authors@R: 
+    person("Adam", "Sparks", , "adamhsparks@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-0061-8359"))
-Imports: hugodown
-Remotes: r-lib/hugodown
+License: MIT + file LICENSE
 URL: https://github.com/adamhsparks/adamhsparks
 BugReports: https://github.com/adamhsparks/adamhsparks/issues
-License: MIT + file LICENSE
+Imports: 
+    hugodown
+Remotes: 
+    r-lib/hugodown
