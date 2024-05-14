@@ -27,7 +27,7 @@ As a part of practising open science and reproducible research, some of my softw
 
 ### Plant Pathology Package for Julia
 
-* [Epicrop.jl](https://codeberg.org/adamhsparks/Epicrop.jl/) - Simulation modelling of crop diseases using a Healthy-Latent-Infectious-Postinfectious (HLIP) model in Julia
+* [Epicrop.jl](https://codeberg.org/adamhsparks/Epicrop.jl/) - Simulation modelling of crop diseases using a Susceptible-Exposed-Infectious-Removed (SEIR) model in Julia
 
 ### Miscellaneous
 
