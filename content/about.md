@@ -8,6 +8,10 @@ I have expertise in R programming and have developed several tools to help gathe
 
 Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
 
+## Contact Adam H. Sparks
+
+<i class="fas fa-envelope" title = "E-mail"></i>&nbsp;&nbsp;[e-mail Adam](adam.sparks@curtin.edu.au)
+
 ## Web
 
 <i class="fa-brands fa-orcid" title = "ORCID"></i>&nbsp;&nbsp;[0000-0002-0061-8359](https://orcid.org/0000-0002-0061-8359)  
