@@ -139,7 +139,7 @@ expiryDate = ["expiryDate"]
 
   [[params.socialLinks]]
     name = "mastodon"
-    url = <"https://rstats.me/@adamhsparks/" rel="me">
+    url = "https://rstats.me/@adamhsparks/"
 
 
 
