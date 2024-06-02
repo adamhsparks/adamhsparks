@@ -89,7 +89,7 @@ expiryDate = ["expiryDate"]
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Biometry, agricultural data analysis, systems and plant disease modelling, and professional cat herding"
+  homeSubtitle = "Biometry, agricultural data analysis, agriculture systems and plant disease modelling, and professional cat herding"
   footerCopyright = "Adam H. Sparks"
   # bgImg = ""
   gitUrl = "https://github.com/adamhsparks/adamhsparks"
