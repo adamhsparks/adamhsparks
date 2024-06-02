@@ -114,6 +114,11 @@ expiryDate = ["expiryDate"]
   # descriptionInPosts= true
   # initialPublish = "Initally Posted on: "
 
+
+  [[params.socialLinks]]
+    name = "email"
+    url = "mailto:adam.sparks@curtin.edu.au"
+
   [[params.socialLinks]]
     name = "codeberg"
     url = "https://codeberg.org/adamhsparks/"

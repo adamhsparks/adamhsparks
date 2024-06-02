@@ -8,18 +8,6 @@ I have expertise in R programming and have developed several tools to help gathe
 
 Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
 
-## Contact Adam H. Sparks
-
-<i class="fas fa-envelope" title = "E-mail"></i>&nbsp;&nbsp;[e-mail Adam](adam.sparks@curtin.edu.au)
-
-## Web
-
-<i class="fa-brands fa-orcid" title = "ORCID"></i>&nbsp;&nbsp;[0000-0002-0061-8359](https://orcid.org/0000-0002-0061-8359)  
-<i class="fab fa-mastodon" title = "Mastodon -- rstats.me"></i>&nbsp;&nbsp;<a rel="me" href="https://rstats.me/@adamhsparks">@adamshsparks@rstats.me</a>  
-<i class="fab fa-mastodon" title = "Mastodon -- Aus.Social"></i>&nbsp;&nbsp;<a rel="me" href="https://aus.social/@adamhsparks">@adamshsparks@aus.social</a>  
-<i class="fab fa-github" title = "GitHub"></i>&nbsp;&nbsp;[adamhsparks](https://www.github.com/adamhsparks)  
-<i class="fas fa-camera" title = "Pixelfed"></i>&nbsp;&nbsp;[adamhsparks](https://pixelfed.au/i/portfolio/adamhsparks)  
-
 ## Pronouns
 
 He/Him/His
