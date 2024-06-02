@@ -3,7 +3,8 @@ date: "2016-05-05T21:48:51-07:00"
 title: About
 ---
 
-I currently a professor of biometry and agricultural data analytics with botanical epidemiology and ecology training who specialises in agricultural simulation modelling and geographic information systems (GIS).
+I currently am employed as a professor of biometry and agricultural data analytics at Curtin University with the [Centre for Crop and Disease Management (CCDM)](https://ccdm.com.au/) in the [Curtin Biometry and Agricultural Data Analytics (CBADA)](https://github.com/CCDM-CBADA) group, providing technical leadership for the Analytics for the Australian Grains Industry (AAGI) project.
+I have training in botanical epidemiology and ecology training and specialise in biometry, agricultural simulation modelling and geographic information systems (GIS).
 I have expertise in R programming and have developed several tools to help gather weather and climate data and study pathogen populations using R and have also recently started [using Julia](http://adamhsparks.github.io/Epicrop.jl/) too.
 
 Along with [Emerson Del Ponte](https://delponte.netlify.com/), I co-founded [Open Plant Pathology](https://openplantpathology.org/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
