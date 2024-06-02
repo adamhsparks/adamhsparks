@@ -10,16 +10,6 @@ ignoreFiles:
   - \.utf8\.md$
 permalinks:
   post: /:year/:month/:day/:slug/
-menu:
-  main:
-    - name: About
-      url: /about/
-    # - name: Posts
-    #   url: /post/
-    - name: Research
-      url: /research/
-    - name: Code
-      url: /code/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5

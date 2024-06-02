@@ -111,8 +111,8 @@ expiryDate = ["expiryDate"]
   # categorySymbol = "⊲"
   # pinned = "Pinned Posts"
   # pinnedSVGname = "pin"
-  # descriptionInPosts= true
-  # initialPublish = "Initally Posted on: "
+  descriptionInPosts= true
+  initialPublish = "Initally Posted on: "
 
 
   [[params.socialLinks]]
@@ -123,52 +123,48 @@ expiryDate = ["expiryDate"]
     name = "codeberg"
     url = "https://codeberg.org/adamhsparks/"
 
-
-
   [[params.socialLinks]]
     name = "github"
     url = "https://github.com/adamhsparks/"
-
-
 
   [[params.socialLinks]]
     name = "orcid"
     url = "https://orcid.org/0000-0002-0061-8359"
 
-
-
   [[params.socialLinks]]
     name = "mastodon"
     url = "https://rstats.me/@adamhsparks/"
-
-
 
   [[params.socialLinks]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/adam-h-sparks/"
 
-
-
   [[params.socialLinks]]
     name = "instagram"
     url = "https://instagram.com/adamhsparks/"
-
-
 
   [[params.socialLinks]]
     name = "pixelfed"
     url = "https://pixelfed.au/adamhsparks/"
 
-
-
 [menu]
-
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
-
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
-    weight = 20
+    url = "about/"
+    weight = 10
+
+#  [[menu.main]]
+#    name = "Posts"
+#    url = "posts/"
+#    weight = 20
+
+  [[menu.main]]
+    name = "Research"
+    url = "research/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Code"
+    url = "code/"
+    weight = 40
+
