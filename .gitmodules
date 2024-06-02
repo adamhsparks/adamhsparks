@@ -1,6 +1,8 @@
-[submodule "themes/dimension"]
-	path = themes/dimension
-	url = https://github.com/your-identity/hugo-theme-dimension.git
-[submodule "themes/hugo-theme-dimension"]
-	path = themes/hugo-theme-dimension
-	url = git@github.com:your-identity/hugo-theme-dimension.git
+[submodule "themes/themes/hermit-v2"]
+	path = themes/themes/hermit-v2
+	url = https://github.com/1bl4z3r/hermit-V2
+	branch = main
+[submodule "themes/hermit-v2"]
+	path = themes/hermit-v2
+	url = https://github.com/1bl4z3r/hermit-V2
+	branch = main
