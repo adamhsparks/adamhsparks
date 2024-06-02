@@ -114,7 +114,6 @@ expiryDate = ["expiryDate"]
   descriptionInPosts= true
   initialPublish = "Initally Posted on: "
 
-
   [[params.socialLinks]]
     name = "email"
     url = "mailto:adam.sparks@curtin.edu.au"
@@ -134,6 +133,7 @@ expiryDate = ["expiryDate"]
   [[params.socialLinks]]
     name = "mastodon"
     url = "https://rstats.me/@adamhsparks/"
+    rel = "me noopener"
 
   [[params.socialLinks]]
     name = "linkedin"
