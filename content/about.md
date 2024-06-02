@@ -15,7 +15,7 @@ He/Him/His
 
 ## CV
 
-<a href = "https://codeberg.org/adamhsparks/AHSparks_CV/src/branch/main/docs/Adam_H_Sparks_CV.pdf" rel = "prefetch" type = "pdf" alt = "Adam H. Sparks's CV as PDF file">Adam H. Sparks's CV <i class="fas fa-file-pdf"></i></a>
+<a href = "https://codeberg.org/adamhsparks/AHSparks_CV/src/branch/main/docs/Adam_H_Sparks_CV.pdf" rel = "prefetch" type = "pdf" alt = "Adam H. Sparks's CV as PDF file">Adam H. Sparks's CV</a>
 
 ## Education
 
