@@ -1,6 +1,6 @@
 ---
+date: "2016-05-05T21:48:51-07:00"
 title: About
-date: 2020-03-14T20:42:49+10:00
 ---
 
 I currently a professor of biometry and agricultural data analytics with botanical epidemiology and ecology training who specialises in agricultural simulation modelling and geographic information systems (GIS).
@@ -81,3 +81,4 @@ Purdue University, West Lafayette, IN, USA
   * [Reproducibility Editor](http://sbfitopatologia.org.br/tpp/post/reproducibility-editor/), 03/2020 to present  
 
   * Associate Editor for Epidemiology, 2017 to 2020  
+

@@ -15,7 +15,7 @@ As a part of practising open science and reproducible research, some of my softw
 
 * [{nasapower}](https://docs.ropensci.org/nasapower/) - NASA POWER Global Meteorology, Surface Solar Energy and Climatology Data API Client for R
 
-* [{weatherOz}](https://dpird-fsi.github.io/weatherOz/) - An API Client for Australian Weather and Climate Data Resources for R
+* [{weatherOz}](https://docs.ropensci.org/weatherOz/) - An API Client for Australian Weather and Climate Data Resources for R
 
 ### Plant Pathology Packages for R
 
