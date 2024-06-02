@@ -21,7 +21,7 @@ menu:
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
-  description: Biometry, agricultural data analysis, systems and plant disease modelling, and professional cat herding
+  description: Biometry, agricultural data analysis, agriculture systems and plant disease modelling, and professional cat herding
   favicon: favicon.ico
   logo:
     alt: Logo
