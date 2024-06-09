@@ -31,9 +31,10 @@ As that is not clear, we will see what is available from {weatherOz} keeping in 
 
 With that in mind, let's see what stations are available for Perth.
 
-## Finding Perth
+## Finding 
+
 This turned out to be more difficult than I expected.
-{weatherOz} provides a `find_stations_in()` function that we can use with either an `sf` object or a bounding box to find stations in a geographic area of interest.
+{weatherOz} provides a `find_stations_in()` function[^1] that we can use with either an `sf` object or a bounding box to find stations in a geographic area of interest.
 
 For this post, I have opted to use an `sf` object that I created by downloading ["Greater Capital City Statistical Areas - 2021 - Shapefile"](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/GCCSA_2021_AUST_SHP_GDA2020.zip) from the [Australian Bureau of Statistics (ABS)](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).
 
@@ -335,3 +336,5 @@ girafe(ggobj = p)
 
 Obviously, this data does not match ABC's exactly, it does go back farther into the 1800s, 1852, with the inclusion of Fremantle and likely has more data in the more recent years with the inclusion of the DPIRD network data.
 Still, it is a fun exercise to work through getting the data, subsetting it and visualising.
+
+[^1]: Actually this function only now exists because I wanted to write this blog post and needed to find stations in the Perth metro area.

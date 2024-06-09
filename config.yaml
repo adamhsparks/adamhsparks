@@ -1,58 +1,76 @@
 baseurl: /
-languageCode: en-US
+languageCode: en-AU
 title: Adam H. Sparks
 theme: hermit-v2
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
   - _cache$
-  - index\\.html
-  - about\\.html
-  - static/blog/\\*_files/
-  - README
 permalinks:
   post: /:year/:month/:day/:slug/
+params:
+  dateform: 'Jan 2, 2006'
+  dateformShort: Jan 2
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02 15:04 -0700'
+  themeColor: '#303446'
+  homeSubtitle: >-
+    Biometry, agricultural data analysis, systems and plant disease modelling,
+    and professional cat herding
+  footerCopyright: Adam H. Sparks
+  gitUrl: 'https://github.com/adamhsparks/adamhsparks'
+  justifyContent: false
+  relatedPosts: true
+  code_copy_button: true
+  homeSubtitlePrinter: true
+  scrollToTop: true
+  global_mathjax: false
+  readTime: true
+  readTimeSeparator: ' | '
+  shareSocial: true
+  categorySymbol: ⊲
+  initialPublish: 'Initally Posted on: '
+  socialLinks:
+    - name: codeberg
+      url: 'https://codeberg.org/adamhsparks/'
+    - name: github
+      url: 'https://github.com/adamhsparks/'
+    - name: orcid
+      url: 'https://orcid.org/0000-0002-0061-8359'
+    - name: mastodon
+      url: 'https://rstats.me/@adamhsparks/'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/adam-h-sparks/'
+    - name: instagram
+      url: 'https://instagram.com/adamhsparks/'
+    - name: pixelfed
+      url: 'https://pixelfed.au/adamhsparks/'
 menu:
   main:
     - name: About
-      url: /about/
+      url: about/
+      weight: 10
     - name: Posts
-      url: /blog/
+      url: post/
+      weight: 20
     - name: Research
-      url: /research/
+      url: research/
+      weight: 30
     - name: Code
-      url: /code/
-params:
-  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
-  MathJaxVersion: 2.7.5
-  description: Biometry, agricultural data analysis, systems and plant disease modelling, and professional cat herding
-  favicon: favicon.ico
-  logo:
-    alt: Logo
-    height: 50
-    url: img/noun-welding-3214348
-    width: 50
-  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
-  highlightjsLang:
-    - r
-    - yaml
-    - julia
-    - python
-  highlightjsTheme: catppuccin-macchiato
-  highlightjsVersion: 9.12.0
-  logo:
-    alt: Logo
-    height: 50
-    url: logo.png
-    width: 50
+      url: code/
+      weight: 40
 markup:
-  defaultMarkdownHandler: blackfriday
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
   highlight:
-    codeFences: true
+    codeFences: yes
+    guessSyntax: false
     hl_Lines: ""
     lineNoStart: 1
     lineNos: true
-    style: "catppuccin-macchiato"
     lineNumbersInTable: true
-    noClasses: false
+    noClasses: true
+    style: catppuccin-macchiato
     tabWidth: 4

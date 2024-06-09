@@ -11,18 +11,18 @@
 
 /* text selection */
 ::-moz-selection {
-  background: $frappe-surface-0;
+  background: $highlight-grey;
 }
 
 ::selection {
-  background: $frappe-surface-0;
+  background: $highlight-grey;
 }
 
 /* Webkit Scrollbar Customize */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background: $frappe-blue;
+  background: $midnightblue;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -34,7 +34,7 @@
 }
 
 html {
-  background: $frappe-base;
+  background: $light-grey;
   line-height: 1.6;
   letter-spacing: .06em;
   scroll-behavior: smooth;
@@ -62,7 +62,7 @@ pre {
   letter-spacing: normal;
   white-space: pre;
   color: #eee;
-  background: $frappe-blue;
+  background: $midnightblue;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 
@@ -76,7 +76,7 @@ pre {
 
 code {
   color: hsl(0, 1%, 67%);
-  background: $frappe-crust;
+  background: $dark-grey;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
@@ -223,7 +223,7 @@ table {
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
 	clip-path: none;
-	color: #85c1dc;
+	color: #21759b;
 	display: block;
 	font-size: 0.875rem;
 	font-weight: bold;
@@ -246,7 +246,7 @@ table {
   width: 100%;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.45);
-  background-color: $frappe-crust;
+  background-color: $dark-grey;
   animation-duration: .3s;
 }
 
@@ -270,7 +270,7 @@ table {
 
     .has-children {
       padding-right: .5em;
-      border-right: 2px solid $frappe-surface-0;
+      border-right: 2px solid $highlight-grey;
     }
 
     .sub-menu > a{
@@ -319,7 +319,7 @@ table {
   z-index: 1;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px 0px rgba(0, 0, 0, 0.45);
-  background-color: $frappe-crust;
+  background-color: $dark-grey;
 
   ul {
     list-style: none;
@@ -485,7 +485,7 @@ p.img-404 {
   }
 
   .post-item {
-    border-bottom: 1px $frappe-surface-0 dashed;
+    border-bottom: 1px $highlight-grey dashed;
 
     a {
       display: flex;
@@ -511,7 +511,7 @@ p.img-404 {
   display: flex;
   margin-bottom: 1.9em;
   line-height: normal;
-  border-bottom: 2px $frappe-surface-0 solid;
+  border-bottom: 2px $highlight-grey solid;
 
   .pinned-posts-list {
     flex-grow: 1;
@@ -690,7 +690,7 @@ a.footnote-ref {
   text-decoration: none;
   padding: 2px;
   border-radius: 2px;
-  background-color: $frappe-blue;
+  background-color: $midnightblue;
 
   &:hover{
     box-shadow: none;

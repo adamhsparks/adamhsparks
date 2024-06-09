@@ -8,3 +8,8 @@ package-lock.json
 public/*
 !public/.gitkeep
 static/post/*
+.RData
+.Ruserdata
+.DS_Store
+Thumbs.db
+.hugo_build.lock

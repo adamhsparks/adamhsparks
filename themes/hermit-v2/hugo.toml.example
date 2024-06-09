@@ -4,10 +4,10 @@
 # To see what each config does, refer to https://1bl4z3r.github.io/hermit-V2/en/posts/explaining-configs/
 # Open Issue or Pull Request at https://github.com/1bl4z3r/hermit-V2
 
-baseURL = "https://adamhsparks.netlify.app/"
+baseURL = "CHANGE BASE URL"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-theme = "hermit-v2"
+#theme = "hermit-v2"
 
 #[languages]
 #  [languages.en]
@@ -25,20 +25,19 @@ theme = "hermit-v2"
 #    [languages.it.params]
 #      homeSubtitle = "CHANGE ME"
 #    weight = 3
-
+ 
 languageCode = "en-us"
 
-title = "Adam H. Sparks"
-enableGitInfo = true
+# title = "CHANGE ME"
+# enableGitInfo = true
 
 pygmentsCodefences  = true
-pygmentsStyle = "nord"
 pygmentsUseClasses  = true
 #hasCJKLanguage = true
 
 rssLimit = 10
 
-copyright = "Adam H. Sparks"
+copyright = "CHANGE ME"
 enableEmoji = true
 
 #[services]
@@ -55,8 +54,8 @@ expiryDate = ["expiryDate"]
 
 
 [params.author]
-  name = "Adam H. Sparks"
-  about = "About"
+  name = "CHANGE SITE AUTHOR"
+  about = "CHANGE SITE AUTHOR ABOUT"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -66,17 +65,17 @@ expiryDate = ["expiryDate"]
 [taxonomies]
   tag = "tags"
   # Categories are disabled by default.
-  category = "categories"
+  # category = "categories"
 
 # Enable to get proper Mathjax support
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
+#[markup]
+#  [markup.goldmark]
+#    [markup.goldmark.extensions]
+#      [markup.goldmark.extensions.passthrough]
+#        enable = true
+#        [markup.goldmark.extensions.passthrough.delimiters]
+#          block = [['\[', '\]'], ['$$', '$$']]
+#          inline = [['\(', '\)']]
 
 
 [params]
@@ -89,10 +88,10 @@ expiryDate = ["expiryDate"]
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Biometry, agricultural data analysis, systems and plant disease modelling, and professional cat herding"
-  footerCopyright = "Adam H. Sparks"
+  #homeSubtitle = "CHANGE ME HOME SUBTITLE"
+  footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
   # bgImg = ""
-  gitUrl = "https://github.com/adamhsparks/adamhsparks"
+  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 
   justifyContent = false
 
@@ -100,10 +99,10 @@ expiryDate = ["expiryDate"]
   code_copy_button = true
 
   homeSubtitlePrinter = true
-  scrollToTop = true
+  scrollToTop = true 
   global_mathjax = false
   readTime = true
-  readTimeSeparator = " | "
+  readTimeSeparator = "CHANGE ME READ TIME"
   # legacyLayout = false
   shareSocial = true
   # googleTagManager = "GTM-XXXXXXXX"
@@ -113,48 +112,18 @@ expiryDate = ["expiryDate"]
   # pinnedSVGname = "pin"
   # descriptionInPosts= true
   # initialPublish = "Initally Posted on: "
+  
+  [[params.socialLinks]]
+    name = "mastodon"
+    url = "https://joinmastodon.org/"
 
   [[params.socialLinks]]
-    name = "codeberg"
-    url = "https://codeberg.org/adamhsparks/"
-
-
+    name = "x"
+    url = "https://twitter.com/"
 
   [[params.socialLinks]]
     name = "github"
-    url = "https://github.com/adamhsparks/"
-
-
-
-  [[params.socialLinks]]
-    name = "orcid"
-    url = "https://orcid.org/0000-0002-0061-8359"
-
-
-
-  [[params.socialLinks]]
-    name = "mastodon"
-    url = "https://rstats.me/@adamhsparks/"
-
-
-
-  [[params.socialLinks]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/adam-h-sparks/"
-
-
-
-  [[params.socialLinks]]
-    name = "instagram"
-    url = "https://instagram.com/adamhsparks/"
-
-
-
-  [[params.socialLinks]]
-    name = "pixelfed"
-    url = "https://pixelfed.au/adamhsparks/"
-
-
+    url = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 
 [menu]
 
