@@ -19,6 +19,7 @@ params:
     and professional cat herding
   footerCopyright: Adam H. Sparks
   gitUrl: 'https://github.com/adamhsparks/adamhsparks'
+  favicon: favicon.svg
   justifyContent: false
   relatedPosts: true
   code_copy_button: true
