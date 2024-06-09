@@ -132,7 +132,8 @@ ggplot(greater_perth) +
                      guide = guide_axis(n.dodge = 2)) +
   coord_sf() +
   labs(title = "Weather Stations in Greater Perth",
-       caption = "Data from BOM and WA DPIRD") +
+       caption = "Data from BOM and WA DPIRD",
+       shape = "source") +
   dark_mode(theme_ipsum())
 ```
 
