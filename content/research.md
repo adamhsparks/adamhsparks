@@ -1,6 +1,5 @@
 ---
 title: Research
-date: 2019-08-08T21:42:49+10:00
 ---
 
 ## Highlighted research papers and project outputs

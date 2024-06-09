@@ -22,7 +22,7 @@
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background: $frappe-blue;
+  background: $frappe-mantle;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -62,7 +62,7 @@ pre {
   letter-spacing: normal;
   white-space: pre;
   color: #eee;
-  background: $frappe-blue;
+  background: $frappe-mantle;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 
@@ -690,7 +690,7 @@ a.footnote-ref {
   text-decoration: none;
   padding: 2px;
   border-radius: 2px;
-  background-color: $frappe-blue;
+  background-color: $frappe-mantle;
 
   &:hover{
     box-shadow: none;

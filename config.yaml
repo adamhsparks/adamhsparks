@@ -6,19 +6,44 @@ ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
   - _cache$
-  - \.knit\.md$
-  - \.utf8\.md$
+  - index\\.html
+  - about\\.html
+  - static/blog/\\*_files/
+  - README
 permalinks:
   post: /:year/:month/:day/:slug/
+menu:
+  main:
+    - name: About
+      url: /about/
+    - name: Posts
+      url: /blog/
+    - name: Research
+      url: /research/
+    - name: Code
+      url: /code/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
-  description: Biometry, agricultural data analysis, agriculture systems and plant disease modelling, and professional cat herding
+  description: Biometry, agricultural data analysis, systems and plant disease modelling, and professional cat herding
   favicon: favicon.ico
   logo:
     alt: Logo
     height: 50
     url: img/noun-welding-3214348
+    width: 50
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+    - julia
+    - python
+  highlightjsTheme: catppuccin-macchiato
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: logo.png
     width: 50
 markup:
   defaultMarkdownHandler: goldmark
@@ -29,8 +54,8 @@ markup:
     codeFences: true
     hl_Lines: ""
     lineNoStart: 1
-    lineNos: false
+    lineNos: true
+    style: "catppuccin-macchiato"
     lineNumbersInTable: true
-    noClasses: true
-    style: "catppuccin-frappe"
+    noClasses: false
     tabWidth: 4

@@ -1,0 +1,340 @@
+---
+title: Plotting Perth Month of May High Temperatures with weatherOz
+author: Adam H. Sparks
+date: '2024-06-02'
+slug: []
+categories: [R]
+tags: [R, weather, weatherOz]
+comments: no
+images: ~
+always_allow_html: true 
+output:
+  html_document:
+    keep_md: yes
+---
+
+Recently the ABC had [an article](https://www.abc.net.au/news/2024-05-18/australia-s-weather-stalls-for-the-second-time-this-month/103862310) that covered the high temperatures for Perth in May from 1897 to current with a chart showing the values over time.
+I thought it would be fun to use [{weatherOz}](https://docs.ropensci.org/weatherOz/) to recreate this and maybe dig a little deeper.
+
+To start, you will need to install {weatherOz}, which currently is not on CRAN (yet) and [{hrbrthemes}](https://hrbrmstr.github.io/hrbrthemes/) from GitHub as it is ahead of the CRAN version.
+
+```{r, eval=FALSE}
+if (!require("remotes"))
+  install.packages("remotes")
+remotes::install_github(c("ropensci/weatherOz", "hrbrmstr/hrbrthemes"),
+                        build_vignettes = TRUE
+)
+```
+
+Now, the first question I had from reading the article was, "which station in Perth is this"?
+As that is not clear, we will see what is available from {weatherOz} keeping in mind that we also have Western Australia's Department of Primary Industries and Regional Development's (DPIRD) weather stations available to us for later years as well and that the SILO data are *derived* from BOM.
+
+With that in mind, let's see what stations are available for Perth.
+
+## Finding Perth
+This turned out to be more difficult than I expected.
+{weatherOz} provides a `find_stations_in()` function that we can use with either an `sf` object or a bounding box to find stations in a geographic area of interest.
+
+For this post, I have opted to use an `sf` object that I created by downloading ["Greater Capital City Statistical Areas - 2021 - Shapefile"](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/GCCSA_2021_AUST_SHP_GDA2020.zip) from the [Australian Bureau of Statistics (ABS)](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files).
+
+```{r greater_perth}
+library(sf)
+
+# set up a filepath and name for the zip file
+geo_zip <- file.path(tempdir(), "GCCSA_2021_AUST_SHP_GDA2020.zip")
+
+# download the zip file to our specified file path/file name.
+download.file(
+  url = "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/GCCSA_2021_AUST_SHP_GDA2020.zip",
+  destfile = geo_zip,
+  mode = "wb",
+)
+
+# unzip the file in the `tempdir()`
+unzip(geo_zip, exdir = tempdir())
+
+# check the name of the new files in `tempdir()`
+list.files(tempdir())
+
+# read the shapefile as an `sf` object
+abs_shp <- st_read(dsn = file.path(tempdir(),
+                                   layer = "GCCSA_2021_AUST_GDA2020.shp"))
+
+# inspect the new object
+abs_shp
+
+# subset for only Perth
+greater_perth <- subset(x = abs_shp, GCC_NAME21 == "Greater Perth")
+```
+
+## Finding Weather Stations in the Greater Perth Area
+
+With that available, let's find stations that fall within the greater Perth area as defined by the ABS.
+As we need API keys to access the data from {weatherOz}, I'll use [{keyring}](https://keyring.r-lib.org/index.html) to safely handle credentials.
+The query as defined here includes closed stations, since many early records may be from closed stations.
+
+```{r find_perth_stations}
+library(weatherOz)
+
+perth_stations <- find_stations_in(x = greater_perth,
+                                   api_key = keyring::key_get("DPIRD_API_KEY"),
+                                   include_closed = TRUE)
+
+# inspect the `perth_stations` object
+summary(perth_stations)
+```
+
+This query returns `r nrow(perth_stations)` stations, but some are listed with "`CAUTION: Do not use these observations`".
+Others are from a portable station, which may not be reliable.
+Let's drop these stations.
+
+```{r remove_CAUTION_stations}
+perth_stations <- subset(x = perth_stations,
+                         source != "CAUTION: Do not use these observations")
+perth_stations <- perth_stations[!grepl("Portable",
+                                        perth_stations$station_name), ]
+```
+
+Now there are `r nrow(perth_stations)` stations that start on `r min(perth_stations$start)` and run to current.
+
+## Map the Stations
+
+We can map the stations within the greater Perth area to see where they fall using {ggplot2}, who the station owner is and see if they are open or closed.
+I've chosen to add a new column to use for the legend to indicate the station data source (owner) in a cleaner fashion using the abbreviation only to save space in the plot legend.
+I've used the excellent [Okabe and Ito palette](https://jfly.uni-koeln.de/color/) for this colour scheme as it is colour-blind friendly and easy to see here along with Bob Rudis's excellent [{hrbrthemes}](https://github.com/hrbrmstr/hrbrthemes).
+Lastly, using [{ggdark}](https://github.com/nsgrantham/ggdark) I've inverted the colour theme to use a dark background with `theme_ipsum`.
+
+```{r map, fig.fullwidth=TRUE}
+library(ggplot2)
+library(hrbrthemes)
+library(ggdark)
+
+perth_stations[, source_abbr := unlist(regmatches(
+  perth_stations$source,
+  gregexpr("(?<=\\().*?(?=\\))", perth_stations$source, perl = TRUE)
+))]
+
+ggplot(greater_perth) +
+  geom_sf() +
+  geom_point(
+    data = perth_stations,
+    aes(
+      x = longitude,
+      y = latitude,
+      colour = status,
+      shape = source_abbr
+    ),
+    size = 2
+  ) +
+  scale_colour_manual(values = c("#E69F00", "#56B4E9")) +
+  scale_x_continuous(limits = c(115.3, 116.5),
+                     guide = guide_axis(n.dodge = 2)) +
+  coord_sf() +
+  labs(title = "Weather Stations in Greater Perth",
+       caption = "Data from BOM and WA DPIRD") +
+  dark_mode(theme_ipsum())
+```
+
+## Visualise Station Availability
+
+To visualise the data availability for the stations' start and end dates, we will use {ggplot2} again.
+
+```{r station_years, fig.height=12}
+ggplot(perth_stations) +
+  geom_segment(
+    aes(
+      x = start,
+      xend = end,
+      y = station_name,
+      yend = station_name,
+      linetype = source_abbr
+    ),
+    colour = "#56B4E9"
+  ) +
+  scale_y_discrete(limits = rev) +
+  labs(linetype = "Source") +
+  ylab("Station Name") +
+  xlab("Start and End Date") +
+  dark_mode(theme_ipsum())
+```
+
+## Get Weather Data for Perth Stations
+
+Using both the DPIRD and SILO APIs we can get weather from the mid-1800s to current.
+
+### Get DPIRD Stations' Data
+
+We will start with the DPIRD and DPIRD-hosted station data by creating a vector of `station_code` values for stations that are NOT BOM stations using `subset()` and then use `droplevels()` to drop unused factor levels from the vector.
+
+```{r get_dpird_perth_weather}
+dpird_stations <- subset(perth_stations, source_abbr != "BOM")
+dpird_stations <- droplevels(dpird_stations)
+
+dpird_station_values <- vector(mode = "list", length = nrow(dpird_stations))
+names(dpird_station_values) <- dpird_stations$station_name
+```
+
+There can be some hiccups when querying station data.
+It's a good idea to wrap it in a `tryCatch()` or something like `purrr::possibly()`.
+I'm a fan of using `possibly()` for these sorts of issues.
+It makes it easy to spot stations with errors and investigate, but more importantly, it means you can use `purrr::map()`, `lapply()` or a `for` loop and if there is an error, you get the message you have specified and the operation carries on with the rest of the stations rather than stopping.
+
+```{r dpird_use_possibly}
+library(purrr)
+
+p_summaries <- possibly(get_dpird_summaries,
+                        otherwise = "There was an issue with this station.")
+```
+Now we will fill the list with weather data for the stations located in Greater Perth in the DPIRD network.
+
+```{r get_dpird_station_data}
+for (i in seq_len(nrow(dpird_stations))) {
+  dpird_station_values[[i]] <- p_summaries(
+    station_code = dpird_stations$station_code[i],
+    start_date = dpird_stations$start[i],
+    end_date = dpird_stations$end[i],
+    values = "airTemperatureMax",
+    api_key = keyring::key_get("DPIRD_API_KEY")
+  )
+}
+
+# inspect the new object
+
+summary(dpird_station_values)
+```
+
+We can see an error with "Medina".
+So we can drop that one using indexing, it's the 9th entry, and bind the list into a single data frame using `data.table::rbindlist()`.
+
+```{r drop_md_bind}
+library(data.table)
+dpird_station_values <- within(dpird_station_values, rm(Medina))
+dpird_station_values <- rbindlist(dpird_station_values[-c(9)])
+```
+
+### Get BOM Stations' Data
+
+```{r get_bom_perth_weather}
+bom_stations <- subset(perth_stations, source_abbr == "BOM")
+bom_stations <- droplevels(bom_stations)
+
+bom_station_values <- vector(mode = "list", length = nrow(bom_stations))
+names(bom_station_values) <- bom_stations$station_name
+```
+
+Following the same method as with the DPIRD station network, use `possibly()` to ensure that there are no interruptions when fetching data.
+
+```{r bom_use_possibly}
+p_patched_point <- possibly(get_patched_point,
+                            otherwise = "There was an issue with this station.")
+```
+Now we will fill the list with weather data for the stations located in Greater Perth in the DPIRD network.
+
+```{r get_bom_station_data}
+for (i in seq_len(nrow(bom_stations))) {
+  bom_station_values[[i]] <- p_patched_point(
+    station_code = bom_stations$station_code[i],
+    start_date = bom_stations$start[i],
+    end_date = bom_stations$end[i],
+    values = "max_temp",
+    api_key = keyring::key_get("SILO_API_KEY")
+  )
+}
+
+# inspect the new object
+
+summary(bom_station_values)
+```
+
+Unsurprisingly there were a few issues along the way.
+Again, we can remove the stations by index.
+This time, since the list is much longer, use `grep()` to locate the faulty stations and drop them from the list while binding it into a single data frame.
+
+```{r drop_bad_bom_bind}
+bom_station_values <- rbindlist(
+  bom_station_values[-c(grep("There was an issue with this station.",
+                          bom_station_values, perl = TRUE))])
+```
+
+## Create Data Set for Plotting
+
+Now that we have clean sets of data we can bind the two sets of data.
+{weatherOz} intentionally sets the column names to be the same, regardless of the API queried to make this easy to do.
+Using `data.table::bindrows()` option, `fill = TRUE` makes this easier than dropping columns that are not shared.
+
+```{r bind_data}
+perth_weather <- rbind(dpird_station_values, bom_station_values, fill = TRUE)
+
+summary(perth_weather)
+```
+
+Surprisingly, there are a few `NA` values in the data, so we will drop those.
+
+```{r drop_na}
+perth_weather <- subset(x = perth_weather, !is.na(air_tmax))
+
+summary(perth_weather)
+```
+
+We are only interested in the month of May, so we will remove all the other months' data by selecting only May (`month = 5`).
+
+```{r only_may}
+perth_weather <- subset(x = perth_weather, month == 5)
+```
+
+Now we need to find the highest May temperatures for each station of each year.
+Using `.SD` from {data.table}, we get this.
+
+```{r highest_of_highs}
+perth_highs <- perth_weather[, .SD[which.max(air_tmax)],
+                             by = c("year", "station_code")]
+```
+
+Next, create the annual mean.
+
+```{r annual_mean}
+perth_highs_mean <- perth_highs[, .(air_tmax = round(mean(air_tmax), 0)),
+                                by = year]
+```
+
+## Plotting May High Temperatures
+
+Now we have a good data set for plotting.
+
+Using {ggplot2} we can plot the high temperature for each station in May in light grey in the background with the mean stations' maximum temperatures in the foreground.
+We can use [{ggiraph}](https://davidgohel.github.io/ggiraph/) to make the plot interactive, similar to the ABC's interactive version but with the extra data and greater ability to see the data points of all the stations each year.
+
+```{r ggplot_may, fig.height=7}
+library(ggiraph)
+
+p <- ggplot(perth_highs, aes(x = year, y = air_tmax)) +
+  geom_line(colour = "lightgrey",
+            alpha = 0.1,
+            aes(group = station_code)) +
+  geom_line(
+    data = perth_highs_mean,
+    aes(x = year, y = air_tmax),
+    colour = "#E69F00",
+    linewidth = 0.75
+  ) +
+  geom_point_interactive(
+    data = perth_highs_mean,
+    aes(
+      x = year,
+      y = air_tmax,
+      tooltip = air_tmax,
+      data_id = air_tmax
+    ),
+    colour = "#E69F00"
+  ) +
+  ylab("Maximum Air Temperature ˚C") +
+  xlab("Year") +
+  labs(title = "Greater Perth May High Temperatures",
+       subtitle = "Data for 71 stations sourced from Qld SILO and WA DPIRD under CC Licences") +
+  dark_mode(theme_ipsum())
+
+girafe(ggobj = p)
+```
+
+Obviously, this data does not match ABC's exactly, it does go back farther into the 1800s, 1852, with the inclusion of Fremantle and likely has more data in the more recent years with the inclusion of the DPIRD network data.
+Still, it is a fun exercise to work through getting the data, subsetting it and visualising.
