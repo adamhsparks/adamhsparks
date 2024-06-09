@@ -203,13 +203,11 @@ for (i in seq_len(nrow(dpird_stations))) {
 summary(dpird_station_values)
 ```
 
-We can see an error with "Medina".
-So we can drop that one using indexing, it's the 9th entry, and bind the list into a single data frame using `data.table::rbindlist()`.
+Next, bind the list into a single data frame object using `data.table::rbindlist()`.
 
 ```{r drop_md_bind}
 library(data.table)
-dpird_station_values <- within(dpird_station_values, rm(Medina))
-dpird_station_values <- rbindlist(dpird_station_values[-c(9)])
+dpird_station_values <- rbindlist(dpird_station_values)
 ```
 
 ### Get BOM Stations' Data
@@ -228,7 +226,7 @@ Following the same method as with the DPIRD station network, use `possibly()` to
 p_patched_point <- possibly(get_patched_point,
                             otherwise = "There was an issue with this station.")
 ```
-Now we will fill the list with weather data for the stations located in Greater Perth in the DPIRD network.
+Now we will fill the list with weather data for the stations located in Greater Perth in the BOM network.
 
 ```{r get_bom_station_data}
 for (i in seq_len(nrow(bom_stations))) {
@@ -247,8 +245,7 @@ summary(bom_station_values)
 ```
 
 Unsurprisingly there were a few issues along the way.
-Again, we can remove the stations by index.
-This time, since the list is much longer, use `grep()` to locate the faulty stations and drop them from the list while binding it into a single data frame.
+As there are a few stations with issues, I've chosen to use `grep()` to locate the faulty stations and drop them from the list while binding it into a single data fram object.
 
 ```{r drop_bad_bom_bind}
 bom_station_values <- rbindlist(

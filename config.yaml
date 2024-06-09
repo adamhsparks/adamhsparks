@@ -46,10 +46,7 @@ params:
     url: logo.png
     width: 50
 markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    renderer:
-      unsafe: yes
+  defaultMarkdownHandler: blackfriday
   highlight:
     codeFences: true
     hl_Lines: ""
