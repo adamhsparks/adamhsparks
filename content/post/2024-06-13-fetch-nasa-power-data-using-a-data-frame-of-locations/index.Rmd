@@ -1,0 +1,43 @@
+---
+title: Fetch NASA POWER Data Using a Data Frame of Locations
+author: Adam Sparks
+date: '2024-06-13'
+slug: fetch-nasa-power-data-using-a-data-frame-of-locations
+categories: []
+tags: [R, nasapower]
+comments: no
+images: ~
+---
+
+Usually when you use [{nasapower}](https://ropensci.github.io/nasapower/index.html) to fetch data, you use a vector of longitude and latitude locations to make requests from the API.
+But if you have coordinates in a data frame, *e.g.*, sample locations with sampling dates that you want POWER weather data for, it may not be as intuitive.
+Here's a quick illustration how you can use a data frame object to feed into [`get_power()`](https://ropensci.github.io/nasapower/reference/get_power.html) and fetch relative humidity data that way using [{purrr}](https://purrr.tidyverse.org/) and [{dplyr}](https://dplyr.tidyverse.org/).
+
+```{r get-power-from-df}
+library("nasapower")
+library("purrr")
+library("dplyr")
+
+df <- data.frame(
+  stringsAsFactors = FALSE,
+  lon = c(151.81, 112.5, 115.5),
+  lat = c(-27.48, -55.5, -50.5),
+  date = c("3/3/2023", "5/12/2023", "1/3/2024")
+)
+
+xy_list <-
+  as.list(as.data.frame(t(df[, 1:2]),
+                        stringsAsFactors = FALSE,
+                        row.names = NA))
+
+bind_rows(
+  map2(
+    .x = xy_list,
+    .y = df$date,
+    .f = get_power,
+    community = "ag",
+    pars = "RH2M",
+    temporal_api = "daily",
+  )
+)
+```
