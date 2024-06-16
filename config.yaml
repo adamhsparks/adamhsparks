@@ -48,7 +48,7 @@ params:
     - name: pixelfed
       url: 'https://pixelfed.au/adamhsparks/'
     - name: keyoxide
-      url: 'https://keyoxide.org/aspe%3Akeyoxide.org%3APWBJROMM3AX3LXP4VVH47CSVRE'
+      url: 'https://keyoxide.org/adamhsparks@icloud.com'
 menu:
   main:
     - name: About
