@@ -90,6 +90,7 @@ expiryDate = ["expiryDate"]
 
   #homeSubtitle = "CHANGE ME HOME SUBTITLE"
   footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
+  # footerHideThemeName = false
   # bgImg = ""
   # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 
@@ -112,6 +113,14 @@ expiryDate = ["expiryDate"]
   # pinnedSVGname = "pin"
   # descriptionInPosts= true
   # initialPublish = "Initally Posted on: "
+  # human = ["single","posts"]
+  # noIndex = false
+  # denyRobots = "noindex, nofollow, noarchive"
+  # allowRobots = "index, follow"
+  # siteNoIndex = false
+  # noIndexPages = ["404 Page not found"]
+  # usesAnimation = true # Defaults to true
+
   
   [[params.socialLinks]]
     name = "mastodon"

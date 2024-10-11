@@ -8,7 +8,7 @@
 {{- partial "site-meta.html" . -}}
 {{ $author := (.Params.author | default .Site.Params.author.name) -}}<meta name="author" content="{{ $author }}">
 {{- with .Page.Params.description | default .Site.Params.description -}}<meta name="description" content="{{.}}">{{- end -}}
-{{- partial "structured-data.html" . -}}
+{{- partial "structure-extra.html" . -}}
 <title>{{.Title}}</title>
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Title | safeHTML }}
@@ -20,7 +20,8 @@
 <link rel="stylesheet preload prefetch" as="style" href="{{ $c_css.Permalink }}" {{ printf "integrity=%q" $c_css.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous">
 {{- end -}}
 {{- block "head" . -}}{{- end -}}
-{{- if templates.Exists "partials/extra-head.html" -}}{{- partial "extra-head.html" . -}}{{- end -}}</head>
+{{- if templates.Exists "partials/extra-head.html" -}}{{- partial "extra-head.html" . -}}{{- end -}}
+</head>
 <body id="page">
 {{- if .Site.Params.googleTagManager -}}{{- partial "googleTagManager_body.html" . -}}{{- end -}}
 {{- block "header" . -}}{{ end -}}

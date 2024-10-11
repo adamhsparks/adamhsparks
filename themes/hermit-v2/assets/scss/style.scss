@@ -1,9 +1,10 @@
 @import "predefined.scss";
 @import "normalize.scss";
 @import "syntax.scss";
+{{ if ne false .Site.Params.usesAnimation }}
 @import "animate.scss";
+{{ end }}
 @import "scroll.scss";
-@import "admonition.scss";
 @import "socialshare.scss";
 {{ if (fileExists "assets/scss/userstyles.scss") }}
 @import "userstyles.scss";
@@ -959,6 +960,11 @@ a.footnote-ref {
   #home-subtitle {
     font-size: 0.5em;
   }
+}
+
+.human{
+  display: flex;
+  justify-content: flex-end;
 }
 
 // If homeSubtitlePrinter is true
