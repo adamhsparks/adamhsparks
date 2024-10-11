@@ -35,3 +35,5 @@ As a part of practising open science and reproducible research, some of my softw
 * [{PowerSDI}](https://github.com/gabrielblain/PowerSDI/) - Calculate standardized drought indices using NASA POWER data in R
 
 * [{CropWaterBalance}](https://github.com/gabrielblain/CropWaterBalance) - Climate water balance for irrigation purposes in R
+
+* [{read.abares}](https://adamhsparks.codeberg.page/read.abares/) - Simple downloading and importing of ABARES (Australian Bureau of Agricultural and Resource Economics and Sciences) Data
