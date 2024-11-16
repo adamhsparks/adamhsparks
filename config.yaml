@@ -43,8 +43,6 @@ params:
       url: 'https://rstats.me/@adamhsparks/'
     - name: linkedin
       url: 'https://www.linkedin.com/in/adam-h-sparks/'
-    - name: instagram
-      url: 'https://instagram.com/adamhsparks/'
     - name: pixelfed
       url: 'https://pixelfed.au/adamhsparks/'
     - name: keyoxide
