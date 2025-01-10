@@ -1,10 +1,11 @@
 # Hermit-V2 _- The Minimal Hugo Theme_
 
-hermit-V2 is a minimal and fast theme for Hugo, built for bloggers who want a simple and focused website. This is a maintained fork of [Hermit](https://github.com/Track3/hermit), which iterates over the original work to have production-ready experience with bug fixes and new features.
+Hermit-V2 is a minimal and fast theme for Hugo, built for bloggers who want a simple and focused website. This is a maintained fork of [Hermit](https://github.com/Track3/hermit), which iterates over the original work to have production-ready experience with bug fixes and new features.
 
 ![](https://raw.githubusercontent.com/1bl4z3r/hermit-V2/main/images/screenshot.jpg)
 
-## First Impression
+
+## First Impression & Demo
 
 Check out Hermit-V2 : [https://1bl4z3r.github.io/hermit-V2](https://1bl4z3r.github.io/hermit-V2)
 This demo also acts as an documentation for the theme, utilizing its powerful features.
@@ -42,15 +43,6 @@ To update submodule and to have the latest version of the theme with your projec
 git submodule update --remote
 ```
 
-### Sites using hermit-V2
-
-__Sites using hermit-V2__ is a user contributed list of all the blogs/pages that is using hermit-V2 in some capacity. It could be any component of the theme from landing page or a partial to full fledged use of the theme. The objective of this section is to :
-
-- Help new and aspiring bloggers/webmasters to get inspiration from
-- Create a sense of community
-
-You can find currently listed sites from [Sites-using-hermit‐V2](https://github.com/1bl4z3r/hermit-V2/wiki#sites-using-hermit-v2) and you can add your site by raising an [issue](https://github.com/1bl4z3r/hermit-V2/issues/new?assignees=1bl4z3r&labels=hermit-V2+sites&projects=&template=add-remove-sites-using-hermit-v2.md&title=Add+to+Sites+using+hermit-V2).
-
 ## First Use Knowledge
 
 ### Features Inherited from Original Theme
@@ -76,18 +68,22 @@ custom_css = ["custom_css/foo.css","custom_css/bar.css"]
 custom_js = ["custom_js/custom-about.js"]
 ```
 
-The files itself will reside in `assets` directory. Refer to [Staging Branch](https://github.com/1bl4z3r/hermit-V2/tree/staging) to have a feel on how [this](https://github.com/1bl4z3r/hermit-V2/blob/staging/content/about-hugo.md) is implemented.
+The files itself will reside in `assets` directory. Namely:
+- `/assets/custom_css/<file_name>.css` for CSS files
+- `/assets/custom_js/<file_name>.js` for JS files
 
-### Custom styles
-
-If, for some reason, you want to apply style for the whole theme, which should be seperate from core theme styles, you can add _userstyles.scss_ in `assets/scss/`. If the file exists, it will be imported during build process.
+Refer to [Staging Branch](https://github.com/1bl4z3r/hermit-V2/tree/staging) to have a feel on how [this](https://github.com/1bl4z3r/hermit-V2/blob/staging/content/about-hugo.md) is implemented.
 
 ### Customize theme
 
 This theme allows to be customized. To customize, copy the respective scss file from the theme to site's `assets/scss/` and edit them to your liking.
 
-* To customize theme, Scroll to Top button and Admonition colors, copy [__colors.scss_](https://github.com/1bl4z3r/hermit-V2/blob/staging/assets/scss/_colors.scss)
+* To customize theme colours, copy [__colors.scss_](https://github.com/1bl4z3r/hermit-V2/blob/staging/assets/scss/_colors.scss)
 * To customize theme fonts, copy [__fonts.scss_](https://github.com/1bl4z3r/hermit-V2/blob/staging/assets/scss/_fonts.scss)
+* To customize code block colours, copy [__syntax.scss_](https://github.com/1bl4z3r/hermit-V2/blob/staging/assets/scss/_syntax.scss)
+* To change CSS effects limited to single page or few pages, add following to your page FrontMatter
+`custom_css = ["custom_css/foo.css","custom_css/bar.css"]`, and add the relevant SCSS files in `assets/custom_css` directory. You may find additional help in [Custom CSS and JS](#custom-css-and-js).
+* To change css styling sitewide, add `userstyles.scss` and modify Stylesheets to your liking. This styles are applied to very end of stylesheet, superseding in-built ones.
 
 ### Extend functionality
 
@@ -135,7 +131,7 @@ The following icons are supported, please make sure the `name` field is exactly 
 | `dreamstime`      | `dribbble`   | `behance`      | `123rf`         | `paypal`     |
 | `twitch`          | `qq`         | `mastodon`     | `discord`       | `matrix`     |
 | `etsy`            | `tiktok`     | `imgur`        | `bluesky`       | `xmpp`       |
-| `medium`          | `medium old` | `pixelfed`     |                 |              |
+| `medium`          | `medium old` | `pixelfed`     | `ko-fi`         | `threads`    |
 
 
 If that's not enough, you can see [Extend functionality](#extend-functionality) section.
@@ -144,15 +140,6 @@ If that's not enough, you can see [Extend functionality](#extend-functionality) 
 
 * Keep your regular pages in the `content` folder. To create a new page, run `hugo new page-title.md`
 * Keep your blog posts in the `content/posts` folder. To create a new post, run `hugo new posts/post-title.md`
-
-### Customize CSS
-
-1. **Change predefined colors/effects** - If you'd like to customize theme color or fonts, you can simply override `assets/scss/_predefined.scss`, by simply copy it to site's root (keep the same relative path) then edit those variables.
-2. **Change CSS effects limited to single page or few pages** - Add following to your page FrontMatter
-`custom_css = ["custom_css/foo.css","custom_css/bar.css"]`, and add the relevant SCSS files in `assets` directory. You may find additional help in [Custom CSS and JS](#custom-css-and-js).
-3. **Change css styling sitewide** - If you are unhappy with how the theme looks and feels and want to change some (or all) of it to make it truly your own, you can do so by adding `assets/scss/userstyles.scss` to your site's root and modify Stylesheets to your liking.
-
-You'll need **Hugo extended version**, which has the ability to rebuild SCSS. You don't have to use extended version in production, but in this case it's necessary to make sure the `resources` folder is committed and "up to date" (by running `hugo` or `hugo server` locally using the extended version). But anyway, always use the extended version if you can.
 
 ### LaTeX in Markdown
 
@@ -165,6 +152,17 @@ This theme is made specifically with translation in mind. Translations of few la
 1. Create translation tables in the i18n directory, naming each file according to RFC 5646. E.g. `i18n/<2-2 Language Code>.toml`. To find your Language code, visit [https://gist.github.com/msikma/8912e62ed866778ff8cd](https://gist.github.com/msikma/8912e62ed866778ff8cd) to get an idea for the code. See [Staging Branch](https://github.com/1bl4z3r/hermit-V2/tree/staging) to see how this is implemented.
 2. Copy [English Translation key](https://github.com/1bl4z3r/hermit-V2/blob/staging/i18n/en.toml) and edit to your language. Edit the section `other = "<In your Language>"`.
 
+### Sites using hermit-V2
+
+__Sites using hermit-V2__ is a user contributed list of all the blogs/pages that is using hermit-V2 in some capacity. It could be any component of the theme from landing page or a partial to full fledged use of the theme. The objective of this section is to :
+
+- Help new and aspiring bloggers/webmasters to get inspiration from
+- Create a sense of community
+
+You can find currently listed sites from [Sites-using-hermit‐V2 (https://github.com/1bl4z3r/hermit-V2/wiki#sites-using-hermit-v2)](https://github.com/1bl4z3r/hermit-V2/wiki#sites-using-hermit-v2) and you can add your site by raising an [issue](https://github.com/1bl4z3r/hermit-V2/issues/new?assignees=1bl4z3r&labels=hermit-V2+sites&projects=&template=add-remove-sites-using-hermit-v2.md&title=Add+to+Sites+using+hermit-V2).
+
+## Share your thoughts
+Share your thoughts on how to make this theme more suited for you. It could be a general feedback or something that couldn't be classified as an Issue. You can share it in Discussions : [https://github.com/1bl4z3r/hermit-V2/discussions](https://github.com/1bl4z3r/hermit-V2/discussions)
 
 ## Acknowledgments
 

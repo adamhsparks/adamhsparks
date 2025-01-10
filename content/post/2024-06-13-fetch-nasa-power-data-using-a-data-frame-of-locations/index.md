@@ -63,16 +63,53 @@ bind_rows(
 ```
 
 ```
-## NASA/POWER CERES/MERRA2 Native Resolution Daily Data  
-##  Dates (month/day/year): 03/03/2023 through 03/03/2023  
-##  Location: Latitude  -27.48   Longitude 151.81  
-##  Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 442.77 meters 
-##  The value for missing source data that cannot be computed or is outside of the sources availability range: NA  
-##  Parameter(s):  
-##  
-##  Parameters: 
-##  RH2M     MERRA-2 Relative Humidity at 2 Meters (%)  
-##  
+## ────────────────────────────────────────────────────────────────────────────────
+```
+
+```
+## 
+```
+
+```
+## ── NASA/POWER Source Native Resolution Daily Data  ─────────────────────────────
+```
+
+```
+## Dates (month/day/year): 03/03/2023 through 03/03/2023 in LST
+```
+
+```
+## Location: latitude -27.48 longitude 151.81
+```
+
+```
+## elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 442.77
+## meters
+```
+
+```
+## The value for missing source data that cannot be computed or is outside of the
+## sources availability range: NA
+```
+
+```
+## parameter(s):
+```
+
+```
+## ────────────────────────────────────────────────────────────────────────────────
+```
+
+```
+## Parameters:
+```
+
+```
+## RH2M MERRA-2 Relative Humidity at 2 Meters (%)
+```
+
+```
+## ────────────────────────────────────────────────────────────────────────────────
 ## # A tibble: 3 × 8
 ##     LON   LAT  YEAR    MM    DD   DOY YYYYMMDD    RH2M
 ##   <dbl> <dbl> <dbl> <int> <int> <int> <date>     <dbl>

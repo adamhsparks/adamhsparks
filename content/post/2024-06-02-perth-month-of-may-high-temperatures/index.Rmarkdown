@@ -1,7 +1,7 @@
 ---
 title: Plotting Perth Month of May High Temperatures with {weatherOz}
 author: Adam H. Sparks
-date: '2024-06-02'
+date: '2025-01-10'
 slug: []
 categories: [R]
 tags: [R, weather, weatherOz]
@@ -16,14 +16,13 @@ output:
 Recently the ABC had [an article](https://www.abc.net.au/news/2024-05-18/australia-s-weather-stalls-for-the-second-time-this-month/103862310) that covered the high temperatures for Perth in May from 1897 to current with a chart showing the values over time.
 I thought it would be fun to use [{weatherOz}](https://docs.ropensci.org/weatherOz/) to recreate this and maybe dig a little deeper.
 
-To start, you will need to install {weatherOz}, which currently is not on CRAN (yet) and [{hrbrthemes}](https://hrbrmstr.github.io/hrbrthemes/) from GitHub as it is ahead of the CRAN version.
+To start, you will need to install {weatherOz}, which currently was not on CRAN (when this was originally written) and [{hrbrthemes}](https://hrbrmstr.github.io/hrbrthemes/) from GitHub as it is ahead of the CRAN version.
 
 ```{r, eval=FALSE}
 if (!require("remotes"))
   install.packages("remotes")
-remotes::install_github(c("ropensci/weatherOz", "hrbrmstr/hrbrthemes"),
-                        build_vignettes = TRUE
-)
+remotes::install_github("hrbrmstr/hrbrthemes", build_vignettes = TRUE)
+install.packages("weatherOz")
 ```
 
 Now, the first question I had from reading the article was, "which station in Perth is this"?

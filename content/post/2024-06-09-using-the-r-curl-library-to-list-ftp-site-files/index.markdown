@@ -23,7 +23,7 @@ library(curl)
 ```
 
 ```
-## Using libcurl 8.6.0 with LibreSSL/3.3.6
+## Using libcurl 8.7.1 with LibreSSL/3.3.6
 ```
 
 ``` r

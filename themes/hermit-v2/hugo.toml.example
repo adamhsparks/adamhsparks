@@ -8,6 +8,7 @@ baseURL = "CHANGE BASE URL"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 #theme = "hermit-v2"
+#enableRobotsTXT = true ## set to true to enable inbuilt robots.txt
 
 #[languages]
 #  [languages.en]
@@ -87,6 +88,7 @@ expiryDate = ["expiryDate"]
   # description = "CHANGE ME SITE DESCRIPTION"
   # images = [""]
   themeColor = "#494f5c"
+  accentColor = "#018472"
 
   #homeSubtitle = "CHANGE ME HOME SUBTITLE"
   footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
@@ -119,8 +121,7 @@ expiryDate = ["expiryDate"]
   # allowRobots = "index, follow"
   # siteNoIndex = false
   # noIndexPages = ["404 Page not found"]
-  # usesAnimation = true # Defaults to true
-
+  # usesAnimation = true
   
   [[params.socialLinks]]
     name = "mastodon"

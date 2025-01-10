@@ -9,6 +9,7 @@
 {{ $author := (.Params.author | default .Site.Params.author.name) -}}<meta name="author" content="{{ $author }}">
 {{- with .Page.Params.description | default .Site.Params.description -}}<meta name="description" content="{{.}}">{{- end -}}
 {{- partial "structure-extra.html" . -}}
+{{- partial "webschema.html" . -}}
 <title>{{.Title}}</title>
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Title | safeHTML }}
@@ -46,6 +47,7 @@
 <script defer src="{{ $c_js.Permalink }}" {{ printf "integrity=%q" $c_js.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous"></script>
 {{- end }}
 {{- partial "mathjax.html" . -}}
+{{- partial "mermaid.html" . -}}
 {{- if templates.Exists "partials/extra-foot.html" -}}{{- partial "extra-foot.html" . -}}{{- end }}
 </body>
 
