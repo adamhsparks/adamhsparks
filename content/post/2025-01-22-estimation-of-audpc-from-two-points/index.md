@@ -24,7 +24,7 @@ audpc_2_points <- function(time, y0, yT) {
 }
 ```
 
-Using the example from dos S. Alves and Del Ponte (2021) we can calculate AUDPC using the trapezoidal method.
+Using the [example as seen in the documentation for AUDPC](https://alvesks.github.io/epifitter/reference/AUDPC.html) from dos S. Alves and Del Ponte (2021) we can calculate AUDPC using the trapezoidal method.
 
 ``` r
 library(epifitter)
