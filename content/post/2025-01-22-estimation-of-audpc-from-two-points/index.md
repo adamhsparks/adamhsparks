@@ -79,7 +79,7 @@ dos S. Alves, Kaique, and Emerson M. Del Ponte. 2021. *<span class="nocase">epif
 
 <div id="ref-Jeger2001" class="csl-entry">
 
-Jeger, M. J., and S. L. H. Viljanen-Rollinson. 2001. “The Use of the Area Under the Disease-Progress Curve (AUDPC) to Assess Quantitative Disease Resistance in Crop Cultivars.” *Theoretical and Applied Genetics* 102: 32–40.
+Jeger, M. J., and S. L. H. Viljanen-Rollinson. 2001. “The Use of the Area Under the Disease-Progress Curve (AUDPC) to Assess Quantitative Disease Resistance in Crop Cultivars.” *Theoretical and Applied Genetics* 102: 32–40. <https://doi.org/10.1007/s001220051615>.
 
 </div>
 
