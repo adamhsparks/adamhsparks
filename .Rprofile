@@ -21,5 +21,6 @@ options(
   blogdown.method = 'markdown',
   blogdown.ext = '.Rmd',
   blogdown.author = "Adam Sparks",
-  blogdown.subdir = "post"
+  blogdown.subdir = "post",
+  blogdown.hugo.version = "0.141.0"
 )
