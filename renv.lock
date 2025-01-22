@@ -104,14 +104,14 @@
     },
     "Rcpp": {
       "Package": "Rcpp",
-      "Version": "1.0.13-1",
+      "Version": "1.0.14",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "methods",
         "utils"
       ],
-      "Hash": "6b868847b365672d6c1677b1608da9ed"
+      "Hash": "e7bdd9ee90e96921ca8a0f1972d66682"
     },
     "Rttf2pt1": {
       "Package": "Rttf2pt1",
@@ -194,17 +194,18 @@
     },
     "bit64": {
       "Package": "bit64",
-      "Version": "4.5.2",
+      "Version": "4.6.0-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "bit",
+        "graphics",
         "methods",
         "stats",
         "utils"
       ],
-      "Hash": "e84984bf5f12a18628d9a02322128dfd"
+      "Hash": "4f572fbc586294afff277db583b9060f"
     },
     "blob": {
       "Package": "blob",
@@ -340,7 +341,7 @@
     },
     "clock": {
       "Package": "clock",
-      "Version": "0.7.1",
+      "Version": "0.7.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -352,7 +353,7 @@
         "tzdb",
         "vctrs"
       ],
-      "Hash": "3dcaebd52554438d12989e5061e15de8"
+      "Hash": "64780087d11447eb617fc566f26bee15"
     },
     "colorspace": {
       "Package": "colorspace",
@@ -478,13 +479,13 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "1.0.1",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "3fd29944b231036ad67c3edb32e02201"
+      "Hash": "e9651417729bbe7472e32b5027370e79"
     },
     "extrafont": {
       "Package": "extrafont",
@@ -592,7 +593,7 @@
     },
     "foreign": {
       "Package": "foreign",
-      "Version": "0.8-87",
+      "Version": "0.8-88",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -601,7 +602,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "81fc09bdeab0077a73927ed1243404b6"
+      "Hash": "ffaf42daf543339d0961120cb1de57b8"
     },
     "fs": {
       "Package": "fs",
@@ -752,13 +753,8 @@
     "hrbrthemes": {
       "Package": "hrbrthemes",
       "Version": "0.8.7",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "hrbrmstr",
-      "RemoteRepo": "hrbrthemes",
-      "RemoteRef": "master",
-      "RemoteSha": "6417996c2931b3fa84102b5034a42a920c91fdb9",
+      "Source": "Repository",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "extrafont",
@@ -771,7 +767,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "bfe1c9a1ade50d723175c7ac7352f6c5"
+      "Hash": "c115b4507f9fc1c754649e1d5899c46d"
     },
     "htmltools": {
       "Package": "htmltools",
@@ -1213,14 +1209,14 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.1.4",
+      "Version": "1.1.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "3eec01f8b1dee337674b2e34ab1f9bc1"
+      "Hash": "724dcc1490cd7071ee75ca2994a5446e"
     },
     "rmarkdown": {
       "Package": "rmarkdown",
@@ -1361,19 +1357,23 @@
     },
     "systemfonts": {
       "Package": "systemfonts",
-      "Version": "1.1.0",
+      "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "cpp11",
-        "lifecycle"
+        "grid",
+        "jsonlite",
+        "lifecycle",
+        "tools",
+        "utils"
       ],
-      "Hash": "213b6b8ed5afbf934843e6c3b090d418"
+      "Hash": "f8b2924480a2679e2bad9750646112fe"
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.8-5",
+      "Version": "1.8-10",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1381,7 +1381,7 @@
         "Rcpp",
         "methods"
       ],
-      "Hash": "6e3f2c53b58161327fe5787fe1a63d02"
+      "Hash": "03e35a7e2b044d284afe186c9b9f833d"
     },
     "tibble": {
       "Package": "tibble",
@@ -1556,14 +1556,9 @@
     },
     "weatherOz": {
       "Package": "weatherOz",
-      "Version": "1.0.0.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteUsername": "ropensci",
-      "RemoteRepo": "weatheroz",
-      "RemoteRef": "main",
-      "RemoteSha": "c0133d2fb913c098068792e3cdce10c64e4d550a",
-      "RemoteHost": "api.github.com",
+      "Version": "1.0.0",
+      "Source": "Repository",
+      "Repository": "https://packagemanager.posit.co/cran/2024-09-30",
       "Requirements": [
         "R",
         "apsimx",
@@ -1586,7 +1581,7 @@
         "utils",
         "xml2"
       ],
-      "Hash": "39af991bac0b18ee081da0ce184f2396"
+      "Hash": "261b6552692e414fe2ce13b3c057683e"
     },
     "withr": {
       "Package": "withr",
