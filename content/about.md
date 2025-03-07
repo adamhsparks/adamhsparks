@@ -7,7 +7,7 @@ I currently am employed as a professor of biometry and agricultural data analyti
 I have training in botanical epidemiology and ecology training and specialise in biometry, agricultural simulation modelling and geographic information systems (GIS).
 I have expertise in R programming and have developed several tools to help gather weather and climate data and study pathogen populations using R and have also recently started [using Julia](http://adamhsparks.github.io/Epicrop.jl/) too.
 
-Along with [Emerson Del Ponte](https://delponte.netlify.app/), I co-founded [Open Plant Pathology](https://openplantpathology.netlify.app/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
+Along with [Emerson Del Ponte](https://emersondelponte.netlify.app), I co-founded [Open Plant Pathology](https://openplantpathology.netlify.app/), a community of plant pathology, plant disease epidemiology, pathogen population biology, microbial ecology and genomics researchers that supports the several forms of open science practices in plant pathology.
 
 ## Pronouns
 
