@@ -9,17 +9,17 @@ ignoreFiles:
 permalinks:
   post: /:year/:month/:day/:slug/
 params:
-  dateform: 'Jan 2, 2006'
+  dateform: "Jan 2, 2006"
   dateformShort: Jan 2
-  dateformNum: '2006-01-02'
-  dateformNumTime: '2006-01-02 15:04 -0700'
-  themeColor: '#303446'
+  dateformNum: "2006-01-02"
+  dateformNumTime: "2006-01-02 15:04 -0700"
+  themeColor: "#303446"
   homeSubtitle: >-
     Biometry, agricultural data analysis, systems and plant disease modelling,
     and professional cat herding
   footerCopyright: 'Adam H. Sparks Under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
   copyright: 'Adam H. Sparks Under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
-  gitUrl: 'https://github.com/adamhsparks/adamhsparks'
+  gitUrl: "https://github.com/adamhsparks/adamhsparks"
   favicon: favicon.svg
   justifyContent: false
   relatedPosts: true
@@ -28,25 +28,25 @@ params:
   scrollToTop: true
   global_mathjax: false
   readTime: true
-  readTimeSeparator: ' | '
+  readTimeSeparator: " | "
   shareSocial: true
   categorySymbol: ⊲
-  initialPublish: 'Initally Posted on: '
+  initialPublish: "Initially Posted on: "
   socialLinks:
     - name: codeberg
-      url: 'https://codeberg.org/adamhsparks/'
+      url: "https://codeberg.org/adamhsparks/"
     - name: github
-      url: 'https://github.com/adamhsparks/'
+      url: "https://github.com/adamhsparks/"
     - name: orcid
-      url: 'https://orcid.org/0000-0002-0061-8359'
+      url: "https://orcid.org/0000-0002-0061-8359"
     - name: mastodon
-      url: 'https://rstats.me/@adamhsparks/'
+      url: "https://rstats.me/@adamhsparks/"
     - name: linkedin
-      url: 'https://www.linkedin.com/in/adam-h-sparks/'
+      url: "https://www.linkedin.com/in/adam-h-sparks/"
     - name: pixelfed
-      url: 'https://pixelfed.au/adamhsparks/'
+      url: "https://pixelfed.au/adamhsparks/"
     - name: keyoxide
-      url: 'https://keyoxide.org/aspe:openpgp4fpr:18C66C11C2904D52C061C903400C472B1687E621'
+      url: "https://keyoxide.org/aspe:openpgp4fpr:18C66C11C2904D52C061C903400C472B1687E621"
 menu:
   main:
     - name: About
