@@ -69,4 +69,4 @@ Purdue University, West Lafayette, IN, USA
 
 - [Reproducibility Editor](http://sbfitopatologia.org.br/tpp/post/reproducibility-editor/), 03/2020 to present
 
-- Associate Editor for Epidemiology, 2017 to 2020
+- Associate Editor for Epidemiology, 2017 to present
