@@ -14,8 +14,13 @@ Today we had a data set come in that the researcher requested AUDPC (Area Under 
 This is a common request as it's quite time and labour intensive to collect these data, especially in breeding trials and can be done with a simple formula from @Jeger2001.
 However, I wasn't aware of any R package that implemented this calculation, so I wrote a function to do it.
 
+Note that your values for disease severity must be between 0 and 1, so if you are using a percentage scale, you will need to divide by 100.
+
 ```{r audpc-from-two-points}
 audpc_2_points <- function(time, y0, yT) {
+
+  stopifnot(y0 >= 0 & y0 <= 1 || (yT >= 0 & yT <= 1))
+
   # eqn. 3 from Jeger and Viljanen-Rollinson (2001), rate parameter r
   r <- (log(yT / (1 - yT)) - log(y0 / (1 - y0))) / time
   
