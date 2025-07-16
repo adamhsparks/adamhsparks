@@ -8,11 +8,15 @@ As a part of practising open science and reproducible research, some of my softw
 
 - [{chirps}](https://docs.ropensci.org/chirps/) -- Climate Hazards Group InfraRed Precipitation with Station Data (CHIRPS) API data client for R
 
+- [{CropWaterBalance}](https://github.com/gabrielblain/CropWaterBalance) -- Climate water balance for irrigation purposes in R
+
 - [{getCRUCLdata}](https://docs.ropensci.org/getCRUCLdata/) -- University of East Anglia Climate Research Unit (CRU) climate data API client for R
 
-- [{GSODR}](https://docs.ropensci.org/GSODR/) - Global Surface Summary of the Day (GSOD) Weather Data API Client for R
+- [{GSODR}](https://docs.ropensci.org/GSODR/) -- Global Surface Summary of the Day (GSOD) Weather Data API Client for R
 
 - [{nasapower}](https://docs.ropensci.org/nasapower/) -- NASA POWER Global Meteorology, Surface Solar Energy and Climatology Data API Client for R
+
+- [{PowerSDI}](https://github.com/gabrielblain/PowerSDI/) -- Calculate standardized drought indices using NASA POWER data in R
 
 - [{weatherOz}](https://docs.ropensci.org/weatherOz/) -- An API Client for Australian Weather and Climate Data Resources for R
 
@@ -31,9 +35,5 @@ As a part of practising open science and reproducible research, some of my softw
 ### Miscellaneous
 
 - [{fifo}](https://codeberg.org/adamhsparks/fifo) -- 'Fly in fly out' to Mine Your Valuable Data and Extract What You Need from Your Australian Georeferenced Datasets
-
-- [{PowerSDI}](https://github.com/gabrielblain/PowerSDI/) -- Calculate standardized drought indices using NASA POWER data in R
-
-- [{CropWaterBalance}](https://github.com/gabrielblain/CropWaterBalance) -- Climate water balance for irrigation purposes in R
 
 - [{read.abares}](https://adamhsparks.github.io/read.abares/) -- Simple downloading and importing of ABARES (Australian Bureau of Agricultural and Resource Economics and Sciences) Data
