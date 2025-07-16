@@ -4,7 +4,7 @@ title: Code
 
 As a part of practising open science and reproducible research, some of my software's code is available at my GitHub, [adamhsparks](https://www.github.com/adamhsparks/), and Codeberg, [adamsparks](https://www.codeberg.org/adamhsparks/), profiles or from CRAN or the Julia package registry.
 
-### Weather or Climate Data Clients for R
+### Weather or Climate Data API Clients and Utilities for R
 
 - [{chirps}](https://docs.ropensci.org/chirps/) -- Climate Hazards Group InfraRed Precipitation with Station Data (CHIRPS) API data client for R
 
