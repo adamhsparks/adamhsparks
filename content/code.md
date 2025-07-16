@@ -30,7 +30,7 @@ As a part of practising open science and reproducible research, some of my softw
 
 ### Miscellaneous
 
-- [{fifo}](https://codeberg.org/adamhsparks/fifo) -- Get local attribute information from GPS points for Australian agricultural research in R
+- [{fifo}](https://codeberg.org/adamhsparks/fifo) -- 'Fly in fly out' to Mine Your Valuable Data and Extract What You Need from Your Australian Georeferenced Datasets
 
 - [{PowerSDI}](https://github.com/gabrielblain/PowerSDI/) -- Calculate standardized drought indices using NASA POWER data in R
 
