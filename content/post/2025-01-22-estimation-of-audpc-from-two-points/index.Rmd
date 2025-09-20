@@ -20,11 +20,11 @@ Note that your values for disease severity must be between 0 and 1, so if you ar
 audpc_2_points <- function(time, y0, yT) {
 
   stopifnot("`y0` and `yT` must be between 0 and 1 inclusive" =
-            (y0 >= 0 & y0 <= 1) && (yT >= 0 & yT <= 1))
+            (y0 >= 0L & y0 <= 1L) && (yT >= 0L & yT <= 1L))
 
   # eqn. 3 from Jeger and Viljanen-Rollinson (2001), rate parameter r
-  r <- (log(yT / (1 - yT)) - log(y0 / (1 - y0))) / time
-  
+  r <- (log(yT / (1L - yT)) - log(y0 / (1L - y0))) / time
+ 
   # eqn. 2 from Jeger and Viljanen-Rollinson (2001), AUDPC estimation
   return(time + log(y0 / yT) / r)
 }
