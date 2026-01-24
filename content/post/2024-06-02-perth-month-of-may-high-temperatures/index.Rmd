@@ -50,15 +50,14 @@ download.file(
   mode = "wb",
 )
 
-# unzip the file in the `tempdir()`
-unzip(geo_zip, exdir = tempdir())
+# construct a path to the shp file within the zip file
+dsn <- sprintf(
+    "/vsizip//%s/GCCSA_2021_AUST_GDA2020.shp",
+    geo_zip
+  )
 
-# check the name of the new files in `tempdir()`
-list.files(tempdir())
-
-# read the shapefile as an `sf` object
-abs_shp <- st_read(dsn = file.path(tempdir(),
-                                   layer = "GCCSA_2021_AUST_GDA2020.shp"))
+# read the shapefile as an `sf` object directly without unzipping
+abs_shp <- st_read(dsn = dsn)
 
 # inspect the new object
 abs_shp
@@ -107,7 +106,6 @@ Lastly, using [{ggdark}](https://github.com/nsgrantham/ggdark) I've inverted the
 ```{r map, fig.fullwidth=TRUE}
 library(ggplot2)
 library(hrbrthemes)
-library(ggdark)
 
 perth_stations[, source_abbr := unlist(regmatches(
   perth_stations$source,
@@ -133,7 +131,7 @@ ggplot(greater_perth) +
   labs(title = "Weather Stations in Greater Perth",
        caption = "Data from BOM and WA DPIRD",
        shape = "source") +
-  dark_mode(theme_ipsum())
+  theme_ipsum()
 ```
 
 ## Visualise Station Availability
@@ -156,7 +154,7 @@ ggplot(perth_stations) +
   labs(linetype = "Source") +
   ylab("Station Name") +
   xlab("Start and End Date") +
-  dark_mode(theme_ipsum())
+  theme_ipsum()
 ```
 
 ## Get Weather Data for Perth Stations
@@ -329,7 +327,7 @@ p <- ggplot(perth_highs, aes(x = year, y = air_tmax)) +
   xlab("Year") +
   labs(title = "Greater Perth May High Temperatures",
        subtitle = "Data for 71 stations sourced from Qld SILO and WA DPIRD under CC Licences") +
-  dark_mode(theme_ipsum())
+  theme_ipsum()
 
 girafe(ggobj = p)
 ```
