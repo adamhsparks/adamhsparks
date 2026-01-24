@@ -641,7 +641,7 @@
     },
     "blob": {
       "Package": "blob",
-      "Version": "1.2.4",
+      "Version": "1.3.0",
       "Source": "Repository",
       "Title": "A Simple S3 Class for Representing Vectors of Binary Data ('BLOBS')",
       "Authors@R": "c( person(\"Hadley\", \"Wickham\", role = \"aut\"), person(\"Kirill\", \"Müller\", , \"kirill@cynkra.com\", role = \"cre\"), person(\"RStudio\", role = c(\"cph\", \"fnd\")) )",
@@ -658,13 +658,14 @@
         "covr",
         "crayon",
         "pillar (>= 1.2.1)",
-        "testthat"
+        "testthat (>= 3.0.0)"
       ],
       "Config/autostyle/scope": "line_breaks",
       "Config/autostyle/strict": "false",
       "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.2.3",
+      "RoxygenNote": "7.3.3.9000",
       "NeedsCompilation": "no",
       "Author": "Hadley Wickham [aut], Kirill Müller [cre], RStudio [cph, fnd]",
       "Maintainer": "Kirill Müller <kirill@cynkra.com>",
@@ -672,7 +673,7 @@
     },
     "blogdown": {
       "Package": "blogdown",
-      "Version": "1.22",
+      "Version": "1.23",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Create Blogs and Websites with R Markdown",
@@ -1100,7 +1101,7 @@
     },
     "cpp11": {
       "Package": "cpp11",
-      "Version": "0.5.2",
+      "Version": "0.5.3",
       "Source": "Repository",
       "Title": "A C++11 Interface for R's C Interface",
       "Authors@R": "c( person(\"Davis\", \"Vaughan\", email = \"davis@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-4777-038X\")), person(\"Jim\",\"Hester\", role = \"aut\", comment = c(ORCID = \"0000-0002-2739-7082\")), person(\"Romain\", \"François\", role = \"aut\", comment = c(ORCID = \"0000-0002-2444-4226\")), person(\"Benjamin\", \"Kietzman\", role = \"ctb\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
@@ -1141,7 +1142,7 @@
       "Encoding": "UTF-8",
       "RoxygenNote": "7.3.2",
       "NeedsCompilation": "no",
-      "Author": "Davis Vaughan [aut, cre] (<https://orcid.org/0000-0003-4777-038X>), Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>), Romain François [aut] (<https://orcid.org/0000-0002-2444-4226>), Benjamin Kietzman [ctb], Posit Software, PBC [cph, fnd]",
+      "Author": "Davis Vaughan [aut, cre] (ORCID: <https://orcid.org/0000-0003-4777-038X>), Jim Hester [aut] (ORCID: <https://orcid.org/0000-0002-2739-7082>), Romain François [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>), Benjamin Kietzman [ctb], Posit Software, PBC [cph, fnd]",
       "Maintainer": "Davis Vaughan <davis@posit.co>",
       "Repository": "CRAN"
     },
@@ -1971,7 +1972,7 @@
     "ggdark": {
       "Package": "ggdark",
       "Version": "0.2.1",
-      "Source": "Repository",
+      "Source": "GitHub",
       "Type": "Package",
       "Title": "Dark Mode for 'ggplot2' Themes",
       "Author": "Neal Grantham",
@@ -1990,12 +1991,16 @@
       "Encoding": "UTF-8",
       "LazyData": "true",
       "RoxygenNote": "6.1.0",
-      "NeedsCompilation": "no",
-      "Repository": "CRAN"
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "nsgrantham",
+      "RemoteRepo": "ggdark",
+      "RemoteRef": "master",
+      "RemoteSha": "b39b96c2b42dadc316eeaa2991a93b9b3c3fee11"
     },
     "ggiraph": {
       "Package": "ggiraph",
-      "Version": "0.9.2",
+      "Version": "0.9.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Make 'ggplot2' Graphics Interactive",
@@ -2339,14 +2344,14 @@
     },
     "hrbrthemes": {
       "Package": "hrbrthemes",
-      "Version": "0.8.7",
-      "Source": "Repository",
+      "Version": "0.9.2",
+      "Source": "GitHub",
       "Type": "Package",
       "Title": "Additional Themes, Theme Components and Utilities for 'ggplot2'",
-      "Date": "2024-03-03",
-      "Authors@R": "c( person(\"Bob\", \"Rudis\", email = \"bob@rud.is\", role = c(\"aut\", \"cre\"),  comment = c(ORCID = \"0000-0001-5670-2640\")), person(\"Patrick\", \"Kennedy\", role=c(\"ctb\")), person(\"Philipp\", \"Reiner\", role = c(\"ctb\")), person(\"Dan\", \"Wilson\", email = \"dan@thedatacollective.com.au\",  role = c(\"ctb\"), comment = c(\"Secondary axis support\")),  person(\"Xavier\", \"Adam\", role = c(\"ctb\")), person(\"Google\", comment = \"Roboto Condensed\", role = c(\"cph\")), person(\"IBM\", comment = \"Plex Sans Font\", role = c(\"cph\")), person(\"Goldman Sachs\", comment = \"Goldman Sans Font\", role = c(\"cph\")), person(\"Impallari Type\", comment = \"Public Sans Font\", role = c(\"cph\")), person(\"Jacob\", \"Barnett\", email = \"jacob.r.barnett@gmail.com\", role = c(\"ctb\")), person(\"Thomas J.\", \"Leeper\", role = c(\"ctb\"), email = \"thosjleeper@gmail.com\", comment = c(ORCID = \"0000-0003-4097-6326\")), person(\"Joris\", \"Meys\", email = \"Joris.Meys@UGent.be\", role = c(\"ctb\")) )",
+      "Date": "2025-03-14",
+      "Authors@R": "c( person(\"Bob\", \"Rudis\", email = \"bob@rud.is\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0001-5670-2640\")), person(\"Patrick\", \"Kennedy\", role=c(\"ctb\")), person(\"Philipp\", \"Reiner\", role = c(\"ctb\")), person(\"Dan\", \"Wilson\", email = \"dan@thedatacollective.com.au\", role = c(\"ctb\"), comment = c(\"Secondary axis support\")), person(\"Xavier\", \"Adam\", role = c(\"ctb\")), person(\"Google\", comment = \"Roboto Condensed\", role = c(\"cph\")), person(\"IBM\", comment = \"Plex Sans Font\", role = c(\"cph\")), person(\"Goldman Sachs\", comment = \"Goldman Sans Font\", role = c(\"cph\")), person(\"Impallari Type\", comment = \"Public Sans Font\", role = c(\"cph\")), person(\"Jacob\", \"Barnett\", email = \"jacob.r.barnett@gmail.com\", role = c(\"ctb\")), person(\"Thomas J.\", \"Leeper\", role = c(\"ctb\"), email = \"thosjleeper@gmail.com\", comment = c(ORCID = \"0000-0003-4097-6326\")), person(\"Joris\", \"Meys\", email = \"Joris.Meys@UGent.be\", role = c(\"ctb\")), person(\"Steph\", \"Ango\", role = c(\"ctb\"), comment = \"Flexoki creator\") )",
       "Maintainer": "Bob Rudis <bob@rud.is>",
-      "Description": "A compilation of extra 'ggplot2' themes, scales and utilities, including a  spell check function for plot label fields and an overall emphasis on typography.  A copy of the 'Google' font 'Roboto Condensed' is also included.",
+      "Description": "A compilation of extra 'ggplot2' themes, scales and utilities, including a spell check function for plot label fields and an overall emphasis on typography. A copy of the 'Google' font 'Roboto Condensed' is also included.",
       "Copyright": "file inst/COPYRIGHTS",
       "License": "MIT + file LICENSE",
       "Encoding": "UTF-8",
@@ -2375,10 +2380,14 @@
         "gdtools",
         "utils"
       ],
-      "RoxygenNote": "7.2.3",
-      "NeedsCompilation": "no",
-      "Author": "Bob Rudis [aut, cre] (<https://orcid.org/0000-0001-5670-2640>), Patrick Kennedy [ctb], Philipp Reiner [ctb], Dan Wilson [ctb] (Secondary axis support), Xavier Adam [ctb], Google [cph] (Roboto Condensed), IBM [cph] (Plex Sans Font), Goldman Sachs [cph] (Goldman Sans Font), Impallari Type [cph] (Public Sans Font), Jacob Barnett [ctb], Thomas J. Leeper [ctb] (<https://orcid.org/0000-0003-4097-6326>), Joris Meys [ctb]",
-      "Repository": "CRAN"
+      "RoxygenNote": "7.3.2",
+      "Author": "Bob Rudis [aut, cre] (ORCID: <https://orcid.org/0000-0001-5670-2640>), Patrick Kennedy [ctb], Philipp Reiner [ctb], Dan Wilson [ctb] (Secondary axis support), Xavier Adam [ctb], Google [cph] (Roboto Condensed), IBM [cph] (Plex Sans Font), Goldman Sachs [cph] (Goldman Sans Font), Impallari Type [cph] (Public Sans Font), Jacob Barnett [ctb], Thomas J. Leeper [ctb] (ORCID: <https://orcid.org/0000-0003-4097-6326>), Joris Meys [ctb], Steph Ango [ctb] (Flexoki creator)",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "hrbrmstr",
+      "RemoteRepo": "hrbrthemes",
+      "RemoteRef": "master",
+      "RemoteSha": "d3fd02949fc201c6db616ccaffbb9858aec6fd2b"
     },
     "htmltools": {
       "Package": "htmltools",
@@ -3534,31 +3543,33 @@
     },
     "rappdirs": {
       "Package": "rappdirs",
-      "Version": "0.3.3",
+      "Version": "0.3.4",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Application Directories: Determine Where to Save Data, Caches, and Logs",
-      "Authors@R": "c(person(given = \"Hadley\", family = \"Wickham\", role = c(\"trl\", \"cre\", \"cph\"), email = \"hadley@rstudio.com\"), person(given = \"RStudio\", role = \"cph\"), person(given = \"Sridhar\", family = \"Ratnakumar\", role = \"aut\"), person(given = \"Trent\", family = \"Mick\", role = \"aut\"), person(given = \"ActiveState\", role = \"cph\", comment = \"R/appdir.r, R/cache.r, R/data.r, R/log.r translated from appdirs\"), person(given = \"Eddy\", family = \"Petrisor\", role = \"ctb\"), person(given = \"Trevor\", family = \"Davis\", role = c(\"trl\", \"aut\")), person(given = \"Gabor\", family = \"Csardi\", role = \"ctb\"), person(given = \"Gregory\", family = \"Jefferis\", role = \"ctb\"))",
+      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"trl\", \"cre\", \"cph\")), person(\"Sridhar\", \"Ratnakumar\", role = \"aut\"), person(\"Trent\", \"Mick\", role = \"aut\"), person(\"ActiveState\", role = \"cph\", comment = \"R/appdir.r, R/cache.r, R/data.r, R/log.r translated from appdirs\"), person(\"Eddy\", \"Petrisor\", role = \"ctb\"), person(\"Trevor\", \"Davis\", role = c(\"trl\", \"aut\"), comment = c(ORCID = \"0000-0001-6341-4639\")), person(\"Gabor\", \"Csardi\", role = \"ctb\"), person(\"Gregory\", \"Jefferis\", role = \"ctb\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"03wc8by49\")) )",
       "Description": "An easy way to determine which directories on the users computer you should use to save data, caches and logs. A port of Python's 'Appdirs' (<https://github.com/ActiveState/appdirs>) to R.",
       "License": "MIT + file LICENSE",
       "URL": "https://rappdirs.r-lib.org, https://github.com/r-lib/rappdirs",
       "BugReports": "https://github.com/r-lib/rappdirs/issues",
       "Depends": [
-        "R (>= 3.2)"
+        "R (>= 4.1)"
       ],
       "Suggests": [
-        "roxygen2",
-        "testthat (>= 3.0.0)",
         "covr",
+        "roxygen2",
+        "testthat (>= 3.2.0)",
         "withr"
       ],
-      "Copyright": "Original python appdirs module copyright (c) 2010 ActiveState Software Inc. R port copyright Hadley Wickham, RStudio. See file LICENSE for details.",
-      "Encoding": "UTF-8",
-      "RoxygenNote": "7.1.1",
+      "Config/Needs/website": "tidyverse/tidytemplate",
       "Config/testthat/edition": "3",
+      "Config/usethis/last-upkeep": "2025-05-05",
+      "Copyright": "Original python appdirs module copyright (c) 2010 ActiveState Software Inc. R port copyright Hadley Wickham, Posit, PBC.  See file LICENSE for details.",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.3.3",
       "NeedsCompilation": "yes",
-      "Author": "Hadley Wickham [trl, cre, cph], RStudio [cph], Sridhar Ratnakumar [aut], Trent Mick [aut], ActiveState [cph] (R/appdir.r, R/cache.r, R/data.r, R/log.r translated from appdirs), Eddy Petrisor [ctb], Trevor Davis [trl, aut], Gabor Csardi [ctb], Gregory Jefferis [ctb]",
-      "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+      "Author": "Hadley Wickham [trl, cre, cph], Sridhar Ratnakumar [aut], Trent Mick [aut], ActiveState [cph] (R/appdir.r, R/cache.r, R/data.r, R/log.r translated from appdirs), Eddy Petrisor [ctb], Trevor Davis [trl, aut] (ORCID: <https://orcid.org/0000-0001-6341-4639>), Gabor Csardi [ctb], Gregory Jefferis [ctb], Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
+      "Maintainer": "Hadley Wickham <hadley@posit.co>",
       "Repository": "CRAN"
     },
     "readr": {
@@ -3679,7 +3690,7 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.1.5",
+      "Version": "1.1.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project Environments",
@@ -3697,6 +3708,7 @@
         "compiler",
         "covr",
         "cpp11",
+        "curl",
         "devtools",
         "generics",
         "gitcreds",
@@ -3720,7 +3732,7 @@
         "webfakes"
       ],
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "VignetteBuilder": "knitr",
       "Config/Needs/website": "tidyverse/tidytemplate",
       "Config/testthat/edition": "3",
@@ -3861,7 +3873,7 @@
     },
     "rstudioapi": {
       "Package": "rstudioapi",
-      "Version": "0.17.1",
+      "Version": "0.18.0",
       "Source": "Repository",
       "Title": "Safely Access the RStudio API",
       "Description": "Access the RStudio API (if available) and provide informative error messages when it's not.",
@@ -3870,13 +3882,16 @@
       "License": "MIT + file LICENSE",
       "URL": "https://rstudio.github.io/rstudioapi/, https://github.com/rstudio/rstudioapi",
       "BugReports": "https://github.com/rstudio/rstudioapi/issues",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Suggests": [
         "testthat",
         "knitr",
         "rmarkdown",
         "clipr",
-        "covr"
+        "covr",
+        "curl",
+        "jsonlite",
+        "withr"
       ],
       "VignetteBuilder": "knitr",
       "Encoding": "UTF-8",
@@ -4766,7 +4781,7 @@
     },
     "vctrs": {
       "Package": "vctrs",
-      "Version": "0.6.5",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Title": "Vector Helpers",
       "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"), person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"), person(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = c(\"aut\", \"cre\")), person(\"data.table team\", role = \"cph\", comment = \"Radix sort based on data.table's forder() and their contribution to R's order()\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
@@ -4775,13 +4790,13 @@
       "URL": "https://vctrs.r-lib.org/, https://github.com/r-lib/vctrs",
       "BugReports": "https://github.com/r-lib/vctrs/issues",
       "Depends": [
-        "R (>= 3.5.0)"
+        "R (>= 4.0.0)"
       ],
       "Imports": [
         "cli (>= 3.4.0)",
         "glue",
         "lifecycle (>= 1.0.3)",
-        "rlang (>= 1.1.0)"
+        "rlang (>= 1.1.7)"
       ],
       "Suggests": [
         "bit64",
@@ -4801,11 +4816,13 @@
         "zeallot"
       ],
       "VignetteBuilder": "knitr",
+      "Config/build/compilation-database": "true",
       "Config/Needs/website": "tidyverse/tidytemplate",
       "Config/testthat/edition": "3",
+      "Config/testthat/parallel": "true",
       "Encoding": "UTF-8",
       "Language": "en-GB",
-      "RoxygenNote": "7.2.3",
+      "RoxygenNote": "7.3.3",
       "NeedsCompilation": "yes",
       "Author": "Hadley Wickham [aut], Lionel Henry [aut], Davis Vaughan [aut, cre], data.table team [cph] (Radix sort based on data.table's forder() and their contribution to R's order()), Posit Software, PBC [cph, fnd]",
       "Maintainer": "Davis Vaughan <davis@posit.co>",
@@ -5049,7 +5066,7 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.55",
+      "Version": "0.56",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Supporting Functions for Packages Maintained by 'Yihui Xie'",
@@ -5082,8 +5099,7 @@
         "magick",
         "yaml",
         "data.table",
-        "qs2",
-        "qs"
+        "qs2"
       ],
       "License": "MIT + file LICENSE",
       "URL": "https://github.com/yihui/xfun",
@@ -5098,7 +5114,7 @@
     },
     "xml2": {
       "Package": "xml2",
-      "Version": "1.5.1",
+      "Version": "1.5.2",
       "Source": "Repository",
       "Title": "Parse XML",
       "Authors@R": "c( person(\"Hadley\", \"Wickham\", role = \"aut\"), person(\"Jim\", \"Hester\", role = \"aut\"), person(\"Jeroen\", \"Ooms\", email = \"jeroenooms@gmail.com\", role = c(\"aut\", \"cre\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")), person(\"R Foundation\", role = \"ctb\", comment = \"Copy of R-project homepage cached as example\") )",
