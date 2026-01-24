@@ -32,6 +32,5 @@ dependencies = [
   "epifitter",
   "blogdown",
   { name = "hrbrthemes", git = "https://github.com/hrbrmstr/hrbrthemes", branch = "master" },
-  { name = "ggdark", git = "https://github.com/nsgrantham/ggdark", branch = "master" },
   { name = "httpgd", git = "https://github.com/nx10/httpgd", branch = "master" },
 ]
