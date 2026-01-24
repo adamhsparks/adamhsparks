@@ -63,7 +63,7 @@ bind_rows(
 ```
 
 ```
-## ────────────────────────────────────────────────────────────────────────────────
+## ──────────────────────────────────────────────────────────────────────────
 ```
 
 ```
@@ -71,7 +71,7 @@ bind_rows(
 ```
 
 ```
-## ── NASA/POWER Source Native Resolution Daily Data  ─────────────────────────────
+## ── NASA/POWER Source Native Resolution Daily Data  ───────────────────────
 ```
 
 ```
@@ -83,13 +83,13 @@ bind_rows(
 ```
 
 ```
-## elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 442.77
-## meters
+## elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region =
+## 442.77 meters
 ```
 
 ```
-## The value for missing source data that cannot be computed or is outside of the
-## sources availability range: NA
+## The value for missing source data that cannot be computed or is outside
+## of the sources availability range: NA
 ```
 
 ```
@@ -97,7 +97,7 @@ bind_rows(
 ```
 
 ```
-## ────────────────────────────────────────────────────────────────────────────────
+## ──────────────────────────────────────────────────────────────────────────
 ```
 
 ```
@@ -109,7 +109,7 @@ bind_rows(
 ```
 
 ```
-## ────────────────────────────────────────────────────────────────────────────────
+## ──────────────────────────────────────────────────────────────────────────
 ## # A tibble: 3 × 8
 ##     LON   LAT  YEAR    MM    DD   DOY YYYYMMDD    RH2M
 ##   <dbl> <dbl> <dbl> <int> <int> <int> <date>     <dbl>
