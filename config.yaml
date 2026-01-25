@@ -41,8 +41,6 @@ params:
       url: "https://orcid.org/0000-0002-0061-8359"
     - name: mastodon
       url: "https://rstats.me/@adamhsparks/"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/adam-h-sparks/"
     - name: pixelfed
       url: "https://pixelfed.au/adamhsparks/"
     - name: keyoxide
