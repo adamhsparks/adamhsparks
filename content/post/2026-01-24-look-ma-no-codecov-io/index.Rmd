@@ -30,7 +30,7 @@ Then I generate a badge URL using [shields.io](https://shields.io/) that reflect
 [![Code Coverage: `r coverage`%](https://img.shields.io/badge/code_coverage-`r coverage`%25-green)](#code-coverage)
 ```
 
-Towards the end of my file, I have this:
+Towards the end of my file, I have this (minus the leading ## except for the H2 "Code Coverage"):
 
 ```{r echo=FALSE}
 cat(c("\n",
