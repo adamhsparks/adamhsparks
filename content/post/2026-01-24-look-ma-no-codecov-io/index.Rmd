@@ -1,5 +1,5 @@
 ---
-title: Look Ma, no codecov.io!
+title: Look Ma, no codecover.io!
 author: Adam Sparks
 date: '2026-01-24'
 slug: look-ma-no-codecov-io
