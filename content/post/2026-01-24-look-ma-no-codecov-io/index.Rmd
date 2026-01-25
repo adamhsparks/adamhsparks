@@ -33,7 +33,7 @@ Then I generate a badge URL using [shields.io](https://shields.io/) that reflect
 Towards the end of my file, I have this:
 
 ```{r echo=FALSE}
-cat(c("```",
+cat(c("\n",
 "## Code Coverage\n",
 "\n",
 "```{r codecov, echo=FALSE}\n",

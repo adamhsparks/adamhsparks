@@ -36,7 +36,8 @@ Towards the end of my file, I have this:
 
 
 ````
-## ``` ## Code Coverage
+## 
+##  ## Code Coverage
 ##  
 ##  ```{r codecov, echo=FALSE}
 ##  covr::package_coverage()
