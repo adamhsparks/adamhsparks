@@ -34,13 +34,14 @@ Then I generate a badge URL using [shields.io](https://shields.io/) that reflect
 
 Towards the end of my file, I have this:
 
-```
-## Code Coverage
 
-\\\`\\\`\\\`{r codecov, echo=FALSE}
-covr::package_coverage()
-\\\`\\\`\\\`
-```
+````
+## ``` ## Code Coverage
+##  
+##  ```{r codecov, echo=FALSE}
+##  covr::package_coverage()
+##  ```
+````
 
 Which generates a detailed code coverage report directly in the rendered document.
 This doesn't include the clickable details that are possible with cocodecov.io, but it provides all the necessary information right there in the repository.

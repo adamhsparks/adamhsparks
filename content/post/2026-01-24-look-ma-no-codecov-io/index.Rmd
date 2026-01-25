@@ -32,12 +32,14 @@ Then I generate a badge URL using [shields.io](https://shields.io/) that reflect
 
 Towards the end of my file, I have this:
 
-```
-## Code Coverage
-
-\\\`\\\`\\\`{r codecov, echo=FALSE}
-covr::package_coverage()
-\\\`\\\`\\\`
+```{r echo=FALSE}
+cat(c("```",
+"## Code Coverage\n",
+"\n",
+"```{r codecov, echo=FALSE}\n",
+"covr::package_coverage()\n",
+"```\n"
+))
 ```
 
 Which generates a detailed code coverage report directly in the rendered document.
