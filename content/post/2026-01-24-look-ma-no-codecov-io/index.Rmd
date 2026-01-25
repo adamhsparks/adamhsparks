@@ -35,9 +35,9 @@ Towards the end of my file, I have this:
 ```
 ## Code Coverage
 
-\\`\\`\\`{r codecov, echo=FALSE}
+\\\`\\\`\\\`{r codecov, echo=FALSE}
 covr::package_coverage()
-\\`\\`\\`
+\\\`\\\`\\\`
 ```
 
 Which generates a detailed code coverage report directly in the rendered document.
