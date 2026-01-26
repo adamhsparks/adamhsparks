@@ -49,6 +49,8 @@ Here's what the rendered README looks like with the badge and report: <https://c
 
 Alternatively, [pacha](https://github.com/pachadotdev), has come up with a method for using GitHub actions and automated it even further.
 See his YAML workflow file here: <https://github.com/pachadotdev/armadillo4r/blob/main/.github/workflows/test-coverage.yaml>.
+His version modifies the colour of the SVG image for the badge based on the coverage level directly and does not rely on shields.io.
+I should adopt this for my versionf
 
 This is something I could probably adapt to my local workflow that would change the badge colour as pacha has done.
 The other thing I could do, is to just use Codeberg to run a similar workflow and generate/update the badge in the README as he has done with GitHub.
