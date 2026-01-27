@@ -57,8 +57,7 @@ The other thing I could do, is to just use Codeberg to run a similar workflow an
 
 As someone else on Mastodon opined, there's no shame in getting away from a third party solution if you can manage it yourself.
 Especially given the ongoing [enshittification](https://pluralistic.net/2023/08/27/an-audacious-plan-to-halt-the-internets-enshittification-and-throw-it-into-reverse/) of many of the resources that we've taken for granted for FOSS over the years.
-
-I think back to using Circle-CI or Travis for running CI before GitHub started offering it and recall when Travis started charging to use it and wonder, how long before we are charged for codecov.io as well?
+I think back to using Circle-CI or Travis for running CI before GitHkb started offering it and recall when Travis started charging to use it and wonder, how long before we are charged for codecov.io as well?
 
 
  ## Acknowledgements
