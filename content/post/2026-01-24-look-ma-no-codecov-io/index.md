@@ -45,7 +45,7 @@ Towards the end of my file, I have this (minus the leading ## except for the H2 
 ````
 
 Which generates a detailed code coverage report directly in the rendered document.
-This doesn't include the clickable details that are possible with cocodecov.io, but it provides all the necessary information right there in the repository.
+This doesn't include the clickable details that are possible with codecov.io, but it provides all the necessary information right there in the repository.
 
 Here's what the rendered README looks like with the badge and report: <https://codeberg.org/adamhsparks/epicrop/src/branch/main/README.md>.
 
