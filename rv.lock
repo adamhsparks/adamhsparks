@@ -646,15 +646,6 @@ force_source = false
 dependencies = []
 
 [[packages]]
-name = "ggdark"
-version = "0.2.1"
-source = { git = "https://github.com/nsgrantham/ggdark", sha = "b39b96c2b42dadc316eeaa2991a93b9b3c3fee11", branch = "master" }
-force_source = true
-dependencies = [
-    { name = "ggplot2", requirement = "(>= 3.0)" },
-]
-
-[[packages]]
 name = "ggiraph"
 version = "0.9.3"
 source = { repository = "https://cloud.r-project.org/" }
