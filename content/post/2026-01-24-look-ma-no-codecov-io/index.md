@@ -15,8 +15,8 @@ But, I then [realised that I didn't need codecov.io](https://rstats.me/@adamhspa
 [codecov.io](https://codecov.io) is a third-party service that hosts code coverage reports.
 But with a local R session, I can generate and view these reports directly within my repository.
 
-I set up my README to include a badge that shows the code coverage percentage using the `covr` package.
-First, in the setup chunk of my R Markdown file, I load the `covr` package and calculate the coverage percentage, rounding it to the nearest whole number:
+I set up my README to include a badge that shows the code coverage percentage using the [{covr}](covr.r-lib.org) package.
+First, in the setup chunk of my R Markdown file, I load the {covr} package and calculate the coverage percentage, rounding it to the nearest whole number:
 
 
 ``` r
