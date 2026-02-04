@@ -61,7 +61,7 @@ Purdue University, West Lafayette, IN, USA
 
 - Statistical Software Peer Review Associate Editor
 
-[Open Plant Pathology](https://openplantpathology.org/)
+[Open Plant Pathology](https://openplantpathology.netlify.app)
 
 - Co-founder
 
