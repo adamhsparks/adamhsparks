@@ -83,7 +83,7 @@ If you aren't comfortable using cargo, there are other methods of installation, 
 ## Putting it all Together
 
 As I said above, I will assume that you are using LazyVim, but you can use R.nvim without it, and the configuration is similar.
-For instructions on installing LazyVim, see the [LazyVim](https://www.lazyvim.org/installation).
+For instructions on installing LazyVim, see the [LazyVim](https://www.lazyvim.org/installation) installation instructions.
 
 You need to be using either Kitty or Wezterm as your terminal emulator to use the external terminal option in R.nvim, as these are the only currently supported terminals in R.nvim for graphics that I'm aware of if you want splits.
 Ghostty is also supported for graphics but not splits, so if you want to use that terminal emulator, you would need to use the `external_term = "ghostty"` option in R.nvim and forego splits but I've not tried this to see if it works.
