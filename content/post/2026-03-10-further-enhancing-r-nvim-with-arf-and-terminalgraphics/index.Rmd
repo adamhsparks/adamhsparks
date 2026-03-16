@@ -134,16 +134,18 @@ You could also use `external_term = "wezterm_split"` if you are using Wezterm as
 At the end of your r-nvim.lua file you'll want to include this function to handle closing the split when you close nvim.
 
 ```lua
-  config = function(_, opts)
-    vim.api.nvim_create_autocmd("VimLeavePre", {
-      callback = function()
-        if vim.fn.exists(":RSend") == 2 and vim.g.R_nvim_running == 1 then
-          vim.cmd("silent! RSend q()")
-          vim.cmd("sleep 400m")
-        end
-      end,
-    })
-  end,
+
+local aug = vim.api.nvim_create_augroup("RNVimQuitCleanup", { clear = true })
+vim.api.nvim_create_autocmd("VimLeavePre", {
+	group = aug,
+	callback = function()
+		if vim.fn.exists(":RSend") == 2 and vim.g.R_nvim_running == 1 then
+			vim.cmd("silent! RSend q()")
+			vim.cmd("sleep 400m")
+		end
+		vim.fn.system({ "kitty", "@", "close-window", "--match", "id:-1", "--ignore-no-match" })
+	end,
+})
 ```
 
 You might want to enable the air formatter as well, which is a Rust-based formatter for R code that works well with R.nvim and will automatically format your .R files upon saving.
