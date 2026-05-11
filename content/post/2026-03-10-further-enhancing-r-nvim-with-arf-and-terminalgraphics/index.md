@@ -23,10 +23,10 @@ Here are the lines in my config files that make this happen.
 
 * [`$HOME/.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
   While not totally necessary, it seems to help keep the noise down when launching that {terminalgraphics} otherwise sends when probing capabilities.
-* `$HOME/.config/kitt/kitty.conf`
+* [`$HOME/.config/kitt/kitty.conf`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/kitty/kitty.conf)
   * [environment](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/kitty/kitty.conf#L5),
   * [R.nvim](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/kitty/kitty.conf#L67), also see: <https://github.com/R-nvim/R.nvim/blob/2d0cd152800ced779caaba4684a42efae81203b5/doc/R.nvim.txt#L1168>.
-* `$HOME/.config/nvim/lua/plugins/r-nvim.lua`
+* [`$HOME/.config/nvim/lua/plugins/r-nvim.lua`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/nvim/lua/plugins/R-nvim.lua).
   * [R_app](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/nvim/lua/plugins/R-nvim.lua#L7),
   * [external_term](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/nvim/lua/plugins/R-nvim.lua#L13).
 
