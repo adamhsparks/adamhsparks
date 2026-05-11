@@ -23,10 +23,10 @@ Here are the lines in my config files that make this happen.
 
 * [`$HOME/.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
   While not totally necessary, it seems to help keep the noise down when launching that {terminalgraphics} otherwise sends when probing capabilities.
-* `.config/kitt/kitty.conf`
+* `$HOME/.config/kitt/kitty.conf`
   * [environment](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/kitty/kitty.conf#L5),
   * [R.nvim](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/kitty/kitty.conf#L67), also see: <https://github.com/R-nvim/R.nvim/blob/2d0cd152800ced779caaba4684a42efae81203b5/doc/R.nvim.txt#L1168>.
-* `.config/nvim/lua/plugins/r-nvim.lua`
+* `$HOME/.config/nvim/lua/plugins/r-nvim.lua`
   * [R_app](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/nvim/lua/plugins/R-nvim.lua#L7),
   * [external_term](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/nvim/lua/plugins/R-nvim.lua#L13).
 
@@ -41,14 +41,17 @@ I came back to Kitty for the [{terminalgraphics}](https://cran.r-project.org/pac
 But to get this you need to use a Kitty split, not the Neovim terminal that is provided by default.
 That's easy to do, getting it to work with arf is harder because of the minimal configuration that Kitty uses to launch kittens.
 
-So I set up a wrapper for arf, [`.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
+So I set up a wrapper for arf, [`$HOME/.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
+This setup will work without this but you will see some text when your R console opens from {terminalgraphics} testing capabilities.
+This *seems* to keep that quieted down.
+I need to investigate further to be sure, but it will work just fine without this wrapper and setting `R_app = "arf"`, just with some extra text when you launch.
 
 ```sh
 #!/bin/sh
 exec arf "$@"
 ```
 
-Then pass along my [PATH details](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/kitty/kitty.conf) inside my `kitty.conf` so that R.nvim can find arf in `$HOME/.cargo/bin` and then arf can find rig in `/usr/local/bin`.
+Then pass along my [PATH details](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/kitty/kitty.conf) inside my `$HOME/.config/kitty/kitty.conf` so that R.nvim can find arf in `$HOME/.cargo/bin` and then arf can find rig in `/usr/local/bin`.
 Note the `env PATH=`, this is correct and necessary to pass the full path along to the kitten.
 
 ```
@@ -65,7 +68,7 @@ enabled_layouts splits, stack
 close_on_child_death yes
 ```
 
-I set up my [R.nvim](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/nvim/lua/plugins/R-nvim.lua) configuration to refer to this wrapper and use a "kitty_split".
+I set up my [R.nvim](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/nvim/lua/plugins/R-nvim.lua) configuration, `$HOME/.config/nvim/lua/plugins/R-nvim.lua` to refer to this wrapper and use a "kitty_split".
 
 ```lua
 return {
@@ -97,7 +100,7 @@ return {
   end,
 ```
 
-In [`.Rprofile`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.Rprofile), directly from {terminalgraphics} README, I put.
+In [`$HOME/.Rprofile`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.Rprofile), directly from {terminalgraphics} README, I put.
 
 ```R
 # --- Terminal graphics -------------------------------------------------------
