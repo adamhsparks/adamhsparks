@@ -1,5 +1,5 @@
 ---
-title: Further Enhancing R.nvim with Arf and {terminalgraphics}
+title: Further Enhancing R.nvim with arf and {terminalgraphics}
 author: Adam Sparks
 date: "2026-03-10"
 slug: further-enhancing-r-nvim-with-arf-and-terminalgraphics
@@ -16,12 +16,13 @@ bibliography: ~
 
 ### *TLDR*
 
-Set up a wrapper for Arf and pass the shell's PATH along to the kitten (split).
+Set up a wrapper for arf and pass the shell's PATH along to the kitten (split).
 Kitty launches the kitten (for the split) using a minimum configuration that doesn't see your `$HOME/.cargo/bin` (where arf lives) and won't pick up the rig installation that arf looks for.
 
 Here are the lines in my config files that make this happen.
 
-* [`.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
+* [`$HOME/.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
+  While not totally necessary, it seems to help keep the noise down when launching that {terminalgraphics} otherwise sends when probing capabilities.
 * `.config/kitt/kitty.conf`
   * [environment](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/kitty/kitty.conf#L5),
   * [R.nvim](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/kitty/kitty.conf#L67), also see: <https://github.com/R-nvim/R.nvim/blob/2d0cd152800ced779caaba4684a42efae81203b5/doc/R.nvim.txt#L1168>.
@@ -31,23 +32,23 @@ Here are the lines in my config files that make this happen.
 
 ## *Updated 2026.05.11*
 
-I refined my config files and have a better understanding of the issues with trying to use the Arf console in an R.nvim session via a Kitty split window.
+I refined my config files and have a better understanding of the issues with trying to use the arf console in an R.nvim session via a Kitty split window.
 That sounds really bizarre doesn't it?
 Anyway, if you understood all that, read on and find out how to set up integrated terminal graphics in your R.nvim session on macOS or Linux with minor tweaks.
 
 Anyway, after my first post, I spent some time wandering through other terminal emulators, Ghostty, WezTerm, Kaku to name a few.
 I came back to Kitty for the [{terminalgraphics}](https://cran.r-project.org/package=terminalgraphics) support.
 But to get this you need to use a Kitty split, not the Neovim terminal that is provided by default.
-That's easy to do, getting it to work with Arf is harder because of the minimal configuration that Kitty uses to launch kittens.
+That's easy to do, getting it to work with arf is harder because of the minimal configuration that Kitty uses to launch kittens.
 
-So I set up a wrapper for Arf, [`.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
+So I set up a wrapper for arf, [`.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
 
 ```sh
 #!/bin/sh
 exec arf "$@"
 ```
 
-Then pass along my [PATH details](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/kitty/kitty.conf) inside my `kitty.conf` so that R.nvim can find Arf in `$HOME/.cargo/bin` and then Arf can find rig in `/usr/local/bin`.
+Then pass along my [PATH details](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/kitty/kitty.conf) inside my `kitty.conf` so that R.nvim can find arf in `$HOME/.cargo/bin` and then arf can find rig in `/usr/local/bin`.
 Note the `env PATH=`, this is correct and necessary to pass the full path along to the kitten.
 
 ```
@@ -307,7 +308,7 @@ This automatically sets the terminal graphics protocol as the default device whe
 
 Once you've done this, you will have an IDE-like experience in your terminal with R.nvim, arf, and {terminalgraphics} so you don't have to fuss with your plots in a browser or X11 window.
 
-![Screenshot of an nvim session using the R.nvim plugin to edit an R file on the left. On the right is an R console with plots displayed in the console. Below the plots, arf's autocompletion and syntax highlighting is demonstrated.](assets/arf.png "Arf in an R.nvim/neovim session.")
+![Screenshot of an nvim session using the R.nvim plugin to edit an R file on the left. On the right is an R console with plots displayed in the console. Below the plots, arf's autocompletion and syntax highlighting is demonstrated.](assets/arf.png "arf in an R.nvim/neovim session.")
 
 ## Wrap Up
 
