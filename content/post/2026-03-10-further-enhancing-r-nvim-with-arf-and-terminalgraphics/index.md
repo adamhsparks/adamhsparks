@@ -14,15 +14,113 @@ output:
 bibliography: ~
 ---
 
+### *TLDR*
+
+Set up a wrapper for Arf and pass the shell's PATH along to the kitten (split).
+Kitty launches the kitten (for the split) using a minimum configuration that doesn't see your `$HOME/.cargo/bin` (where arf lives) and won't pick up the rig installation that arf looks for.
+
+Here are the lines in my config files that make this happen.
+
+* [`.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
+* `.config/kitt/kitty.conf`
+  * [environment](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/kitty/kitty.conf#L5),
+  * [R.nvim](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/kitty/kitty.conf#L67), also see: <https://github.com/R-nvim/R.nvim/blob/2d0cd152800ced779caaba4684a42efae81203b5/doc/R.nvim.txt#L1168>.
+* `.config/nvim/lua/plugins/r-nvim.lua`
+  * [R_app](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/nvim/lua/plugins/R-nvim.lua#L7),
+  * [external_term](https://codeberg.org/adamhsparks/dotfiles/src/commit/691d535eb653c8c02f7e0dbd160783fd7b24e56f/.config/nvim/lua/plugins/R-nvim.lua#L13).
+
+## *Updated 2026.05.11*
+
+I refined my config files and have a better understanding of the issues with trying to use the Arf console in an R.nvim session via a Kitty split window.
+That sounds really bizarre doesn't it?
+Anyway, if you understood all that, read on and find out how to set up integrated terminal graphics in your R.nvim session on macOS or Linux with minor tweaks.
+
+Anyway, after my first post, I spent some time wandering through other terminal emulators, Ghostty, WezTerm, Kaku to name a few.
+I came back to Kitty for the [{terminalgraphics}](https://cran.r-project.org/package=terminalgraphics) support.
+But to get this you need to use a Kitty split, not the Neovim terminal that is provided by default.
+That's easy to do, getting it to work with Arf is harder because of the minimal configuration that Kitty uses to launch kittens.
+
+So I set up a wrapper for Arf, [`.local/bin/arf-wrapper`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.local/bin/arf-wrapper), ensure this is executable.
+
+```sh
+#!/bin/sh
+exec arf "$@"
+```
+
+Then pass along my [PATH details](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/kitty/kitty.conf) inside my `kitty.conf` so that R.nvim can find Arf in `$HOME/.cargo/bin` and then Arf can find rig in `/usr/local/bin`.
+Note the `env PATH=`, this is correct and necessary to pass the full path along to the kitten.
+
+```
+shell /opt/homebrew/bin/fish --login
+env PATH=
+```
+
+Then following the [R.nvim docs](https://github.com/R-nvim/R.nvim/blob/main/doc/R.nvim.txt#L1168), I set up my [`kitty.conf`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/kitty/kitty.conf) for R.nvim.
+
+```
+allow_remote_control yes
+listen_on unix:/tmp/.kitty.sock
+enabled_layouts splits, stack
+close_on_child_death yes
+```
+
+I set up my [R.nvim](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.config/nvim/lua/plugins/R-nvim.lua) configuration to refer to this wrapper and use a "kitty_split".
+
+```lua
+return {
+  "R-nvim/R.nvim",
+  ft = { "r", "rmd", "quarto" },
+  opts = function()
+    local opts = {
+      R_cmd = "R",
+      R_app = "arf-wrapper", -- this is in $HOME/.local/bin
+      R_args = {
+        "--no-site-file",
+        "--no-restore",
+        "--no-save",
+      },
+      external_term = "kitty_split",
+
+-- more options here...
+
+    -- this is what you need to close your window on exiting NVim at the bottom
+    require("r").setup(opts)
+    vim.api.nvim_create_autocmd("VimLeavePre", {
+      callback = function()
+        if vim.fn.exists(":RSend") == 2 and vim.g.R_nvim_running == 1 then
+          vim.cmd("silent! RSend q()")
+          vim.cmd("sleep 200m")
+        end
+      end,
+    })
+  end,
+```
+
+In [`.Rprofile`](https://codeberg.org/adamhsparks/dotfiles/src/branch/main/.Rprofile), directly from {terminalgraphics} README, I put.
+
+```R
+# --- Terminal graphics -------------------------------------------------------
+if (
+  interactive() &&
+    requireNamespace("terminalgraphics", quietly = TRUE) &&
+    terminalgraphics::has_tgp_support()
+) {
+  options(device = terminalgraphics::tgp, term_col = TRUE)
+}
+```
+
+The instructions for installing and configuring Air formatter below still do apply.
+Original post follows.
+
 ## How I Ended Up Using Neovim for R
 
 I never really imagined I'd be a Neovim user, but here I am.
 
-My first encounter with vi was back in the early 90s during an undergraduate computing course.
-We used [elm](https://en.wikipedia.org/wiki/Elm_(email_client)) as our email client, and writing a message launched vi.
+My first encounter with Vi was back in the early 90s during an undergraduate computing course.
+We used [elm](https://en.wikipedia.org/wiki/Elm_(email_client)) as our email client, and writing a message launched Vi.
 I could not make sense of it.
 When I repeated the course (yes, I failed it the first time), we switched to [Pine](https://en.wikipedia.org/wiki/Pine_(email_client)), whose editor, similar to [nano](https://en.wikipedia.org/wiki/GNU_nano), felt far more intuitive.
-After that, I did not think much about vi, Vim, or Neovim for many years.
+After that, I did not think much about Vi, Vim, or Neovim for many years.
 
 That changed in 2018 at the International Congress of Plant Pathology in Boston.
 I happened to sit next to [Prof. Jonathan Yuen](https://internt.slu.se/en/cv-originals/jonathan-yuen/) who opened Vim on his laptop to take notes during a committee meeting.
@@ -111,7 +209,7 @@ allow_remote_control yes
 listen_on unix:/tmp/kitty-$USER.sock
 ```
 
-If you're not using macOS, this may need minor changes to the `listen_on` path, you may need to drop the `-$USER` portion.:w
+If you're not using macOS, this may need minor changes to the `listen_on` path, you may need to drop the `-$USER` portion.
 
 ### Enabling R Support
 
@@ -131,22 +229,24 @@ Next, to enable the external terminal in R.nvim, in this case a Kitty split and 
 
 You could also use `external_term = "wezterm_split"` if you are using Wezterm as your terminal emulator or `external_term = kitty` if you prefer a whole separate window for your R console.
 
-At the end of your r-nvim.lua file you'll want to include this function to handle closing the split when you close nvim.
+At the end of your r-nvim.lua file you'll want to include this function to handle closing the split when you close NVim.
 
 ```lua
-  config = function(_, opts)
-    vim.api.nvim_create_autocmd("VimLeavePre", {
-      callback = function()
-        if vim.fn.exists(":RSend") == 2 and vim.g.R_nvim_running == 1 then
-          vim.cmd("silent! RSend q()")
-          vim.cmd("sleep 400m")
-        end
-      end,
-    })
-  end,
+
+local aug = vim.api.nvim_create_augroup("RNVimQuitCleanup", { clear = true })
+vim.api.nvim_create_autocmd("VimLeavePre", {
+	group = aug,
+	callback = function()
+		if vim.fn.exists(":RSend") == 2 and vim.g.R_nvim_running == 1 then
+			vim.cmd("silent! RSend q()")
+			vim.cmd("sleep 400m")
+		end
+		vim.fn.system({ "kitty", "@", "close-window", "--match", "id:-1", "--ignore-no-match" })
+	end,
+})
 ```
 
-You might want to enable the air formatter as well, which is a Rust-based formatter for R code that works well with R.nvim and will automatically format your .R files upon saving.
+You might want to enable the Air formatter as well, which is a Rust-based formatter for R code that works well with R.nvim and will automatically format your .R files upon saving.
 To do this `Leader + c m` will open Mason, the plugin manager that comes with LazyVim, and you can search for "air" and enable it there.
 Then add the following to your `$HOME/.config/nvim/lua/plugins/lspconfig.lua` (the air docs say to use `init.lua` but I follow a more LazyVim approach here) file [^1] [^2]:
 
