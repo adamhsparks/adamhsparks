@@ -16,7 +16,7 @@ bibliography: ~
 
 ### *TLDR*
 
-Set up a wrapper for arf and pass the shell's PATH along to the kitten (split).
+Pass the shell's PATH along to the kitten (split) via kitty's config file.
 Kitty launches the kitten (for the split) using a minimum configuration that doesn't see your `$HOME/.cargo/bin` (where arf lives) and won't pick up the rig installation that arf looks for.
 
 Here are the lines in my config files that make this happen.
